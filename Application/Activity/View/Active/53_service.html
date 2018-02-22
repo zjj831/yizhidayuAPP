@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='{:C('Public')}/Active/common/js/jquery.min.js'></script>
+    <script src='{:C('Public')}/Active/common/js/intercept.js?version=1.2'></script>
+    <script>
+    //intercept page
+    intercept('{$member_id}','{$intercept}');
+    //font resize standard for iphone6
+    $(window).width()>540?$('html').css('font-size',''+540/375*312.5+'%'):$('html').css('font-size',''+$(window).width()/375*312.5+'%');
+    window.onresize = function(){$(window).width()>540?$('html').css('font-size',''+540/375*312.5+'%'):$('html').css('font-size',''+$(window).width()/375*312.5+'%')};
+    </script>
+    <link rel="stylesheet" href="/Public/Active/common/css/1031_common.css">
+    <link rel="stylesheet" href="/Public/Active/53_service/css/index.css">
+    <link rel="stylesheet" href="/Public/Active/53_service/css/index.css">
+    <title>{$tempInfo['title']}</title>
+    <!-- Baidu Statistics -->
+</head>
+<body>
+    <header></header>
+    <section class="nav">
+        <div>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-jinrong.png" alt="">
+                <p>金融福利</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-atb.png" alt="">
+                <p>爱淘宝</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-book.png" alt="">
+                <p>有声读物</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-tjsm.png" alt="">
+                <p>天机算命</p>
+            </a>
+        </div>
+    </section>
+    <ul class="list">
+        <li><span></span><span>精选活动</span></li>
+        <li>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-coming.png" alt="">
+                <p>抢千元油卡</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-phone2.png" alt="">
+                <p>送大屏好手机</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-vip.png" alt="">
+                <p>看精彩好剧</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-ll.png" alt="">
+                <p>抢流量话费</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-phone2.png" alt="">
+                <p>苹果整套送</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-title.png" alt="">
+                <p>刷卡送豪礼</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-caipiao.png" alt="">
+                <p>快抢！奖池已爆棚</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="https://yun.yizhidayu.com/53-service-hl.png" alt="">
+                <p>送暖心好礼</p>
+            </a>
+        </li>
+
+    </ul>
+    <div class="footer">期待更多...</div>
+</body>
+</html>
+<script>
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },
+        });
+    }
+    check();
+</script>

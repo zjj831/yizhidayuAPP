@@ -1,0 +1,120 @@
+html,body{
+    width:100%;
+    height:auto;
+    background:#fafafa;
+}
+a{
+    text-decoration:none;
+    outline:0;color:#333;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+header{
+    width:100%;
+    height:2.6rem;
+    background-image:url("https://yun.yizhidayu.com/53-service-banner.jpg");
+    background-size:100% 100%;
+    background-position: center;
+}
+/*************************nav******************************/
+.nav{
+    width:100%;
+    height:1.9rem;
+    display: flex;
+    margin-top:0.2rem;
+    background:#fff;
+}
+.nav div{
+    flex:1;
+}
+.nav div a{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.nav div img{
+    width:1rem;
+    height:1rem;
+    display: block;
+    margin:0.2rem auto 0.15rem auto;
+}
+.nav div p{
+    width:100%;
+    text-align: center;
+    font-size:0.28rem;
+    line-height:0.3rem;
+}
+/**********************list***********************************/
+ul.list{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background:#fff;
+    margin-top:0.2rem;
+    padding-bottom:0.2rem;
+}
+
+.list li:first-child{
+    width:100%;
+    height:1rem;
+    line-height:1rem;
+    border:none;
+}
+.list li:first-child span:first-child{
+    width:0.05rem;
+    height:0.45rem;
+    background:#ec5155;
+    display: block;
+    float:left;
+    margin-left:0.2rem;
+    margin-top:0.275rem;
+}
+.list li:first-child span:nth-child(2){
+    display: block;
+    color:#000;
+    font-size:0.32rem;
+    font-weight: bold;
+    margin-left:0.5rem;
+
+}
+.list li{
+    width:3.35rem;
+    height:2.5rem;
+    border:2px solid #fafafa;
+    box-sizing: border-box;
+    float:left;
+}
+.list li a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.list li img{
+    width:100%;
+}
+.list li p{
+    display: block;
+    width:100%;
+    height:0.5rem;
+    line-height:0.5rem;
+    font-size:0.28rem;
+    color:#333;
+    text-align: center;
+}
+.list li:nth-child(even){
+    margin-left:0.2rem;
+}
+.list li:nth-child(odd){
+    margin-left:0.4rem;
+}
+/******************dibu**************/
+.footer{
+    width:100%;
+    height:0.8rem;
+    line-height:0.8rem;
+    text-align: center;
+    color:#333;
+    font-size:0.28rem;
+    background:#fff;
+}

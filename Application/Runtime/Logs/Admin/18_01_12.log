@@ -1,0 +1,1030 @@
+[ 2018-01-12T16:28:58+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-12T16:28:58+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-01-12T16:29:08+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `dy_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_admin` WHERE `user_name` = 'zhoujj' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username /opt/lampp/htdocs/test/Application/Admin/Controller/LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2018-01-12T16:29:09+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-12T16:29:09+08:00 ] 60.176.196.107 /test/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-01-12T16:29:12+08:00 ] 60.176.196.107 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map1 /opt/lampp/htdocs/test/Application/Admin/Controller/CouponController.class.php 第 47 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_coupon` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.id,a.title,a.validate,a.description,a.upvote,a.enddate,a.collect,b.title as catename FROM dy_coupon_coupon a INNER JOIN dy_coupon_category b on a.cateid=b.id  ORDER BY a.id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-01-12T16:29:14+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/coupon.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+ERR: 非法操作:coupon
+
+[ 2018-01-12T16:29:17+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 0,8   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-01-12T16:30:12+08:00 ] 61.151.178.167 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-12T16:30:17+08:00 ] 61.151.178.170 /test/index.php/admin/coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-01-12T16:31:04+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-01-12T16:31:05+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-01-12T16:31:05+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-01-12T16:31:38+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-01-12T16:31:44+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `dy_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_admin` WHERE `user_name` = 'yangzf' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username /opt/lampp/htdocs/test/Application/Admin/Controller/LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-01-12T16:31:45+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-01-12T16:31:45+08:00 ] 60.176.196.107 /test/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2018-01-12T16:31:52+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-01-12T16:32:04+08:00 ] 101.226.33.202 /test/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-01-12T16:32:06+08:00 ] 60.176.196.107 /test/index.php/Admin/Note/index_home.html?id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载控制器:Note
+
+[ 2018-01-12T16:32:08+08:00 ] 101.226.33.216 /test/index.php/admin/login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: HTTP_REFERER /opt/lampp/htdocs/test/ThinkPHP/Library/Think/Controller.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2018-01-12T16:32:36+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-01-12T16:32:37+08:00 ] 101.226.65.107 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-01-12T16:32:38+08:00 ] 101.226.65.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-01-12T16:39:24+08:00 ] 101.226.33.206 /test/index.php/admin/login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Undefined index: HTTP_REFERER /opt/lampp/htdocs/test/ThinkPHP/Library/Think/Controller.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-01-12T17:03:34+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_admin` WHERE `user_name` = 'zhoujj' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username /opt/lampp/htdocs/test/Application/Admin/Controller/LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-12T17:03:35+08:00 ] 60.176.196.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+
+[ 2018-01-12T17:03:35+08:00 ] 60.176.196.107 /test/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-01-12T17:03:38+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-01-12T17:05:12+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-01-12T17:06:09+08:00 ] 60.176.196.107 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map1 /opt/lampp/htdocs/test/Application/Admin/Controller/CouponController.class.php 第 47 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_coupon` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.id,a.title,a.validate,a.description,a.upvote,a.enddate,a.collect,b.title as catename FROM dy_coupon_coupon a INNER JOIN dy_coupon_category b on a.cateid=b.id  ORDER BY a.id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-01-12T17:06:12+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-01-12T17:06:13+08:00 ] 101.226.226.221 /test/index.php/admin/active/active_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-01-12T17:08:39+08:00 ] 101.226.65.107 /test/index.php/admin/active/active_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+
+[ 2018-01-12T17:08:39+08:00 ] 101.226.65.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-01-12T17:11:56+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html?Page=2&name=&starttime=2018-01-12%2000:00:00&overtime=2018-01-12%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 8,8   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 57 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 57 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 56 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 56 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 66 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 66 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-01-12T17:12:01+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html?Page=1&name=&starttime=2018-01-12%2000:00:00&overtime=2018-01-12%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2018-01-12T17:12:56+08:00 ] 101.226.33.240 /test/index.php/Admin/Active/active.html?Page=2&name=&starttime=2018-01-1200:00:00&overtime=2018-01-1223:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-01-12T17:12:58+08:00 ] 61.151.207.252 /test/index.php/admin/active/active.html?page=2&name=&starttime=2018-01-12%2000:00:00&overtime=2018-01-12%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-01-12T17:13:01+08:00 ] 101.226.33.202 /test/index.php/Admin/Active/active.html?Page=1&name=&starttime=2018-01-1200:00:00&overtime=2018-01-1223:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-12T17:13:03+08:00 ] 101.226.225.84 /test/index.php/admin/active/active.html?page=1&name=&starttime=2018-01-12%2000:00:00&overtime=2018-01-12%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-01-12T17:25:15+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-01-12T17:26:23+08:00 ] 101.226.33.219 /test/index.php/Admin/Active/active.html?Page=1&name=&starttime=2018-01-1200:00:00&overtime=2018-01-1223:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-01-12T17:26:44+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html?Page=2&name=&starttime=2018-01-12%2000:00:00&overtime=2018-01-12%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 8,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 58 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 57 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 57 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 56 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 56 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 66 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 66 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-12T17:27:44+08:00 ] 61.151.178.171 /test/index.php/Admin/Active/active.html?Page=2&name=&starttime=2018-01-1200:00:00&overtime=2018-01-1223:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+
+[ 2018-01-12T17:35:01+08:00 ] 101.226.33.238 /test/index.php/Admin/Active/active.html?Page=2&name=&starttime=2018-01-1200:00:00&overtime=2018-01-1223:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-12T17:35:03+08:00 ] 101.226.33.238 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-01-12T17:49:40+08:00 ] 60.176.196.107 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` > 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` >= 0 AND ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1515686400 AND `create_day` <= 1515772799  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+

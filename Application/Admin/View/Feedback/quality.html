@@ -1,0 +1,130 @@
+<extend name="Common:app"/>
+
+
+<block name='pageheader'>
+<section class="content-header">
+	<h1>
+		质量反馈
+		<!--<small>Optional description</small>-->
+	</h1>
+	<ol class="breadcrumb">
+		<li>
+			<a href="{:U('Index/index')}">
+				<i class="fa fa-dashboard">
+				</i> 首页
+			</a>
+		</li>
+		<li class="active">
+			质量反馈
+		</li>
+	</ol>
+</section>
+</block>
+
+<block name='content'>
+<div class="box">
+	<div class="box-header">
+			<form action="{:U('Feedback/quality')}"  method="get" class="form-inline">
+			<div  class="form-group">
+            <label class="control-label">日期：</label>      
+    <input  type="text" id="datepicker" name="date" data-provide="datepicker" placeholder="按日期查找" class="form-control">
+            
+             </div>	     
+               	<!--<div class="form-group">
+                <label class="control-label">店铺名：</label>
+                <input name="keyword" type="text" size="30" placeholder="输入店铺名进行搜索" class="ipt form-control">
+                  </div>-->
+                <button type="submit" class="btn btn-default" >搜索</button>
+       	   
+		</form>
+	</div><!-- /.box-header -->
+
+	<div class="box-body" >
+		<div  class="dataTables_wrapper form-inline dt-bootstrap">
+			<div class="row">
+				<div class="col-sm-12">
+<table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+						<thead>
+							<tr role="row">
+								<th>id</th>
+								<th>反馈内容</th>
+								<th>发布人</th>
+								<th>状态</th>
+								<th>创建时间</th>
+						
+							<th >
+									操作
+								</th>
+									</tr>
+						</thead>
+						<tbody>
+						<foreach name='datas' item='item'>
+							<tr role="row">
+									<td>{$item.id}</td>
+									<td>
+										<?php
+											
+										foreach( $item['problem'] as $p){
+										
+										echo("<span>标题：".$p['title']."\n内容：".$p['text']."</span><img src='".C('WODOMIAN').$p['img']."'/>\n" );
+											
+										};
+										
+										?>
+										
+									</td>
+									<td>{$item.author}</td>
+									<td>{$item.ifreply}</td>
+									<td>{$item.createtime}</td>
+							<td>
+					<a href="" onclick="trashdialog('{$item.id}')"><img class="myicon" style="display: inline;" src="{:C('PUBLIC')}/icon/guanbi2.png"></img>  </a>					
+				
+							</td>
+							</tr>
+						</foreach>
+						</tbody>
+					</table>			
+	<div class="result page">{$page}</div>
+				</div>
+			</div>
+			
+		</div>
+	</div><!-- /.box-body -->
+</div>
+
+</block>
+
+
+<block name="js">
+	<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript">
+	
+	
+	  $('#datepicker').datepicker({
+  	 language: 'zh-CN',
+  	 autoclose: true
+  });
+  
+  	
+	
+		function trashdialog(id){
+	var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+	if (!ifdel) {
+		return;
+	}
+	 $.get("{:U('Feedback/quality_destroy')}?id="+id,function(data,status){
+if(data=="ok"){x
+		alert("删除成功");
+ 	location.reload();
+}else{
+	alert(data);
+}
+});
+}
+			
+
+	</script>
+	
+</block>

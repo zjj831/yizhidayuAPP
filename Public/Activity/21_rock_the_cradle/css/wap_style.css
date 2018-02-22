@@ -1,0 +1,597 @@
+/* CSS Reset*/
+html {
+    font-size:125%; /* 20÷16=125% min-font-size:12px bug*/
+}
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong,  tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:1em;
+    font: inherit;
+    vertical-align: baseline;
+    font-family:"Microsoft YaHei"
+}
+body{
+    font-family:"Microsoft YaHei";
+    font-size: 0.7rem;
+    color:#333;
+    line-height:1.2rem;
+    width:100%;
+}
+em{font-style:normal}
+li{list-style:none}
+a{text-decoration:none;outline:0;color:#333;}
+img{border:none; vertical-align:top;}
+table{border-collapse:collapse;}
+input,textarea{font-family:"Microsoft YaHei";padding:0;}
+textarea{ resize:none;overflow:auto;}
+textarea:focus{outline:none;}/*clear focus blue-border tip*/
+input:focus{outline:none;}
+.clear{zoom:1}
+.clear:after{content:"";display:block;clear:both;}
+.fl{float:left}
+.fr{float:right}
+.hide{display:none};
+.ellip{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;  
+}
+.webline{
+    overflow:hidden;
+    max-height: 2.4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;   
+}
+input::-webkit-input-placeholder {
+	color:#999 !important; /*WebKit browsers*/
+    font-family:"Microsoft YaHei"
+}
+input::-moz-placeholder {
+	color:#999 !important; /*Mozilla Firefox 4 to 18 */
+	font-family:"Microsoft YaHei"
+}
+input::-ms-input-placeholder {
+	color:#999 !important; /*Internet Explorer 10+*/ 
+    font-family:"Microsoft YaHei"
+}
+/*Equipment division*/
+@media only screen and (min-width:481px){
+	/*ipad/windows*/
+body{
+    width:480px !important;
+    margin:0 auto !important;	
+}
+.f-over{
+    width:480px !important;
+    margin-left:-240px !important;	
+}
+}
+@media (min-width: 415px) and (max-width: 480px){
+	/*sony U*/
+}
+@media (min-width: 376px) and (max-width: 414px){
+	/*iphone6P*/
+}
+@media (min-width: 341px) and (max-width: 375px){
+	/*iphone6*/
+}
+@media only screen and (max-width: 340px){
+	/*iphone4/4s/5*/
+}
+/*reset*/
+
+/*********************************************************************
+                              公共类函�?
+**********************************************************************/
+.index{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+.index .prize{
+    position: absolute;
+    left: 0;
+    top: 2.5%;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem 0.15rem 0;
+    border-radius: 0 0.8rem 0.8rem 0;
+    z-index: 95;
+}
+.index .rule{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+.index .rule img{
+    height: 4rem;
+    position: absolute;
+    bottom: -4rem;
+    right: 4%;
+}
+.index .rule .content{
+    color: #AC8C65;
+    background: #FFF4D9;
+    font-size: 0.75rem;
+    padding: 0.4rem 0 0.8rem 0;
+    display: none;
+}
+.index .rule .content h1{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding:0.3rem 0;
+}
+.index .rule .content p{
+    line-height: 1.4rem;
+    padding: 0 3%;
+}
+.index .rule-lay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 98;
+    display: none;
+}
+/*----------------游戏模块-------------------*/
+.index .main{
+    position: relative;
+}
+.index .main .bg{
+    width: 100%;
+}
+.index .main .bg img{
+    width: 100%;
+}
+.index .main .top-font{
+    position: absolute;
+    left: 7%;
+    top: 2%;
+    width: 86%;
+    z-index: 5;
+}
+.index .main .top-font img{
+    width: 100%;
+}
+.index .main .rock{
+    position: absolute;
+    top: 16%;
+    width: 58%;
+    left: 21%;
+}
+@-webkit-keyframes rock{0%{transform: rotate(0deg);}12%{transform: rotate(18deg);}36%{transform: rotate(-18deg);}56%{transform: rotate(12deg);}72%{transform: rotate(-12deg);}84%{transform: rotate(6deg);}92%{transform: rotate(-6deg);}100%{transform: rotate(0deg);}}
+@keyframes rock{0%{transform: rotate(0deg);}12%{transform: rotate(18deg);}36%{transform: rotate(-18deg);}56%{transform: rotate(12deg);}72%{transform: rotate(-12deg);}84%{transform: rotate(6deg);}92%{transform: rotate(-6deg);}100%{transform: rotate(0deg);}}
+.index .main .rock .box1.active{
+    transform-origin: 40% 0%;
+    -webkit-animation: rock 3s linear 1; 
+    animation: rock 3s linear 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0s;
+    -webkit-animation-delay:0s;
+}
+.index .main .rock .rope{
+    overflow: hidden;
+    height: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}   
+.index .main .rock .box2{
+    overflow: hidden;
+    height: 75%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: 2;
+}    
+.index .main .rock .box2.active{
+    -webkit-animation: fideDown 0.8s linear 1; 
+    animation: fideDown 0.8s linear 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0s;
+    -webkit-animation-delay:0s;
+}
+@-webkit-keyframes fideDown{0%{opacity:1;transform: translateY(0%);}100%{opacity:0;transform: translateY(90%);}}
+@keyframes fideDown{0%{opacity:1;transform: translateY(0%);}100%{opacity:0;transform: translateY(90%);}}
+.index .main .rock .box2 img{
+    margin-top: -37%;
+}
+.index .main .rock .box-img img{ 
+    width: 100%;
+}
+.index .main .times{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    font-weight: bold;
+    font-size: 0.8rem;  
+}
+.index .main .times span{
+    padding: 0 0.1rem;
+}
+.index .main .lead{
+    z-index: 4;
+    display: none;
+}
+.index .main .lead.active{
+    display: block;
+}
+.index .main .lead img{
+    width: 100%
+}
+.index .main .lead.one{
+    position: absolute;
+    top: 16%;
+    left: 11%;
+    width: 5%;
+}
+.index .main .lead.two{
+    position: absolute;
+    top: 16.5%;
+    left: 11.5%;
+    width: 4%;
+}
+.index .main .lead.three{
+    position: absolute;
+    top: 19%;
+    left: 11.5%;
+    width: 25%;
+}
+.index .main .lead.four{
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    width: 42%;
+}
+.index .main .pointer{
+    position: absolute;
+    top: 26.5%;
+    left: 32%;
+    width: 8%;
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity:0;
+}
+/*渐入*/
+@-webkit-keyframes pointer{0%{opacity:0;transform: translateX(0%);}99%{opacity:1;transform: translateX(400%);}100%{opacity:0;transform: translateX(0%);}}
+@keyframes pointer{0%{opacity:0;transform: translateX(0%);}99%{opacity:1;transform: translateX(400%);}100%{opacity:0;transform: translateX(0%);}}
+.index .main .pointer.active{
+    -webkit-animation: pointer 0.6s linear infinite; 
+    animation: pointer 0.6s linear infinite; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0s;
+    -webkit-animation-delay:0s;
+}
+.index .main .pointer img{
+    width: 100%;
+}
+.index .main .bottom{
+
+}
+.index .main .bottom img{
+    width: 100%;
+}
+.index .main .redbox-01{
+    position: absolute;
+    left: 1%;
+    bottom: 14.8%;
+    width: 12%;
+}
+.index .main .redbox-02{
+    position: absolute;
+    left: 17.7%;
+    bottom: 9.5%;
+    width: 15%;
+}
+.index .main .redbox-03{
+    position: absolute;
+    left: 48.5%;
+    bottom: 9.5%;
+    width: 16.5%;
+}
+.index .main .redbox-04{
+    position: absolute;
+    right: 17.5%;
+    bottom: 13.3%;
+    width: 11%;
+}
+.index .main .redbox-05{
+    position: absolute;
+    right: 1%;
+    bottom: 9.8%;
+    width: 12%;
+}
+
+
+/*----------------游戏模块-------------------*/
+.index .overlay-over{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}    
+.index .overlay-over img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    width: 80%;
+    margin-left: -41%;
+}    
+.index .overlay-other{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 999;    
+}    
+.index .overlay-other .list{
+    width: 96%;
+    position: absolute;
+    left: 4%;
+    top: 6%;
+    margin-bottom: 1rem;
+    -webkit-animation: fadeInDown 0.6s ease 1; 
+    animation: fadeInDown 0.6s ease 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0s;
+    -webkit-animation-delay:0s;
+}
+.index .overlay-other .bg{
+    width: 100%;
+} 
+.index .overlay-other .error{
+    width: 9%;
+    position: absolute;
+    top: 7%;
+    right: 5.7%;
+}
+.index .overlay-other .error img{
+    width: 100%
+}
+.index .overlay-other ul{
+    position: absolute;
+    top: 37%;
+    width: 70%;
+    left: 12.4%;
+}
+.index .overlay-other ul li{
+    border-radius:0.2rem;
+    overflow: hidden;
+    margin-bottom: 7%;
+}
+.index .overlay-other ul li img{
+    width: 100%;
+}
+.index .overlay-gift{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 999; 
+}    
+.index .overlay-gift .box{
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    width: 92%;
+    margin-top: -50%;
+    -webkit-animation: zoomIn 0.6s ease 1; 
+    animation: zoomIn 0.6s ease 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0.2s;
+    -webkit-animation-delay:0.2s;   
+}
+.index .overlay-gift .mid{
+    position: relative;
+}
+.index .overlay-gift .mid .mid-bg{
+    width: 100%;
+}
+.index .overlay-gift .mid .banner{
+    position: absolute;
+    left: 14%;
+    top: 40%;
+    width: 72%;
+    height: 43%;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.index .overlay-gift .mid .banner img{
+    width: 100%;
+}
+.index .overlay-gift .bottom img{
+    width: 84%;
+    display: block;
+    position: absolute;
+    bottom: -16%;
+    left: 8%;
+}
+.index .overlay-gift .get{
+    position: absolute;
+    bottom: -8%;
+    left: 38%;
+    width: 24%;
+}
+.index .overlay-gift .get img{
+    width: 100%;
+}
+.index .overlay-gift .error{
+    width: 1.8rem;
+    height: 1.8rem;
+    background: url(../image/cha.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -4%;
+    right: 0;
+}
+.index .fail{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    display:none;
+}
+.index .fail .news{
+    text-align:center;
+    width:70%;
+    height:8rem;
+    background:#fff;
+    margin:50% auto 0 auto;
+    border-radius:0.2rem;
+    color:#3d4245;
+    position:relative;
+    overflow:hidden;
+}
+@media only screen and (max-width: 340px){
+.index .fail .news{
+    width:76%;
+}
+}
+.index .fail .news .title{
+    background:#e25d4e;
+    color:#fff;
+    height:1.8rem;
+    line-height:1.8rem;
+}
+.index .fail .news .font{
+    line-height:4rem;
+    height:4rem;
+    width:100%;
+    font-size:0.65rem;
+}
+.index .fail .news .enter{
+    height:2rem;
+    line-height:2rem;
+    background:#fff;
+    text-align:center;
+    color:#e25d4e;
+    border-top:1px solid #ebebeb;
+    position:absolute;
+    left:0;
+    width:100%;
+    bottom:0;
+}
+
+/*********************************************************************
+                                动画特效
+**********************************************************************/
+/*渐入*/
+@-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1;}}
+@keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+/*淡出*/
+@-webkit-keyframes fadeOut{0%{opacity:1}100%{opacity:0}}
+@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}
+/*渐入-淡出*/
+@-webkit-keyframes fadeInOut{0%{opacity:0}10%,90%{opacity:1}100%{opacity:0}}
+@keyframes fadeInOut{0%{opacity:0}10%,90%{opacity:1}100%{opacity:0}}
+/*边放�?-出现*/
+@-webkit-keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}
+@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}
+/*边放�?-边上移放�?-出现*/
+@-webkit-keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(0.55,.055,.675,.19);animation-timing-function:cubic-bezier(0.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(0.175,.885,.32,1);animation-timing-function:cubic-bezier(0.175,.885,.32,1)}}
+@keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(0.55,.055,.675,.19);animation-timing-function:cubic-bezier(0.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(0.175,.885,.32,1);animation-timing-function:cubic-bezier(0.175,.885,.32,1)}}
+/***********从右渐入***********/
+@-webkit-keyframes FadeInR {
+	0% {opacity:0;-webkit-transform:translateX(100px);}
+	100% {opacity:1;-webkit-transform:translateX(0);}}
+@keyframes FadeInR {
+	0% {opacity:0;transform:translateX(100px);}
+	100% {opacity:1;transform:translateX(0);}}
+
+
+/*放大进入*/
+@-webkit-keyframes bounceIn { 0% {opacity: 0; -webkit-transform: scale(2.3); -ms-transform: scale(2.3); transform: scale(2.3)}50% { opacity: 1; -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05)}70% { -webkit-transform: scale(0.9); -ms-transform: scale(0.9); transform: scale(0.9)}100% { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1)}}
+@keyframes bounceIn {0% { opacity: 0;transform: scale(2.3); -ms-transform: scale(2.3); transform: scale(2.3) }50% { opacity: 1;transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05) }70% {transform: scale(0.9); -ms-transform: scale(0.9); transform: scale(0.9) } 100% { opacity: 1;transform: scale(1); -ms-transform: scale(1); transform: scale(1) }}
+/*进入向下弹跳*/
+@-webkit-keyframes enterUpBounce {0% { -webkit-transform: translateY(-220px); opacity: 0}50% { -webkit-transform: translateY(0px)}70% { -webkit-transform: translateY(-20px)}100% { -webkit-transform: translateY(0); opacity: 1}}
+@keyframes enterUpBounce {0% {transform: translateY(-220px); opacity: 0}50% {transform: translateY(0px)}70% {transform: translateY(-20px)}100% {transform: translateY(0); opacity: 1}s}
+/*响铃*/
+@-webkit-keyframes Tada {0% {-webkit-transform:scale(1); opacity:0}10%, 20% {-webkit-transform:scale(0.9) rotate(-3deg);}30%, 50%, 70%, 90% {-webkit-transform:scale(1.1) rotate(3deg);}40%, 60%, 80% {-webkit-transform:scale(1.1) rotate(-3deg);}100% {-webkit-transform:scale(1) rotate(0); opacity:1}}
+@keyframes Tada {0% {transform:scale(1); opacity:0}10%, 20% {transform:scale(0.9) rotate(-3deg);}30%, 50%, 70%, 90% {transform:scale(1.1) rotate(3deg);}40%, 60%, 80% {transform:scale(1.1) rotate(-3deg);}100% {transform:scale(1) rotate(0); opacity:1}}
+/*变大缩小原始*/
+@-webkit-keyframes tada2 {0% {opacity: 0;-webkit-transform: scale(0.1);}40% {opacity: 1;-webkit-transform: scale(1.2);}100% {opacity: 1;-webkit-transform: scale(1);}}
+@keyframes tada2 {0% {opacity: 0;transform: scale(0.1)}40% {opacity: 1;transform: scale(1.2);}100% {opacity: 1;transform: scale(1);}}
+/*渐入上移-缓慢*/
+@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0)}100%{opacity:1;-webkit-transform:none}}
+@keyframes fadeInUp{0%{opacity:0;transform:translate3d(0,100%,0)}100%{opacity:1;transform:none}}
+/*渐入下移-缓慢*/
+@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}100%{opacity:1;-webkit-transform:none;}}
+@keyframes fadeInDown{0%{opacity:0;transform:translate3d(0,-100%,0)}100%{opacity:1;transform:none}}
+/*渐入右移-缓慢*/
+@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0)}100%{opacity:1;-webkit-transform:none}}
+@keyframes fadeInLeft{0%{opacity:0;transform:translate3d(-100%,0,0)}100%{opacity:1;transform:none}}
+/*渐入左移-缓慢*/
+@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none}}
+@keyframes fadeInRight{0%{opacity:0;transform:translate3d(100%,0,0)}100%{opacity:1;transform:none}}
+/*左移消失*/
+@-webkit-keyframes slideOutLeft{0%{-webkit-transform:none;opacity:1}100%{-webkit-transform:translateX(-100%);opacity:0}}
+@keyframes slideOutLeft{0%{transform:none;opacity:1}100%{transform:translateX(-100%); opacity:0}}
+/*右移消失*/
+@-webkit-keyframes slideOutRight{0%{-webkit-transform:none;opacity:1}100%{-webkit-transform:translateX(100%); opacity:0}}
+@keyframes slideOutRight{0%{transform:none;opacity:1}100%{transform:translateX(100%); opacity:0}}
+/*边放�?-边左移放�?-出现*/
+@-webkit-keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale(.1) translateX(-100%);}100%{opacity:1;-webkit-transform:scale(1) translateX(0)}}
+@keyframes zoomInLeft{0%{opacity:0;transform:scale(.1) translateX(-100%);}100%{opacity:1;transform:scale(1) translateX(0)}}
+/*边放�?-边右移放�?-出现*/
+@-webkit-keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale(.1) translateX(100%);}100%{opacity:1;-webkit-transform:scale(1) translateX(0)}}
+@keyframes zoomInRight{0%{opacity:0;transform:scale(.1) translateX(100%);}100%{opacity:1;transform:scale(1) translateX(0)}}
+/*左右震动*/
+@-webkit-keyframes shake{0%,100%{-webkit-transform:translate3d(0,0,0);opacity:0}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);opacity:1}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);opacity:1}}
+@keyframes shake{0%,100%{transform:translate3d(0,0,0);opacity:0}10%,30%,50%,70%,90%{transform:translate3d(-10px,0,0);opacity:1}20%,40%,60%,80%{transform:translate3d(10px,0,0);opacity:1}}
+
+/*旋转函数*/
+@-webkit-keyframes rotate{0%{-webkit-transform:rotate(0);} 100%{-webkit-transform:rotate(360deg);}}
+@keyframes rotate{0%{-webkit-transform:rotate(0);} 100%{-webkit-transform:rotate(360deg);}}
+
+/*转盘函数*/
+@-webkit-keyframes draw{0%{-webkit-transform:rotate(0);} 100%{-webkit-transform:rotate(1440deg);}}
+@keyframes draw{0%{-webkit-transform:rotate(0);} 100%{-webkit-transform:rotate(1440deg);}}
+
+
+

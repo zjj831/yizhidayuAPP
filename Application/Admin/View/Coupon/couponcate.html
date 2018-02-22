@@ -1,0 +1,129 @@
+<extend name="Common:app"/>
+
+
+<block name='pageheader'>
+<section class="content-header">
+	<h1>
+		管理分类
+		<!--<small>Optional description</small>-->
+	</h1>
+	<ol class="breadcrumb">
+		<li>
+			<a href="#">
+				<i class="fa fa-dashboard">
+				</i> 首页
+			</a>
+		</li>
+		<li class="active">
+			管理分类
+		</li>
+	</ol>
+</section>
+</block>
+
+<block name='content'>
+	<div class="box">
+		<div class="box-header">
+			<a class=" btn btn-primary pull-right" href="{:U('Coupon/addcategory')}">添加分类</a>
+		</div>
+		<div class="box-body" >
+			<volist name="info" id="item">
+			<div class="container-fluid">
+				<div id={$item.id} class="row" style="background:#ECF0F5;height:50px;line-height:50px;font-size:20px;">
+					<span style="border:none;background:#ECF0F5;box-sizing: border-box;" class="col-sm-10">{$item.title}</span>
+					<span class="col-sm-1 glyphicon glyphicon-trash del1" style="height:50px;line-height:50px;"></span>
+					<span id="delete" class="col-sm-0.5 glyphicon glyphicon-chevron-down" style="height:50px;line-height:50px;"></span>
+
+				</div>
+
+				<volist name="item['sonInfo']" id="sub">
+					<div id="{$sub.id}" class="row list_two" style="height:50px;line-height:50px;font-size:20px;">
+						<span style="border:none;background:#fff;box-sizing: border-box;" class="col-sm-10">{$sub.title}</span>
+						<span id="delete2" class="col-sm-1 del2 glyphicon glyphicon-trash" style="text-align: right;height:50px;line-height:50px;"></span>
+					</div>
+				</volist>
+			</div>
+			</volist>
+		</div>
+	</div>
+</div>
+
+</block>
+
+<block name="js">
+	<script>
+		$('.del2').on("click",function(){
+		    var that=$(this).parent();
+            var id=that.attr("id");
+            var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+            if (!ifdel) {
+                return;
+            }
+            var ifdel2 = window.confirm("确认删除该二级分类么？\n(删除后无法恢复)");
+            if (!ifdel) {
+                return;
+            }
+
+            $.ajax({
+                url:"{:U('Coupon/deletecate')}",
+                data:{id:id},
+                dataType:"json",
+				type:"post",
+                success:function(data){
+                    console.log(id);
+                    if(data.status==1){
+						that.remove();
+						alert("删除该二级分类成功");
+					}else{
+                        alert("删除失败");
+					}
+                }
+            })
+		})
+
+		$('.list_two').hide();
+
+
+
+		$('.container-fluid').delegate('.glyphicon-chevron-down',"click",function(){
+		    $(this).parent().nextAll().slideToggle();
+		})
+
+
+		$('.del1').on("click",function(){
+            var that=$(this).parent();
+            var id=that.attr("id");
+            var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+            if (!ifdel) {
+                return;
+            }
+            var ifdel2 = window.confirm("确认删除该一级分类？\n(删除后无法恢复)");
+            if (!ifdel) {
+                return;
+            }
+            console.log(id);
+            $.ajax({
+                url:"{:U('Coupon/deletecate')}",
+                data:{id:id},
+                dataType:"json",
+                type:"post",
+                success:function(data){
+                     if(data.status==1){
+                        that.parent().remove();
+                        alert("删除该一级分类成功");
+                    }else{
+                        alert("删除失败");
+                    }
+                }
+            })
+		})
+
+	</script>
+</block>
+
+
+
+
+
+
+

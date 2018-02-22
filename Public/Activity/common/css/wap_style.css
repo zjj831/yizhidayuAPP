@@ -1,0 +1,276 @@
+/* CSS Reset*/
+html {
+    font-size:125%; /* 20÷16=125% min-font-size:12px bug*/
+    height: 100%;
+}
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong,  tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:1em;
+    font: inherit;
+    vertical-align: baseline;
+    font-family:"Microsoft YaHei"
+}
+body{
+    font-family:"Microsoft YaHei";
+    font-size: 0.7rem;
+    color:#333;
+    line-height:1.2rem;
+    width:100%;
+    height: 100%;
+}
+em{font-style:normal}
+li{list-style:none}
+a{text-decoration:none;outline:0;color:#333;}
+img{border:none; vertical-align:top;}
+table{border-collapse:collapse;}
+input,textarea{font-family:"Microsoft YaHei";padding:0;}
+textarea{ resize:none;overflow:auto;}
+textarea:focus{outline:none;}/*clear focus blue-border tip*/
+input:focus{outline:none;}
+.clear{zoom:1}
+.clear:after{content:"";display:block;clear:both;}
+.fl{float:left}
+.fr{float:right}
+.hide{display:none};
+.ellip{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;  
+}
+.webline{
+    overflow:hidden;
+    max-height: 2.4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;   
+}
+input::-webkit-input-placeholder {
+	color:#999 !important; /*WebKit browsers*/
+    font-family:"Microsoft YaHei"
+}
+input::-moz-placeholder {
+	color:#999 !important; /*Mozilla Firefox 4 to 18 */
+	font-family:"Microsoft YaHei"
+}
+input::-ms-input-placeholder {
+	color:#999 !important; /*Internet Explorer 10+*/ 
+    font-family:"Microsoft YaHei"
+}
+/*Equipment division*/
+@media only screen and (min-width:481px){
+	/*ipad/windows*/
+body{
+    width:480px !important;
+    margin:0 auto !important;	
+}
+.f-over{
+    width:480px !important;
+    margin-left:-240px !important;	
+}
+}
+@media (min-width: 415px) and (max-width: 480px){
+	/*sony U*/
+}
+@media (min-width: 376px) and (max-width: 414px){
+	/*iphone6P*/
+}
+@media (min-width: 341px) and (max-width: 375px){
+	/*iphone6*/
+}
+@media only screen and (max-width: 340px){
+	/*iphone4/4s/5*/
+}
+/*reset*/
+
+/*********************************************************************
+                              公共类函数
+**********************************************************************/
+.prize{
+    position: relative;
+}
+.prize ul{
+
+}
+.prize ul li{
+    position: relative;
+    overflow: hidden;
+    background: #fff url(../image/arrow_right.png) 97% center no-repeat;
+    background-size:0.5rem; 
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #ebebeb;
+}
+.prize ul li .banner{
+    width: 6rem;
+    height: 3rem;
+    overflow: hidden;
+    border-radius: 0.1rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.8rem;
+}
+.prize ul li .banner img{
+    width: 100%;
+}
+.prize ul li .main{
+    padding-left: 7rem;
+    padding-right: 10%;
+    line-height: 1.5rem;
+}
+.prize ul li .main h1{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;  
+    font-size: 0.75rem;
+}
+.prize ul li .main h2{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;  
+}
+.prize .loading,.prize .over{
+    text-align: center;
+    color: #999;
+    padding: 0.5rem 0;
+    font-size: 0.65rem;
+    display: none
+}
+
+
+@media (min-width: 341px) and (max-width: 375px){
+.prize ul li .banner{
+    width: 7rem;
+    height: 3.5rem;
+}    
+.prize ul li .main{
+    padding-left: 8rem;
+    line-height: 1.75rem;
+}
+}
+@media (min-width: 376px) and (max-width: 414px){
+.prize ul li .banner{
+    width: 8rem;
+    height: 4rem;
+}   
+.prize ul li .main{
+    padding-left: 9rem;
+    line-height: 2rem;
+}
+}
+/*********************************************************************
+                                错误提示
+**********************************************************************/
+.error{
+    position: relative;
+    height:100%;
+}
+.error .wrap{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin-top: -160px;
+}
+.error p{
+    
+}
+.error p img{
+    display: block;
+    width: 11.5rem;
+    margin: 0 auto;
+}
+.error h1{
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #666;
+    padding: 0.4rem 20%;
+}
+
+/*********************************************************************
+                                动画特效
+**********************************************************************/
+/*渐入*/
+@-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1;}}
+@keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+/*淡出*/
+@-webkit-keyframes fadeOut{0%{opacity:1}100%{opacity:0}}
+@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}
+/*渐入-淡出*/
+@-webkit-keyframes fadeInOut{0%{opacity:0}10%,90%{opacity:1}100%{opacity:0}}
+@keyframes fadeInOut{0%{opacity:0}10%,90%{opacity:1}100%{opacity:0}}
+/*边放�?-出现*/
+@-webkit-keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}
+@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}
+/*边放�?-边上移放�?-出现*/
+@-webkit-keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(0.55,.055,.675,.19);animation-timing-function:cubic-bezier(0.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(0.175,.885,.32,1);animation-timing-function:cubic-bezier(0.175,.885,.32,1)}}
+@keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(0.55,.055,.675,.19);animation-timing-function:cubic-bezier(0.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(0.175,.885,.32,1);animation-timing-function:cubic-bezier(0.175,.885,.32,1)}}
+/***********从右渐入***********/
+@-webkit-keyframes FadeInR {
+	0% {opacity:0;-webkit-transform:translateX(100px);}
+	100% {opacity:1;-webkit-transform:translateX(0);}}
+@keyframes FadeInR {
+	0% {opacity:0;transform:translateX(100px);}
+	100% {opacity:1;transform:translateX(0);}}
+
+
+/*放大进入*/
+@-webkit-keyframes bounceIn { 0% {opacity: 0; -webkit-transform: scale(2.3); -ms-transform: scale(2.3); transform: scale(2.3)}50% { opacity: 1; -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05)}70% { -webkit-transform: scale(0.9); -ms-transform: scale(0.9); transform: scale(0.9)}100% { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1)}}
+@keyframes bounceIn {0% { opacity: 0;transform: scale(2.3); -ms-transform: scale(2.3); transform: scale(2.3) }50% { opacity: 1;transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05) }70% {transform: scale(0.9); -ms-transform: scale(0.9); transform: scale(0.9) } 100% { opacity: 1;transform: scale(1); -ms-transform: scale(1); transform: scale(1) }}
+/*进入向下弹跳*/
+@-webkit-keyframes enterUpBounce {0% { -webkit-transform: translateY(-220px); opacity: 0}50% { -webkit-transform: translateY(0px)}70% { -webkit-transform: translateY(-20px)}100% { -webkit-transform: translateY(0); opacity: 1}}
+@keyframes enterUpBounce {0% {transform: translateY(-220px); opacity: 0}50% {transform: translateY(0px)}70% {transform: translateY(-20px)}100% {transform: translateY(0); opacity: 1}s}
+/*响铃*/
+@-webkit-keyframes Tada {0% {-webkit-transform:scale(1); opacity:0}10%, 20% {-webkit-transform:scale(0.9) rotate(-3deg);}30%, 50%, 70%, 90% {-webkit-transform:scale(1.1) rotate(3deg);}40%, 60%, 80% {-webkit-transform:scale(1.1) rotate(-3deg);}100% {-webkit-transform:scale(1) rotate(0); opacity:1}}
+@keyframes Tada {0% {transform:scale(1); opacity:0}10%, 20% {transform:scale(0.9) rotate(-3deg);}30%, 50%, 70%, 90% {transform:scale(1.1) rotate(3deg);}40%, 60%, 80% {transform:scale(1.1) rotate(-3deg);}100% {transform:scale(1) rotate(0); opacity:1}}
+/*变大缩小原始*/
+@-webkit-keyframes tada2 {0% {opacity: 0;-webkit-transform: scale(0.1);}40% {opacity: 1;-webkit-transform: scale(1.2);}100% {opacity: 1;-webkit-transform: scale(1);}}
+@keyframes tada2 {0% {opacity: 0;transform: scale(0.1)}40% {opacity: 1;transform: scale(1.2);}100% {opacity: 1;transform: scale(1);}}
+/*渐入上移-缓慢*/
+@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0)}100%{opacity:1;-webkit-transform:none}}
+@keyframes fadeInUp{0%{opacity:0;transform:translate3d(0,100%,0)}100%{opacity:1;transform:none}}
+/*渐入下移-缓慢*/
+@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}100%{opacity:1;-webkit-transform:none;}}
+@keyframes fadeInDown{0%{opacity:0;transform:translate3d(0,-100%,0)}100%{opacity:1;transform:none}}
+/*渐入右移-缓慢*/
+@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0)}100%{opacity:1;-webkit-transform:none}}
+@keyframes fadeInLeft{0%{opacity:0;transform:translate3d(-100%,0,0)}100%{opacity:1;transform:none}}
+/*渐入左移-缓慢*/
+@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none}}
+@keyframes fadeInRight{0%{opacity:0;transform:translate3d(100%,0,0)}100%{opacity:1;transform:none}}
+/*左移消失*/
+@-webkit-keyframes slideOutLeft{0%{-webkit-transform:none;opacity:1}100%{-webkit-transform:translateX(-100%);opacity:0}}
+@keyframes slideOutLeft{0%{transform:none;opacity:1}100%{transform:translateX(-100%); opacity:0}}
+/*右移消失*/
+@-webkit-keyframes slideOutRight{0%{-webkit-transform:none;opacity:1}100%{-webkit-transform:translateX(100%); opacity:0}}
+@keyframes slideOutRight{0%{transform:none;opacity:1}100%{transform:translateX(100%); opacity:0}}
+/*边放�?-边左移放�?-出现*/
+@-webkit-keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale(.1) translateX(-100%);}100%{opacity:1;-webkit-transform:scale(1) translateX(0)}}
+@keyframes zoomInLeft{0%{opacity:0;transform:scale(.1) translateX(-100%);}100%{opacity:1;transform:scale(1) translateX(0)}}
+/*边放�?-边右移放�?-出现*/
+@-webkit-keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale(.1) translateX(100%);}100%{opacity:1;-webkit-transform:scale(1) translateX(0)}}
+@keyframes zoomInRight{0%{opacity:0;transform:scale(.1) translateX(100%);}100%{opacity:1;transform:scale(1) translateX(0)}}
+/*左右震动*/
+@-webkit-keyframes shake{0%,100%{-webkit-transform:translate3d(0,0,0);opacity:0}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);opacity:1}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);opacity:1}}
+@keyframes shake{0%,100%{transform:translate3d(0,0,0);opacity:0}10%,30%,50%,70%,90%{transform:translate3d(-10px,0,0);opacity:1}20%,40%,60%,80%{transform:translate3d(10px,0,0);opacity:1}}
+
+/*旋转函数*/
+@-webkit-keyframes rotate{0%{-webkit-transform:rotate(0);} 100%{-webkit-transform:rotate(360deg);}}
+@keyframes rotate{0%{-webkit-transform:rotate(0);} 100%{-webkit-transform:rotate(360deg);}}
+
+
+

@@ -1,0 +1,258 @@
+<extend name="Common:app"/>
+
+<block name='pageheader'>
+<section class="content-header">
+	<h1>
+        添加优惠卷
+		<!--<small>Optional description</small>-->
+	</h1>
+	<ol class="breadcrumb">
+		<li>
+			<a href="{:U('Index/index')}">
+				<i class="fa fa-dashboard">
+				</i> 首页
+			</a>
+		</li>
+		<li class="active">
+			添加优惠卷
+		</li>
+	</ol>
+</section>
+</block>
+
+<block name='content'>
+<div class="box">
+	<div class="box-header">
+		
+	</div><!-- /.box-header -->
+
+	<div class="box-body" >
+		<div  class="">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-1">
+
+
+<form class="form-horizontal" method="post" action="{:U('Coupon/couponchange')}" enctype="multipart/form-data">
+                  <div class="box-body">
+                  	<div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label" title="必填">标题 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                      <div class="col-sm-10">
+                        <input type="text" value="{$couponinfo.title}" class="form-control" name="title" id="inputPassword3" placeholder="">
+                      </div>
+                    </div>
+                      <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-2 control-label" title="必填">封面图片 <span id=""  style="color: red;">
+                      	*
+                      </span> </label>
+                          <div class="col-sm-10" style="width:300px;height:300px;border:1px solid #ccc;position:relative;">
+                              <input type="hidden" value="{$couponinfo.id}" name="id" id="id">
+                              <input style="width:300px;height:300px;position:absolute;top:0;left:0;opacity: 0;z-index:5;" type="file" class="form-control" name="img" id="inputEmail3" placeholder="">
+                              <input id="imgurl" type="hidden" class="form-control" name="imgurl" value="{$couponinfo.thumb}" placeholder="">
+                              <img id="img" style="width:300px;height:300px;position:absolute;top:0;left:0;" src="http://120.27.221.108/test/Public/Activity/{$couponinfo.thumb}" alt="">
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-2 control-label" title="必填">内容图片 <span id=""  style="color: red;">
+                      	*
+                      </span> </label>
+                          <div class="col-sm-10" style="width:300px;height:300px;border:1px solid #ccc;position:relative;">
+                              <input type="hidden" value="{$couponinfo.id}" name="id" id="id">
+                              <input style="width:300px;height:300px;position:absolute;top:0;left:0;opacity: 0;z-index:5;" type="file" class="form-control" name="img2" id="inputEmail3" placeholder="">
+                              <input id="imgurl2" type="hidden" class="form-control" name="imgurl2" value="{$couponinfo.banner}" placeholder="">
+                              <img id="img2" style="width:300px;height:300px;position:absolute;top:0;left:0;" src="http://120.27.221.108/test/Public/Activity/{$couponinfo.banner}" alt="">
+                          </div>
+                      </div>
+
+
+                      <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" title="必填">链接 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                          <div class="col-sm-10">
+                              <input type="text" value="{$couponinfo.link}" class="form-control" name="link" id="inputPassword3" placeholder="">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" title="必填">简介 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                          <div class="col-sm-10">
+                              <input type="text"  value="{$couponinfo.description}" class="form-control" name="description" id="inputPassword3" placeholder="">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label" title="必填">标签 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" value="{$couponinfo.style}" name="style" id="inputPassword3" placeholder="">
+                      </div>
+                  </div>
+
+                      <!--<div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" title="必填">结束时间 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                          <div class="col-sm-10">
+                              <input  type="text" id="datepicker" value="{$couponinfo.enddate}" name="enddate" data-provide="datepicker" placeholder="结束时间" class="form-control">
+                          </div>
+                      </div>-->
+
+                      <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" title="必填">分类 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                          <select style="width:30%;float:left;margin-left:15px;"  id="m" name="cate1" class="select form-control">
+                              <option value="0">请选择类别</option>
+                              <foreach name='pcate' item='v1'>
+                                  <if condition="$v1.id eq $couponinfo.cate1 ">
+                                      <option selected="selected" value="{$v1.id}">{$v1.title}</option>
+                                      <else />
+                                      <option value="{$v1.id}">{$v1.title}</option>
+                                  </if>
+                              </foreach>
+                          </select>
+                          <if condition=" $couponinfo.cate2 eq 0">
+                          <select style="width:30%;display: none;float:left;margin-left:35px;"  id="m2" name="cate2" class="select form-control">
+                              <else />
+                              <select style="width:30%;float:left;margin-left:35px;"  id="m2" name="cate2" class="select form-control">
+                          </if>
+                          </select>
+                      </div>
+
+                      <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" title="必填">折扣区 <span id=""  style="color: red;">
+                      </span></label>
+                          <select style="width:30%;float:left;margin-left:15px;"  name="catetwo" class="select form-control">
+                              <if condition="$v1.id eq 0 ">
+                              <option selected="selected" value="0">无分类</option>
+                                  <else />
+                                  <option  value="0">无分类</option>
+                              </if>
+                              <foreach name='cateid2' item='v1'>
+                                  <if condition="$v1.id eq $couponinfo.cateid2 ">
+                                      <option selected="selected" value="{$v1.id}">{$v1.title}</option>
+                                      <else />
+                                      <option value="{$v1.id}">{$v1.title}</option>
+                                  </if>
+
+                              </foreach>
+                          </select>
+
+                          <select style="width:30%;display: none;float:left;margin-left:35px;"  id="m2" name="cate2" class="select form-control">
+
+                          </select>
+                      </div>
+
+                      <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" title="必填">优惠介绍 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                          <div class="col-sm-10">
+                              <textarea  cols="75" rows="5" name="introduce">{$couponinfo.introduce} </textarea>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" title="必填">使用说明 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                          <div class="col-sm-10">
+                              <textarea  cols="75" rows="5" name="useexp">{$couponinfo.useexp} </textarea>
+                         </div>
+                      </div>
+                      <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" title="必填">领取说明 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                          <div class="col-sm-10">
+                              <textarea  cols="75" rows="5" name="receiveexp"> {$couponinfo.receiveexp}</textarea>
+                          </div>
+                      </div>
+
+
+                  </div><!-- /.box-body -->
+                  <div class="box-footer">
+                    <button type="submit" class="btn btn-info pull-right">保存</button>
+                  </div><!-- /.box-footer -->
+                </form>
+
+				</div>
+			</div>
+			
+		</div>
+	</div><!-- /.box-body -->
+</div>
+</block>
+
+<block name="js">
+    <script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+        $("#m").change(function(){
+            var id=$(this).children('option:selected').val();
+            console.log(id);
+            $.ajax({
+                url:"{:U('coupon/cateajax')}",
+                dataType:"json",
+                data:{id:id},
+                type:"post",
+                success:function(data){
+                    if(data.status=="2"){
+                        $("#m2").hide();
+                    }else{
+                        $("#m2").children().remove();
+                        $("#m2").show();
+                        for (var i=0;i<data.length;i++){
+                            $(`<option value="${data[i].id}">${data[i].title}</option>`).appendTo($('#m2'));
+                        }
+                    }
+                }
+            })
+        });
+
+
+        $('#datepicker').datepicker({
+            language: 'zh-CN',
+            autoclose: true
+        });
+
+
+        var url ="{:U('Coupon/changepic')}";
+        var file;
+        $("input[name='img']").change(function(){
+            file = this.files[0];
+            var formdata=new FormData();
+            formdata.append('file',file);
+            var ajax=new XMLHttpRequest();
+            ajax.onload=function(){
+                var headimg=ajax.responseText;
+                var photo=document.querySelector('#img');
+                $(photo).attr("src",headimg);
+                $("#imgurl").attr("value",headimg);
+            };
+            ajax.open('post',url);
+            ajax.send(formdata);
+        })
+        $("input[name='img2']").change(function(){
+            file = this.files[0];
+            console.log(file);
+            var formdata=new FormData();
+            formdata.append('file',file);
+            var ajax=new XMLHttpRequest();
+            ajax.onload=function(){
+                var headimg=ajax.responseText;
+                console.log(headimg);
+                var photo=document.querySelector('#img2');
+                $(photo).attr("src",headimg);
+                $("#imgurl2").attr("value",headimg);
+            };
+            ajax.open('post',url);
+            ajax.send(formdata);
+        })
+    </script>
+</block>
+

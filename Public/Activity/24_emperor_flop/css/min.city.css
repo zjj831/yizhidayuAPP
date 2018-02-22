@@ -1,0 +1,97 @@
+/*
+ * Swiper - Mobile Touch Slider CSS
+*/
+
+/* ===============================================================
+Area
+================================================================*/
+.overlay_area,.overlay_city{
+  position:fixed;
+  z-index:999;
+  background:rgba(0,0,0,0.5);
+  height:100%;
+  left:0;
+  bottom:0;
+  width:100%;
+  display:none;
+}
+.overlay_area .title,.overlay_city .title{
+  text-align:center;
+  border-bottom:1px solid #ebebeb;
+  position:absolute;
+  bottom:10rem;
+  left:0;
+  width:100%;
+  background:#fff;
+  color:#666;
+  line-height:2.4rem;
+  height:2.4rem;
+}
+.overlay_area .bottomline,.overlay_area .topline,.overlay_city .bottomline,.overlay_city .topline{
+	position:absolute;
+	bottom:4rem;
+    left:0;
+    width:100%;
+	height:0.05rem;
+	background:#62d6ff;
+	z-index:99999;
+}
+.overlay_area .topline,.overlay_city .topline{
+	bottom:6rem;
+}
+.overlay_area .title .enter,.overlay_city .title .enter{
+   position:absolute;
+   color:#62d6ff;
+   top:0;
+   right:0.4rem;
+}
+.overlay_area .title .cal,.overlay_city .title .cal{
+   position:absolute;
+   color:#666;
+   top:0;
+   left:0.4rem;
+}
+
+.overlay_area .swiper-container,.overlay_city .swiper-container{
+  position:absolute;
+  width: 100%;
+  height: 10rem;
+  color: #fff;
+  text-align: center;
+  background:#fff;
+  bottom:0;
+  left:0;
+}
+.overlay_area .swiper-container ul li:nth-child(1),.overlay_area .swiper-container ul li:nth-child(2),
+.overlay_area .swiper-container ul li:nth-last-child(1),.overlay_area .swiper-container ul li:nth-last-child(2),
+.overlay_city .swiper-container ul li:nth-child(1),.overlay_city .swiper-container ul li:nth-child(2),
+.overlay_city .swiper-container ul li:nth-last-child(1),.overlay_city .swiper-container ul li:nth-last-child(2){
+	border-bottom:none;
+}
+.overlay_area .swiper-container .swiper-slide,.overlay_city .swiper-container .swiper-slide{
+  height:2rem;
+  background:#fff;
+  line-height:2rem;
+  color:#444;
+  border-bottom:1px solid #ebebeb;
+  box-sizing:border-box;
+}
+.pagination {
+  display:none;
+}
+.swiper-pagination-switch {
+
+}
+.swiper-active-switch {
+
+}
+
+
+
+
+
+
+
+
+
+

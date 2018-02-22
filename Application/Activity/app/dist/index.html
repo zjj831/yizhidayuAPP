@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <title>一只大鱼</title>
+  <link href=./static/css/app.cd3ce5999b5ef17dac693cafe070f188.css rel=stylesheet>
+</head>
+<body>
+  <div id=app></div>
+  <script type=text/javascript src=./static/js/manifest.074a40340e3d303c9fdc.js></script>
+  <script type=text/javascript src=./static/js/vendor.0e20c6eac632f766cdbe.js></script>
+  <script type=text/javascript src=./static/js/app.000f886c64390a71aa0d.js></script>
+  <script type=text/javascript src=./static/js/mui.min.js></script>
+</body>
+</html>
+<script>
+  mui.init({
+    keyEventBind: {
+      backbutton: true  //关闭back按键监听
+    }
+  });
+  // //首页返回键处理
+  // //处理逻辑：1秒内，连续两次按返回键，则退出应用；
+  var first = null;
+  mui.back = function() {
+    //首次按键，提示‘再按一次退出应用’
+    if (!first) {
+      first = new Date().getTime();//记录第一次按下回退键的时间
+      mui.toast('再按一次退出应用');//给出提示
+      history.go(-1)//回退到上一页面
+      setTimeout(function() {//1s中后清除
+        first = null;
+      }, 1000);
+    } else {
+      if (new Date().getTime() - first < 1000) {//如果两次按下的时间小于1s，
+        plus.runtime.quit();//那么就退出app
+      }
+    }
+  };
+</script>

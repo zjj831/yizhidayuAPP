@@ -1,0 +1,287 @@
+<extend name="Common:app"/>
+
+<block name='pageheader'>
+    <section class="content-header">
+        <h1>
+            添加单卷
+            <!--<small>Optional description</small>-->
+        </h1>
+        <ol class="breadcrumb">
+            <li>
+                <a href="{:U('Index/index')}">
+                    <i class="fa fa-dashboard">
+                    </i> 首页
+                </a>
+            </li>
+            <li class="active">
+                添加单卷
+            </li>
+        </ol>
+    </section>
+</block>
+
+<block name='content'>
+    <div class="box">
+        <div class="box-header">
+
+        </div><!-- /.box-header -->
+
+        <div class="box-body" >
+            <div  class="">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-1">
+
+
+                        <form class="form-horizontal" method="post" action="{:U('Active/coupon_add_store')}"  enctype="multipart/form-data">
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">卷权重 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" value="0" id="weight" name="weight" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label">类型:</label>
+                                    <div class="col-sm-10">
+                                        <input type="radio" name="type" value="CPC" ><label for="">CPC</label>
+                                        <input type="radio" name="type" value="CPA"><label for="">CPA</label>
+                                        <input type="radio" name="type" value="CPS" ><label for="">CPS</label>
+                                        <input type="radio" name="type" value="CPM"><label for="">CPM</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+
+                                    <label for="inputEmail3" class="col-sm-2 control-label" title="必填">优惠卷icon <span id=""  style="color: red;">
+                      	*
+                      </span> </label>
+                                    <div class="col-sm-10" style="width:100px;height:100px;border:1px solid #ccc;position:relative;">
+                                        <input type="hidden" value="{$list.id}" name="id" id="id">
+                                        <input style="width:100px;height:100px;position:absolute;top:0;left:0;opacity: 0;z-index:5;" type="file" class="form-control" name="icon" id="inputEmail3" placeholder="">
+                                        <input id="imgurl" type="hidden" class="form-control" name="imgurl" value="" placeholder="">
+                                        <img id="img" style="width:100px;height:100px;position:absolute;top:0;left:0;" src="" alt="">
+                                    </div>
+                                </div>
+                               <!-- <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label" title="必填">优惠卷banner <span id=""  style="color: red;">
+                      	*
+                      </span> </label>
+                                    <div class="col-sm-10" style="width:100px;height:100px;border:1px solid #ccc;position:relative;">
+                                     <input type="hidden" value="{$list.id}" name="id" id="id2">
+                                        <input style="width:100px;height:100px;position:absolute;top:0;left:0;opacity: 0;z-index:5;" type="file" class="form-control" name="pic" id="inputEmail5" placeholder="">
+                                        <input id="imgurl2"  type="hidden" class="form-control" name="imgurl2" value="" placeholder="">
+                                        <img id="img2" style="width:100px;height:100px;position:absolute;top:0;left:0;" src="" alt="">
+                                    </div>
+                                </div>-->
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">优惠卷banner <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control"value=""  name="imgurl2"  id="imgurl2" placeholder="填写图片链接">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">后台名称 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control"value=""  name="title"  id="title" placeholder="后台标题名称,主要用于管理">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">优惠卷名称 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control"value=""  name="name"  id="name" placeholder="例:浪漫之夏手链优惠券">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">落地页链接 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="href" name="href"  placeholder="如 https://www.yizhidayu.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">结算单价 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="price" name="price"  placeholder="例:3元/A单价">
+                                        <div class="tip">根据实际情况填写,比如6+2元</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">卷充值金 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" value="0" id="total" name='total' placeholder="请填写优惠券金额">
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">截止时间: <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input style="margin-left: 15px;" placeholder="请选择截止时间" id='expiry_time' name="expiry_time" value="{:date('Y-m-d',$today)}" maxlength="30"  style='cursor: pointer;margin-right: 0px;color: #444'>
+                                   </div>
+                                    <!--<div class="col-sm-10">-->
+                                        <!--<input  type="text" class="form-control"value="{:date('Y-m-d',$starttime)}" id="expiry_time" name="expiry_time"  placeholder="">-->
+                                    <!--</div>-->
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label">操作系统:</label>
+                                    <div class="col-sm-10">
+                                        <input type="radio" name="system" value="" ><label for="">全部</label>
+                                        <input type="radio" name="system" value="ios" ><label for="">IOS</label>
+                                        <input type="radio" name="system" value="android"><label for="">android</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label" title="必填">日限制量 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" value="0" id="daily_limit" name="daily_limit"  placeholder="">
+                                    <div class="tip">0为不限制</div>
+                                </div>
+                            </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">总限制量 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" value="0" id="full_limit" name="full_limit"  placeholder="">
+                                        <div class="tip">0为不限制</div>
+                                    </div>
+                                </div>
+                               <!-- <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">日领券限制 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" value="0" id="catch_day_limit" name="catch_day_limit"  placeholder="">
+                                        <div class="tip">0为不限制</div>
+                                    </div>
+                                </div>-->
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label" title="必填">领券限制 <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" value="0" id="catch_limit" name="catch_limit"  placeholder="">
+                                        <div class="tip">0为不限制</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label">是否上架:</label>
+                                    <div class="col-sm-10">
+                                        <input type="radio" name="status" value="1" ><label for="">上架</label>
+                                        <input type="radio" name="status" value="0"><label for="">下架</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label">是否可以单卷上架:</label>
+                                    <div class="col-sm-10">
+                                        <input type="radio" name="isalone" value="1" ><label for="">是</label>
+                                        <input type="radio" name="isalone" value="2"><label for="">否</label>
+                                    </div>
+                                </div>
+
+                            </div><!-- /.box-body -->
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-info pull-right">保存</button>
+                            </div><!-- /.box-footer -->
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- /.box-body -->
+    </div>
+</block>
+
+<block name="js">
+    <script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+
+        var url ="{:U('Active/changepic')}";
+        var file;
+        $("input[name='icon']").change(function(){
+            file = this.files[0];
+            console.log(file);
+            var formdata=new FormData();
+            formdata.append('file',file);
+            var ajax=new XMLHttpRequest();
+            ajax.onload=function(){
+                var headimg=ajax.responseText;
+                console.log(headimg);
+                var photo=document.querySelector('#img');
+                $(photo).attr("src",headimg);
+                $("#imgurl").attr("value",headimg);
+            };
+            ajax.open('post',url);
+            ajax.send(formdata);
+        })
+        $("input[name='pic']").change(function(){
+            file = this.files[0];
+            console.log(file);
+            var formdata=new FormData();
+            formdata.append('file',file);
+            var ajax=new XMLHttpRequest();
+            ajax.onload=function(){
+                var headimg=ajax.responseText;
+                console.log(headimg);
+                var photo=document.querySelector('#img2');
+                $(photo).attr("src",headimg);
+                $("#imgurl2").attr("value",headimg);
+            };
+            ajax.open('post',url);
+            ajax.send(formdata);
+        })
+
+
+        $("#m").change(function(){
+            var id=$(this).children('option:selected').val();
+            console.log(id);
+            $.ajax({
+                url:"{:U('coupon/cateajax')}",
+                dataType:"json",
+                data:{id:id},
+                type:"post",
+                success:function(data){
+                    if(data.status=="2"){
+                        $("#m2").hide();
+                    }else{
+                        $("#m2").children().remove();
+                        $("#m2").show();
+                        for (var i=0;i<data.length;i++){
+                            $(`<option value="${data[i].id}">${data[i].title}</option>`).appendTo($('#m2'));
+                        }
+                    }
+                }
+            })
+        });
+
+
+        $('#expiry_time').datepicker({
+            language: 'zh-CN',
+            autoclose: true
+        });
+        $('#overTime').datepicker({
+            language: 'zh-CN',
+            autoclose: true
+        });
+    </script>
+</block>
+

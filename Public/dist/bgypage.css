@@ -1,0 +1,199 @@
+		/*.b-page {*/
+  /*background: #fff;*/
+  /*box-shadow: 0px 1px 2px 0px #E2E2E2;*/
+/*}*/
+/*.page {*/
+  /*width: 100%;*/
+  /*padding: 30px 15px;*/
+  /*background: #FFF;*/
+  /*text-align: center;*/
+  /*overflow: hidden;*/
+/*}*/
+/*.page .first,*/
+/*.page .prev,*/
+/*.page .current,*/
+/*.page .num,*/
+/*.page .current,*/
+/*.page .next,*/
+/*.page .end {*/
+  /*padding: 8px 16px;*/
+  /*margin: 0px 5px;*/
+  /*display: inline-block;*/
+  /*color: #008CBA;*/
+  /*border: 1px solid #F2F2F2;*/
+  /*border-radius: 5px;*/
+/*}*/
+/*.page .first:hover,*/
+/*.page .prev:hover,*/
+/*.page .current:hover,*/
+/*.page .num:hover,*/
+/*.page .current:hover,*/
+/*.page .next:hover,*/
+/*.page .end:hover {*/
+  /*text-decoration: none;*/
+  /*background: #F8F5F5;*/
+/*}*/
+/*.page .current {*/
+  /*background-color: #008CBA;*/
+  /*color: #FFF;*/
+  /*border-radius: 5px;*/
+  /*border: 1px solid #008CBA;*/
+/*}*/
+/*.page .current:hover {*/
+  /*text-decoration: none;*/
+  /*background: #008CBA;*/
+/*}*/
+/*.page .not-allowed {*/
+  /*cursor: not-allowed;*/
+/*}*/
+
+.foot {
+  overflow: hidden;
+}
+.foot .total {
+  color: #787878;
+  padding: 11px 0 0 10px;
+  line-height: 30px;
+  font-size: 13px;
+}
+.foot .total span {
+  padding: 0 4px;
+}
+.foot ul {
+  float: right;
+  overflow: hidden;
+  margin-top: 11px;
+}
+.foot ul li {
+  float: left;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  padding: 2px 10px;
+  margin-left: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  position: relative;
+  line-height: 24px;
+}
+.foot ul li.cur {
+  background: purple;
+  color: #fff;
+}
+
+
+.scroll-box{
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+.scroll-box ul.title, .scroll-box ul.content1 {
+  width: 2360px;
+  height: 60px;
+}
+.title {
+  background: #f5f5f5;
+  border: 1px solid #eaeaea;
+}
+.clear {
+  zoom: 1;
+}
+.content1 {
+  border: 1px solid #eaeaea;
+  border-top: none;
+  font-size: 12px;
+}
+.m-total {
+  border-bottom: none;
+  font-weight: bold;
+  background: #f5f5f5;
+}
+.clear {
+  zoom: 1;
+}
+.title li,.content1 li{
+  float: left;
+  height: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  border-right: 1px solid #eaeaea;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  font-size: 12px;
+  width: 90px;
+}
+        .content1 li {
+          float: left;
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          border-right: 1px solid #eaeaea;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          box-sizing: border-box;
+          padding: 0 0.7%;
+          position: relative;
+        }
+.title li:nth-child(1), .content1 li:nth-child(1) {
+  width: 72px;
+}
+        .title li:nth-child(2), .content1 li:nth-child(2) {
+          width: 100px;
+        }
+        .title li:nth-child(3), .content1 li:nth-child(3) {
+          width: 80px;
+        }
+        .title li:nth-child(4), .content1 li:nth-child(4) {
+          width: 280px;
+        }
+        .title li:nth-child(5), .content1 li:nth-child(5) {
+          width: 170px;
+        }
+        .title li:nth-child(6), .content1 li:nth-child(6) {
+          width: 78px;
+        }
+        .title li:nth-child(7), .content1 li:nth-child(7) {
+          width: 90px;
+        }
+        .title li:nth-child(8), .content1 li:nth-child(8) {
+          width: 90px;
+        }
+
+        .content1 li:nth-child(2) input {
+          color: #3d4245;
+          width: 54px;
+          text-align: center;
+          margin: 0 auto;
+          padding: 6px 0;
+          box-sizing: border-box;
+          border: none;
+          font-size: 12px;
+          cursor: pointer;
+          height: 58px;
+        }
+        .content1 li .pic {
+          width: 9rem;
+          height: 4.2rem;
+          overflow: hidden;
+          top: 0.4rem;
+          position: absolute;
+          left: 2.8rem;
+        }
+        a {
+          text-decoration: none;
+          outline: 0;
+          color: #333;
+        }
+        .content1 li .instr {
+          padding-left: 4.5rem;
+          text-align: left;
+          float: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          box-sizing: border-box;
+          width: 100%;
+        }

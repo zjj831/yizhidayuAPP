@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if(clientWidth>=750){
+                        // 这里的640 取决于设计稿的宽度
+                        docEl.style.fontSize = '100px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }
+                };
+            if (!doc.addEventListener) return;
+            recalc();
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <script src="/Public/Active/14_xie_zhua/js/loading.js"></script>
+    <link rel="stylesheet" href="/Public/Active/common/css/common.css">
+    <link rel="stylesheet" href="/Public/Active/15_cai_shen/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Active/15_cai_shen/css/normalize.css" />
+    <!--<link rel="stylesheet" type="text/css" href="/Public/Active/15_cai_shen/css/demo.css" />-->
+    <link rel="stylesheet" type="text/css" href="/Public/Active/15_cai_shen/css/component.css" />
+    <script src="/Public/Active/15_cai_shen/js/modernizr.custom.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <!--<script src="/Public/Active/common/js/jquery.fly.min.js"></script>-->
+    <!--<script src="/Public/Active/15_cai_shen/js/touch.min.js"></script>-->
+    <script src="/Public/Active/common/js//swiper.min.js"></script>
+    <title>财神送红包</title>
+    <!-- Baidu Statistics -->
+
+</head>
+<body>
+    <section class="box" style="background-image:url(http://ovxy8cacs.bkt.clouddn.com/10_11_newbg.jpg);background-size:100% 100%;background-repeat: no-repeat;">
+        <div class="zhaozi">
+            <div>
+                <img src="http://ovxy8cacs.bkt.clouddn.com/10_11_newpoint.png" alt="">
+                <p>任意滑动接财神好礼哟！！！</p>
+            </div>
+        </div>
+        <img src="http://ovxy8cacs.bkt.clouddn.com/10_11zuoshou.png" alt="" class="left">
+        <img src="http://ovxy8cacs.bkt.clouddn.com/10_11youshou.png" alt="" class="right">
+        <!--//抽奖机会-->
+        <div class="font">
+            <p>您还有&nbsp;<span>{$times}</span>&nbsp;次抽奖机会</p>
+        </div>
+
+        <div class="pop2" style="z-index:100;">
+            <div class="velocity">
+                <div class="tomorrow">
+                    <img style="position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;" src="http://ovy71xwl2.bkt.clouddn.com/end_21.png" alt="">
+                </div>
+                <section class="activetwo">
+                    <img class="bg_two" src="http://ovy71xwl2.bkt.clouddn.com/two_21.png" alt="">
+                    <a href="" class="boxone">
+                        <img src="" alt="" class="active1">
+                    </a>
+                    <a href="" class="boxtwo">
+                        <img src="" alt="" class="active2">
+                    </a>
+                    <img class="delete" src="http://ovy71xwl2.bkt.clouddn.com/pop2_close_21.png" alt="">
+                </section>
+                <section class="activeone">
+                    <img class="bg_two" src="http://ovy71xwl2.bkt.clouddn.com/two_21.png" alt="">
+                    <a href="" class="boxone">
+                        <img src="" alt="" class="active1">
+                    </a>
+                    <img class="delete" src="http://ovy71xwl2.bkt.clouddn.com/pop2_close_21.png" alt="">
+                </section>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul id="elasticstack" class="elasticstack">
+                <li><img src="" alt="01"/></li>
+                <li><img src="" alt="02"/></li>
+                <li><img src="" alt="03"/></li>
+            </ul>
+        </div>
+        <!--规则内容-->
+        <div class="zhezhao2"></div>
+        <div class="rule_content">
+            <div class="rulefont">
+                <h2><span></span>&nbsp;活动说明&nbsp;<span></span></h2>
+                <p>现金红包任性送<br>
+                    <br>
+                    活动说明：参与活动即有机会获得幸运大奖，每天有{$tempInfo['times']}次免费抽奖机会。此活动为概率中奖，奖品数量有限<br>
+                    <br>
+                    惊喜一：500元红包<br>
+                    惊喜二：300元红包<br>
+                    惊喜三：200元红包<br>
+                    惊喜四：100元红包<br>
+                    惊喜五：红包福袋<br>
+                    兑换项和活动均与设备生产商Apple lnc.无关</p>
+            </div>
+            <!--规则-->
+            <div class="rule" style="background:url(http://ovy71xwl2.bkt.clouddn.com/rule_21.png);background-size:100% 100%;background-repeat: no-repeat;">
+            </div>
+        </div>
+        <!--我的奖品-->
+        <a class="myprice" href="/index.php/Active/Active/prize_list/media_id/{$media_id}/entry_id/{$entry_id}">
+            <span>我的奖品</span>
+        </a>
+
+        <!--//按钮-->
+        <div class="linktwo">
+            <img src="http://ovxy8cacs.bkt.clouddn.com/10_11btn20.png" alt="">
+        </div>
+
+        <div class="sekuai">*奖品和活动均与设备生产商Apple Inc.无关</div>
+        <!--</a>-->
+        <!--//跳转页面-->
+        <div class="jump" data-href="" style="display: none;"></div>
+        <!--//用户点击领券发送ajax-->
+        <div class="sendajax" style="display: none;"></div>
+        <!--//用户的id-->
+        <div class="userid" style="display: none;"></div>
+        
+    </section>
+</body>
+</html>
+<script src="/Public/Active/15_cai_shen/js/draggabilly.pkgd.min.js"></script>
+<script src="/Public/Active/15_cai_shen/js/elastiStack.js"></script>
+<script>
+    window.onload=function(){
+
+        new ElastiStack( document.getElementById( 'elasticstack' ) );
+        ajaxone();
+
+        var u = navigator.platform;
+        if(u=="iPhone"){
+            $('.sekuai').show();
+        }
+
+
+        $(".zhaozi").on("click",function(){
+            $(".zhaozi").hide();
+        });
+
+
+        ElastiStack.prototype._onDragStart=function(){
+            ajaxone();
+        }
+
+
+
+        //点击明日再来消失
+        $('.velocity .tomorrow').on("touchend",function(){
+            $('.pop2').css("display","none");
+        })
+        //点击规则规则从上而下出来
+        $('.rule').on("touchend",function(){
+            $('.rulefont').slideToggle();
+            var display=$('.zhezhao2').css("display");
+            $('rule_content').css("height","6.1rem");
+            if(display=="none"){
+                $('.zhezhao2').css("display","block");
+                $('.myprice').hide(500);
+                $('.test').hide();
+            }else if(display=="block"){
+                $('.zhezhao2').css("display","none");
+                $('.myprice').show(500);
+                $('.test').show(500);
+            }
+        })
+        //次数为0的时候第二个弹窗显现
+        function pop2Show(){
+            $('.pop2').show();
+            ajaxzero();
+        }
+        //点击次数为0的时候的活动的八叉
+        $('.delete').on("touchend",function(){
+            $('.pop2').hide();
+        })
+        // 点击抽奖时向后台传值
+        function ajaxone() {
+            $.ajax({
+                url:"/index.php/Active/Ajax/run.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                },
+                success: function(data) {
+                    if(data.status==1){
+                        $(".font p span").html(data.last);
+                        var result=data.prize;
+                        $('.userid').html(data.recordID);
+                        $("#elasticstack li img").attr("src",result.pic);
+                        $('.jump').attr("data-href",result.href);
+                    }else if(data.status==0){
+//                        alert("活动暂未开放");
+                        pop2Show();
+                    }
+                }
+            })
+        }
+
+        //点击立即领取
+        $('.linktwo img').on("touchend",function(){
+            //点击领券
+            handleClickAjax();
+        })
+        // 点击领取发送ajax
+        function handleClickAjax() {
+            var id=$('.userid').html();
+            $.ajax({
+                url: "/index.php/Active/Ajax/receive.html",
+                type: "post",
+                data: {
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                    record_id:id,
+                },
+                dataType: "json",
+                success: function(result) {
+                    if(result.status==1){
+                        $('.sendajax').html("yes");
+                        window.location.href=$('.jump').attr("data-href");
+                    }else if(result.status==0){
+                        alert("程序员被台风吹走了");
+                    }else{
+                        alert("程序员离开一小会");
+                    }
+                },
+            });
+        }
+        // 点击以后抽奖次数为0时发送请求
+        function ajaxzero(){
+            $.ajax({
+                url: "/index.php/Active/Ajax/active_data.html",
+                type: "post",
+                data: {
+                    'activity_id':"{$activity_id}",
+                    'uid':"{$uid}",
+                    'entry_id':"{$entry_id}",
+                    'media_id': "{$media_id}"
+                } ,
+                dataType: "json",
+                success: function success(result) {
+                    if(result.status == 0) {
+                        var data = result.active;
+                        $(".zhezhao").css("display","none");
+                        pop2Show();
+                        if(data.length == 1) {
+                            $('.activeone').addClass('animated bounceInDown');
+                            $('.activeone').css("display","block");
+                            $('.boxone img').attr("src",data[0].pic);
+                            $('.boxone').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[0].id);
+                        }else if(data.length>1) {
+                            //two
+                            $('.activetwo').addClass('animated bounceInDown');
+                            $('.activetwo').css("display","block");
+                            $('.boxone img').attr("src",data[0].pic);
+                            $('.boxtwo img').attr("src",data[1].pic);
+                            $('.boxone').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[0].id);
+                            $('.boxtwo').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[1].id);
+                        }else if(data.length==0){
+                            $('.tomorrow').show();
+                        }
+                    } else {
+                        return;
+                    }
+                }
+            });
+        }
+    };
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();  
+</script>

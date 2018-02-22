@@ -1,0 +1,1763 @@
+[ 2018-02-01T22:31:52+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495512' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:32:04+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495524' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:32:04+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:32:15+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 473 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:32:15+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/cartlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`name` FROM `dy_adver_cert` WHERE ( isalone=1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:32:25+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:32:25+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495545' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0005s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:32:28+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score`,`remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-02-01T22:32:28+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowprice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-02-01T22:32:28+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/prizeinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  b.id as userid,a.*,b.nickname FROM dy_money_result a INNER JOIN dy_coupon_user b on a.uid=b.id  ORDER BY a.create_time desc LIMIT 15   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-02-01T22:32:28+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0004s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-02-01T22:32:33+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0008s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2018-02-01T22:32:38+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/lotteryjudge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0003s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-02-01T22:32:38+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-02-01T22:32:40+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/moneylottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0004s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `dy_coupon_user` SET `score`=score-100 WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coin_consume` [ RunTime:0.0003s ]
+SQL: INSERT INTO `dy_coupon_coin_consume` (`uid`,`type`,`num`,`name`,`create_time`) VALUES ('324136','-','100','现金抽奖','1517495560') [ RunTime:0.0030s ]
+SQL: SELECT * FROM `dy_money_result` WHERE ( uid=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `member_id` = 324136 AND `create_time` <= 1517414400 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_lotteryrate` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`rate` FROM `dy_money_lotteryrate` WHERE ( type=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`money_down`,`money_up` FROM `dy_money_lotteryrate` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `dy_coupon_user` SET `remaining_sum`=remaining_sum+0.38 WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_money_result` (`uid`,`type`,`money`,`money_id`,`lottery_type`,`create_time`,`create_day`) VALUES ('324136','+','0.38','7','2','1517495560','1517414400') [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-02-01T22:32:40+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score`,`remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-02-01T22:32:40+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowprice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-02-01T22:32:42+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/lotteryjudge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0004s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-02-01T22:32:43+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-02-01T22:32:44+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/moneylottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0004s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `dy_coupon_user` SET `score`=score-200 WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coin_consume` [ RunTime:0.0003s ]
+SQL: INSERT INTO `dy_coupon_coin_consume` (`uid`,`type`,`num`,`name`,`create_time`) VALUES ('324136','-','200','现金抽奖','1517495564') [ RunTime:0.0029s ]
+SQL: SELECT * FROM `dy_money_result` WHERE ( uid=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `member_id` = 324136 AND `create_time` <= 1517414400 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_lotteryrate` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`rate` FROM `dy_money_lotteryrate` WHERE ( type=3 )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`money_down`,`money_up` FROM `dy_money_lotteryrate` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `dy_coupon_user` SET `remaining_sum`=remaining_sum+1.76 WHERE ( id=324136 ) [ RunTime:0.0001s ]
+SQL: INSERT INTO `dy_money_result` (`uid`,`type`,`money`,`money_id`,`lottery_type`,`create_time`,`create_day`) VALUES ('324136','+','1.76','14','3','1517495564','1517414400') [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-02-01T22:32:44+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score`,`remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `last_get_time` FROM `dy_coupon_user` WHERE ( `last_get_time` >= 1517414400 AND `last_get_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-02-01T22:32:44+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowprice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-02-01T22:32:45+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/lotteryjudge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-02-01T22:32:49+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-02-01T22:32:54+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowprice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-02-01T22:32:54+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-02-01T22:32:57+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowprice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-02-01T22:32:57+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score`,`remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `last_get_time` FROM `dy_coupon_user` WHERE ( `last_get_time` >= 1517414400 AND `last_get_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-02-01T22:32:57+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-02-01T22:32:57+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/prizeinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  b.id as userid,a.*,b.nickname FROM dy_money_result a INNER JOIN dy_coupon_user b on a.uid=b.id  ORDER BY a.create_time desc LIMIT 15   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-02-01T22:32:59+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-02-01T22:33:01+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495581' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:01+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:02+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-02-01T22:33:04+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-02-01T22:33:07+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-02-01T22:33:09+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-02-01T22:33:12+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-02-01T22:33:13+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getfriendinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `dy_coupon_user` WHERE ( referee_id=324136 )  [ RunTime:0.0002s ]
+SQL: SELECT `referee_id` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`nickname`,`last_login_time`,`phone` FROM `dy_coupon_user` WHERE `id` IN ('0','324136') ORDER BY last_login_time desc LIMIT 20   [ RunTime:0.0002s ]
+SQL: SELECT a.id,a.nickname,a.phone,b.new_level,b.create_time as last_login_time FROM dy_coupon_user a INNER JOIN dy_coupon_user_levelup b on a.id=b.uid  WHERE a.id IN ('0','324136') ORDER BY b.create_time desc LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `last_friend_time` FROM `dy_coupon_user` WHERE ( `last_friend_time` >= 1517414400 AND `last_friend_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:13+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getfriendscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE ( referee_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `dy_coupon_user` WHERE ( referee_id=324136 )  [ RunTime:0.0002s ]
+SQL: SELECT `referee_id` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:33:14+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-02-01T22:33:17+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-02-01T22:33:20+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-02-01T22:33:22+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-02-01T22:33:25+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-02-01T22:33:28+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-02-01T22:33:29+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `phone` = 18435139532 AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:33:29+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:30+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495610' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:30+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0008s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2018-02-01T22:33:33+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-02-01T22:33:33+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/shareback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `member_id` = 324136 AND `create_day` = 1517414400 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: UPDATE `dy_coupon_user` SET `experience`=experience+20 WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `score`=score+20 WHERE ( id=324136 ) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT b.level,a.score,a.share,b.experience FROM dy_coupon_user_level a INNER JOIN dy_coupon_user b on b.level+1=a.level  WHERE ( b.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coin_consume` [ RunTime:0.0004s ]
+SQL: INSERT INTO `dy_coupon_coin_consume` (`uid`,`type`,`num`,`name`,`create_time`) VALUES ('324136','+','20','当日非首次分享','1517495613') [ RunTime:0.0025s ]
+SQL: SELECT b.level,a.score,a.share,b.experience FROM dy_coupon_user_level a INNER JOIN dy_coupon_user b on b.level+1=a.level  WHERE ( b.id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `dy_active_share` (`member_id`,`create_time`,`create_day`,`type`,`cate`,`day_stamp`) VALUES ('324136','1517495613','1517414400','0','1','2018-02-01 22:33:33') [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:33:35+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:35+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495615' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:35+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-02-01T22:33:36+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 473 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:36+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/cartlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`name` FROM `dy_adver_cert` WHERE ( isalone=1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:37+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-02-01T22:33:39+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:39+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495619' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:33:40+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2018-02-01T22:33:40+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/cartlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`name` FROM `dy_adver_cert` WHERE ( isalone=1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:40+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 473 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:41+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495621' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:41+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:42+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-02-01T22:33:42+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  WHERE ( a.id=324136 ) ORDER BY a.experience desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE `experience` > '410' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  ORDER BY a.experience desc LIMIT 20   [ RunTime:0.0004s ]
+
+[ 2018-02-01T22:33:43+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getfriendinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `dy_coupon_user` WHERE ( referee_id=324136 )  [ RunTime:0.0002s ]
+SQL: SELECT `referee_id` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`nickname`,`last_login_time`,`phone` FROM `dy_coupon_user` WHERE `id` IN ('0','324136') ORDER BY last_login_time desc LIMIT 20   [ RunTime:0.0002s ]
+SQL: SELECT a.id,a.nickname,a.phone,b.new_level,b.create_time as last_login_time FROM dy_coupon_user a INNER JOIN dy_coupon_user_levelup b on a.id=b.uid  WHERE a.id IN ('0','324136') ORDER BY b.create_time desc LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `last_friend_time` FROM `dy_coupon_user` WHERE ( `last_friend_time` >= 1517414400 AND `last_friend_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:33:43+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getfriendscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE ( referee_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `dy_coupon_user` WHERE ( referee_id=324136 )  [ RunTime:0.0001s ]
+SQL: SELECT `referee_id` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:33:44+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:44+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495624' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:44+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:44+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495624' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:45+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-02-01T22:33:45+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowprice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0078s ]
+SQL: SELECT `remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-02-01T22:33:45+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score`,`remaining_sum` FROM `dy_coupon_user` WHERE ( id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2018-02-01T22:33:45+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0004s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-02-01T22:33:45+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/prizeinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  b.id as userid,a.*,b.nickname FROM dy_money_result a INNER JOIN dy_coupon_user b on a.uid=b.id  ORDER BY a.create_time desc LIMIT 15   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-02-01T22:33:46+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:46+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495626' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:47+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  WHERE ( a.id=324136 ) ORDER BY a.experience desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE `experience` > '410' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  ORDER BY a.experience desc LIMIT 20   [ RunTime:0.0004s ]
+
+[ 2018-02-01T22:33:47+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-02-01T22:33:49+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:49+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495629' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:33:50+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-02-01T22:33:50+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-02-01T22:33:52+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-02-01T22:33:55+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0009s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-02-01T22:33:55+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-02-01T22:33:57+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-02-01T22:34:00+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-02-01T22:34:00+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-02-01T22:34:02+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-02-01T22:34:05+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-02-01T22:34:05+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-02-01T22:34:07+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0031s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-02-01T22:34:10+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-02-01T22:34:10+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-02-01T22:34:12+08:00 ] 183.128.106.121 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-02-01T22:35:07+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `phone` = 18435139532 AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:35:07+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:07+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495707' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:17+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:17+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495717' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:20+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:22+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:26+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/changeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0008s ]
+SQL: UPDATE `dy_coupon_user` SET `nickname`='亮子' WHERE `id` = 324136 [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:26+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:27+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:28+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/changeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: UPDATE `dy_coupon_user` SET `age`='18' WHERE `id` = 324136 [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:28+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:31+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:32+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:35:33+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:35+08:00 ] 36.23.89.154 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:36+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324136 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:35:36+08:00 ] 36.23.89.154 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1517414400 AND `last_login_time` <= 1517500799  ) AND `id` = '324136' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517495736' WHERE ( id=324136 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324136 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T23:25:49+08:00 ] 60.221.121.82 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-02-01T23:25:49+08:00 ] 60.221.121.82 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-02-01T23:43:11+08:00 ] 17.147.110.33 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:43:11+08:00 ] 17.147.110.33 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:43:11+08:00 ] 17.147.110.33 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+

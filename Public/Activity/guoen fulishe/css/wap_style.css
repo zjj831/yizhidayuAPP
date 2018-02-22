@@ -1,0 +1,357 @@
+
+/*********************************************************************
+                             26_welfare
+**********************************************************************/
+.index{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+.index header{
+    
+}
+.index header .top{
+    height: 4rem;
+    width: 100%;
+    background: url(https://yun.yizhidayu.com/26-top.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.index header .mid{
+    height: 14.19rem;
+    width: 100%;
+    background: url(https://yun.yizhidayu.com/26-bg.png) no-repeat center 0.9rem;
+    background-size: 100%;
+    position: relative;
+}
+.index header .mid .banner{
+    width: 89.2%;
+    height: 8.5rem;
+    overflow: hidden;
+    position: absolute;
+    top: 3.55rem;
+    left: 5.4%;
+    background: no-repeat center center;
+    background-size: auto 100%;
+    border-radius: 0.2rem;
+}
+.index aside{
+    padding: 0.2rem 0 0.4rem 0;
+    background: #ffe4e7;
+    border: 0.1rem #ff6675 solid;
+    box-sizing: border-box;
+}
+.index aside ul{
+    overflow: hidden;
+    padding: 0 2%;
+}
+.index aside ul li{
+    float: left;
+    width: 25%;    
+}
+.index aside ul li i{
+    width: 100%;
+    background: no-repeat center center;
+    background-size: 50%;
+    height: 2.8rem;
+    display: block;
+}
+.index aside ul li p{
+    text-align: center;
+}
+.index footer{
+    height: 1.26rem;
+    width: 100%;
+    background: url(https://yun.yizhidayu.com/26-foot.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.index .main{
+    padding: 0.2rem 0 0.6rem 0;
+    background: #fc8692;
+    border: 0.1rem #ff6675 solid;
+    box-sizing: border-box;
+}
+.index .main .tips{
+    height: 2rem;
+    width: 5.6rem;
+    margin: 0.3rem auto 0 auto;
+    background: url(https://yun.yizhidayu.com/26-main-tip.png) no-repeat center center;
+    background-size: 90%;
+}
+.index .main ul{
+    overflow: hidden;
+}
+.index .main ul li{
+    float: left;
+    width: 40%;
+    height: 5rem;
+    overflow: hidden;
+    margin-left: 6.6%;
+    margin-top: 0.6rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    background: #fff;
+}
+.index .main ul li img{
+    width: 100%;
+    height: 4.6rem;
+}
+.index .active{
+    padding: 0.2rem 0 1.6rem 0;
+    background: #fc8692;
+    border: 0.1rem #ff6675 solid;
+    box-sizing: border-box;
+}
+.index .active .tips{
+    height: 2rem;
+    width: 5.6rem;
+    margin: 0.3rem auto 0 auto;
+    background: url(https://yun.yizhidayu.com/26-main-tip.png) no-repeat center center;
+    background-size: 90%;
+}
+.index .active ul{
+    overflow: hidden;
+}
+.index .active ul li{
+    overflow: hidden;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    background: #fff;
+    width: 90%;
+    margin: 0.6rem auto 0 auto;
+}
+.index .active ul li .banner{
+    width: 100%;
+    height: 6rem;
+    overflow: hidden;
+}
+.index .active ul li .banner img{
+    width: 100%;
+}
+.index .active ul li .foot{
+    overflow: hidden;
+    padding: 0.5rem 0.2rem 0.3rem 0.2rem;
+    font-size: 0.65rem;
+}
+.index .active ul li .foot .title{
+    float: left;
+    line-height: 1.4rem;
+    width: 12rem;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;  
+}
+.index .active ul li .foot .btn{
+    float: right;
+    background: #ec5155;
+    color: #fff;
+    text-align: center;
+    border-radius:0.1rem;
+    padding: 0.1rem 0.3rem;
+}
+.index .fail{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    display:none;
+}
+.index .fail .news{
+    text-align:center;
+    width:70%;
+    height:8rem;
+    background:#fff;
+    margin:50% auto 0 auto;
+    border-radius:0.2rem;
+    color:#3d4245;
+    position:relative;
+    overflow:hidden;
+}
+@media only screen and (max-width: 340px){
+.index .fail .news{
+    width:76%;
+}
+}
+.index .fail .news .title{
+    background:#e25d4e;
+    color:#fff;
+    height:1.8rem;
+    line-height:1.8rem;
+}
+.index .fail .news .font{
+    line-height:4rem;
+    height:4rem;
+    width:100%;
+    font-size:0.65rem;
+}
+.index .fail .news .enter{
+    height:2rem;
+    line-height:2rem;
+    background:#fff;
+    text-align:center;
+    color:#e25d4e;
+    border-top:1px solid #ebebeb;
+    position:absolute;
+    left:0;
+    width:100%;
+    bottom:0;
+}
+.index .overlay-gift{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    z-index: 999; 
+    overflow: hidden;
+}    
+.index .overlay-gift .box{
+    position: absolute;
+    left: 6.5%;
+    top: 4.2rem;
+    width: 87%;
+    -webkit-animation: zoomIn 0.6s ease 1; 
+    animation: zoomIn 0.6s ease 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0.2s;
+    -webkit-animation-delay:0s;   
+}
+.index .overlay-gift .light{
+    position: absolute;
+    top: -3.5rem;
+    left: 5%;
+    width: 90%;
+    height: 17.6rem;
+    background: url(https://yun.yizhidayu.com/24-light.png) no-repeat;
+    background-size: 100%;
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 5s linear infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0s;
+    transform-origin: 49% 43%;
+} 
+.index .overlay-gift .top{
+    position: absolute;
+    top: 2rem;
+    left: 23.5%;
+    width: 54%;
+    height: 3.5rem;
+    background: url(../image/modal-head.png) no-repeat;
+    background-size: 100%;
+    color: #f62934;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.2rem;
+    z-index: 99;
+}    
+.index .overlay-gift .instr{
+    position: absolute;
+    top: 5.4rem;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    z-index: 99;
+    font-weight: 700;
+    width: 92%;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    padding: 0 4%;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;  
+}    
+.index .overlay-gift .mid{
+    position: relative;
+    background: url(https://yun.yizhidayu.com/24-body1.png) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 19.52rem;
+}
+.index .overlay-gift .mid .banner{
+    position: absolute;
+    left: 10%;
+    top: 7.3rem;
+    width: 80%;
+    height: 6.05rem;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.index .overlay-gift .mid .banner img{
+    width: 100%;
+}
+@-webkit-keyframes zoomOut{
+    0%,40%,80%{
+        -webkit-transform:scale3d(1.1,1.1,1.1);
+    }
+    20%,60%{
+        -webkit-transform:scale3d(0.8,0.8,0.8);
+    }
+    100%{
+        -webkit-transform:scale3d(1,1,1);
+    }
+}
+@keyframes zoomOut{
+    0%,40%,80%{
+        transform:scale3d(1.1,1.1,1.1);
+    }
+    20%,60%{
+        transform:scale3d(0.8,0.8,0.8);
+    }
+    100%{
+        transform:scale3d(1,1,1);
+    }
+}
+.index .overlay-gift .get{
+    position: absolute;
+    bottom: 8.2%;
+    left: 8%;
+    width: 84%;
+    height: 12.8%;
+    background: url(../image/btn.png) no-repeat;
+    background-size: cover;
+    color: #f62934;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    -webkit-animation: zoomOut 1s ease 1; 
+    animation: zoomOut 1s ease 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0.2s;
+    -webkit-animation-delay:0s;   
+}
+.index .overlay-gift .error{
+    width: 1.3rem;
+    height: 1.3rem;
+    background: url(../image/close.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    -webkit-animation: fadeIn 0.6s ease 1; 
+    animation: fadeIn 0.6s ease 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0.2s;
+    -webkit-animation-delay:0s;  
+}
+

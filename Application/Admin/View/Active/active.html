@@ -1,0 +1,406 @@
+<extend name="Common:app"/>
+
+<block name='pageheader'>
+
+<section class="content-header">
+	<h1>
+		活动管理
+		<!--<small>Optional description</small>-->
+	</h1>
+	<ol class="breadcrumb">
+		<li>
+			<a href="{:U('Index/index')}">
+				<i class="fa fa-dashboard">
+				</i> 首页
+			</a>
+		</li>
+		<li class="active">
+			活动管理
+		</li>
+	</ol>
+</section>
+</block>
+
+<block name='content'>
+<div class="box">
+	<div class="box-header">
+		<a class="btn btn-primary pull-right" href="{:U('Active/active_add')}">添加</a>
+		<button type=""  style="float: right" class="btn btn-default" >搜索</button>
+		<form action=""  method="" class="form-inline">
+			<!--<div class="form-group">
+                <label class="control-label">类型：</label>
+                <select id="types" name="type" class="select form-control">
+                    <option  value="全部">全部</option>
+					<option  value="未上线">未上线</option>
+					<option  value="已上线">已上线</option>
+                </select>
+            </div>-->
+			<div  class="form-group">
+				<label class="control-label">日期：</label>
+				<!--<input  type="text" id="datepicker" name="date" data-provide="datepicker" placeholder="按日期查找" class="form-control">-->
+				<input placeholder="请选择开始时间" id='startTime'  data-provide="datepicker" value="{:date('Y-m-d H:i:s',$starttime)}" maxlength="30"  style='cursor: pointer;margin-right: 0px;color: #444' class="form-control">
+				<input placeholder="请选择结束时间" id='overTime' data-provide="datepicker" value="{:date('Y-m-d H:i:s',$overtime)}" maxlength="30"  style='cursor: pointer;color: #444' class="form-control">
+
+
+			</div>
+               	<div class="form-group">
+                <label class="control-label">标题：</label>
+                <input name="name" type="text" size="30" placeholder="输入标题进行搜索" class="ipt form-control">
+            </div>
+		</form>
+	</div><!-- /.box-header -->
+
+	<div class="box-body" >
+		<div  class="dataTables_wrapper form-inline dt-bootstrap">
+			<div class="row">
+				<div class="col-sm-12">
+<table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+						<thead>
+							<tr role="row">
+								<!--<th>批量选择</th>-->
+								<th >ID</th>
+								<th >权重</th>
+								<th style="width:200px;">活动信息</th>
+								<th >参与临界值</th>
+								<th >参与UV</th>
+								<th >访问UV</th>
+								<th >参与率</th>
+								<th >创建时间</th>
+								<th >状态</th>
+								<th >操作</th>
+							</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td></td>
+							<td>合计</td>
+							<td>{$dataCount}</td>
+							<td></td>
+							<td>{$total['join_uv']}</td>
+							<td>{$total['uv']}</td>
+							<td>{:number_format(($total['join_uv']/$total['uv'])*100,2)}%</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<foreach name='activeList' item='item'>
+							<tr role="row">
+									<!--<td><input name="checkboxall[]" type="checkbox" value="{$item.id}"></td>-->
+								<td>
+									{$item['id']}
+								</td>
+								<td>
+									<input data-id="{$item['id']}" style="width: 40px;" class="weight" value="{$item['weight']}">
+								</td>
+								<td style="overflow: inherit;">
+									<!--<div class='qr' id="{$item['id']}">
+										<div class='wrap'>
+											<div class='inIcon'></div>
+											<img src="https://tool.kd128.com/qrcode?text={$item['url']}" alt='qr'>
+											<h3>手机扫二维码预览</h3>
+										</div>
+									</div>-->
+									<div class='pic' style="width: 90px;float: left;">
+										<img src="{$item['icon']}" alt='picture' style='width: 80px;height:43.75px;'>
+									</div>
+									<div class='instr' style=" width: 80px;float: left; line-height: 18px;height: 36px;margin: 10px 0;font-size: 13px;color: #666;text-align: center;">{$item['title']}</div>
+								</td>
+								<td>{$item['determine']}</td>
+								<td>{$item['activeJoin']}</td>
+								<td>{$item['activeTotal']}</td>
+								<td>{:number_format(($item['activeJoin']/$item['activeTotal']),4)*100}%</td>
+								<td>{:date('Y-m-d',$item['create_time'])}</td>
+								<td class="status">
+									<if condition="$item['status'] eq 2">
+										<span>下架</span>
+										<elseif condition="$item['status'] eq 1"/>
+										<span>上线</span>
+									</if>
+								</td>
+									<td>
+										
+										
+					<a href="{:U('Active/active_edit')}?id={$item.id}"><img class="myicon" style="display: inline;" src="{:C('PUBLIC')}/icon/bianji001.png"></img>  </a>
+					<!--<a href="" onclick="trashdialog('{$item.id}')"><img class="myicon" style="display: inline;" src="{:C('PUBLIC')}/icon/guanbi001.png"></img>  </a>-->
+									</td>
+								
+									</tr>
+						</foreach>
+
+						</tbody>
+					</table>
+					<div class="foot">
+						<div class='total fl'>
+							共计<span>{$dataCount}</span>条记录
+						</div>
+						<if condition="$dataCount gt $offnum">
+							<ul style="list-style: none;">
+								<if condition="$Page neq 1">
+									<li data-src='{$Page-1}'>
+										上一页
+									</li>
+								</if>
+								<for start="$startPage" end="($viewPages+1)">
+									<if condition="$Page eq $i">
+										<li class='cur' data-src="{$i}">{$Page}</li>
+										<else/>
+										<li data-src="{$i}">{$i}</li>
+									</if>
+								</for>
+								<if condition="$Page neq $Pages">
+									<li data-src='{$Page+1}'>
+										下一页
+									</li>
+								</if>
+								<li>{$Page}/{$Pages}</li>
+							</ul>
+						</if>
+					</div>
+					<!--<div class="result page">{$page}</div>-->
+				</div>
+			</div>
+		</div>
+	</div><!-- /.box-body -->
+</div>
+
+
+<!-- Modal -->  
+<div class="modal fade" id="myModal" style="background: rgba(0,0,0,0);" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">  
+  <div class="modal-dialog">  
+    <div class="modal-content">  
+      <div class="modal-header">  
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>  
+        <h4 class="modal-title" id="myModalLabel">评论</h4>  
+      </div>  
+      <div style="padding:5px;">  
+      <div class="modal-body" data-scrollbar="true" data-height="200" data-scrollcolor="#000">  
+  
+  <ul id="comments" class="list-group">
+  	
+  </ul>
+  
+</div>  
+      </div>  
+      <!--<div class="modal-footer">  
+     </div>  
+    -->
+    </div>  
+  </div>  
+</div>
+
+
+
+</block>
+
+<block name="js">
+	<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="{:C('PUBLIC')}/adminlte/plugins/jQueryUI/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>-->
+
+	<script type="text/javascript">
+
+    var checkList = document.getElementsByName('checkboxall[]');
+    var flagCheck = document.querySelector("#chkAll");
+
+    function checkAll() {
+        for(var j = 0; j < checkList.length; j++) {
+            if(!checkList[j].checked) {
+                break;
+            }
+        }
+        if(j == checkList.length) {
+            flagCheck.checked = true;
+        }else{
+            flagCheck.checked = false;
+        }
+
+    }
+    function chkAll(obj){
+        for (var i = checkList.length - 1; i >= 0; i--) {
+            checkList[i].checked = obj.checked;
+        };
+    }
+    for(var k = 0; k < checkList.length; k++) {
+        checkList[k].onclick = checkAll;
+    }
+
+
+    $('#startTime').datepicker({
+        language: 'zh-CN',
+        autoclose: true
+    });
+    $('#overTime').datepicker({
+        language: 'zh-CN',
+        autoclose: true
+    });
+
+
+
+    $('.foot ul li').click(function(){
+        if($(this).attr('data-src')){
+            window.location.href="/test/index.php/Admin/Active/active.html?Page="+$(this).attr('data-src')+"&name="+$.trim($("#name").val())+"&starttime="+$("#startTime").val()+"&overtime="+$("#overTime").val()+"";
+        }
+    });
+    $('.btn-default').click(function(){
+        window.location.href="/test/index.php/Admin/Active/active.html?name="+$.trim($("#name").val())+"&starttime="+$("#startTime").val()+"&overtime="+$("#overTime").val()+"";
+      });
+
+    //排序函数
+    var defalutWeight;
+    $(" .weight").focus(function(){
+        defalutWeight=parseInt($(this).val());
+        $(this).addClass('cur');
+    }).blur(function(){
+        $('.over-suc').hide(0);
+        $(this).removeClass('cur');
+        if(parseInt($(this).val())===defalutWeight||/^[0-9]+[0-9]*]*$/.test($(this).val())===false){
+            $(this).val(defalutWeight);
+        }else{
+            $.ajax({
+                url:"/test/index.php/Admin/Active/active_sort",
+                type:"POST",
+                data:{
+                    'active_id':$(this).attr('data-id'),
+                    'weight':$(this).val(),
+                },
+                dataType:'json',
+                success: function(data){
+                    if(data.status===1){
+                        $('.over-suc').show(0);
+                    }else{
+                        alert(data.tip);
+                    }
+                },
+                error:function(){
+
+                }
+            });
+        }
+    }).keyup(function(event){
+        if(event.keyCode ===13){
+            $('.over-suc').hide(0);
+            $(this).removeClass('cur').blur();
+            if(parseInt($(this).val())===defalutWeight||/^[0-9]+[0-9]*]*$/.test($(this).val())===false){
+                $(this).val(defalutWeight);
+            }else{
+                $.ajax({
+                    url:"/test/index.php/Admin/Active/active_sort",
+                    type:"POST",
+                    data:{
+                        'active_id':$(this).attr('data-id'),
+                        'weight':$(this).val(),
+                    },
+                    dataType:'json',
+                    success: function(data){
+                        alert(data);
+                        if(data.status===1){
+                            $('.over-suc').show(0);
+                        }else{
+                            alert(data.tip);
+                        }
+                    },
+                    error:function(){
+
+                    }
+                });
+            }
+        }
+    });
+
+
+    //批量删除
+	$(".btn-danger").on("click",function(){
+
+        var array=[];
+        for(var j = 0; j < checkList.length; j++) {
+            console.log(checkList[j].checked)
+            if(checkList[j].checked==true) {
+                var id=checkList[j].value;
+                array.push(id);
+            }
+        }
+
+        console.log(array);
+        $.ajax({
+            url:"{:U('Note/notepldelete')}",
+			dataType:"json",
+            data:{id:array},
+            type:"post",
+            success:function(data){
+                if(data=="1"){
+                    alert("批量删除成功");
+                    window.location.reload();
+                }
+            }
+        })
+	})
+
+
+		function trashdialog(id){
+	var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+	if (!ifdel) {
+		return;
+	}
+	 $.get("{:U('Active/index_destroy')}?id="+id,function(data,status){
+if(data=="ok"){
+		alert("删除成功");
+ 	location.reload();
+}else{
+	alert(data);
+}
+});
+}
+		function openModal(noteid){
+				$.ajax({
+                url: "{:U('api/getCommentsByNoteid')}?noteid="+noteid,   
+                dataType: "json",
+                contentType: "application/json",
+                success: function (data) {
+                	
+//              	alert(data['1']);
+     var optionstring = "";
+                 for (var i=0;i<data.length;i++) {
+              optionstring += "<li class='list-group-item'>" + data[i]['content'] +"</br>(作者："+ data[i]['author']+")<span style='padding:0px 10px;'>"+ data[i]['createtime']  + "</span><button  onclick=\"comment_destroy('"+data[i]['id']+"','"+noteid+"')\">删除</button></li>";
+                    }
+                   $("#comments").html(optionstring);
+                   centerModals();
+                     },
+                error: function (msg) {
+//                  alert("出错了！");
+                }
+            });          	
+//			alert(json[0]);
+			   $('#myModal').modal('show');
+//			$('#myModal'),show();
+			
+			
+		}
+function comment_destroy(cid,noteid){
+	var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+	if (!ifdel) {
+		return;
+	}
+		$.ajax({
+                url: "{:U('api/comment_destroy')}?cid="+cid+"&noteid="+noteid,   
+                success: function (data) {
+//              alert('s');
+		
+//              	alert(data);
+ if(data=="ok"){
+		alert("删除成功");
+ 	 	location.reload();
+// 	 	$('#myModal').modal('hide');
+}else{
+	alert(data);
+}
+                     },
+                error: function (msg) {
+                    alert("出错了！"+JSON.stringify(msg));
+                }
+            });   
+	
+	
+}
+	</script>
+	
+</block>

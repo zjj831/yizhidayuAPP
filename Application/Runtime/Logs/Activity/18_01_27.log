@@ -1,0 +1,3181 @@
+[ 2018-01-27T04:57:00+08:00 ] 112.31.137.231 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-27T04:57:00+08:00 ] 112.31.137.231 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0021s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2018-01-27T04:58:21+08:00 ] 112.31.137.231 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-27T04:58:21+08:00 ] 112.31.137.231 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-01-27T08:24:35+08:00 ] 119.248.81.160 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-01-27T08:24:35+08:00 ] 119.248.81.160 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0023s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-01-27T08:24:36+08:00 ] 119.248.81.160 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0014s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-01-27T08:24:36+08:00 ] 119.248.81.160 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-01-27T08:30:35+08:00 ] 43.246.231.173 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0011s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-01-27T08:30:35+08:00 ] 43.246.231.173 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-01-27T08:31:32+08:00 ] 43.246.231.173 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-27T08:31:32+08:00 ] 43.246.231.173 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-27T08:33:21+08:00 ] 182.109.94.92 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-01-27T08:33:21+08:00 ] 182.109.94.92 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-01-27T08:33:37+08:00 ] 222.211.203.246 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-01-27T08:33:37+08:00 ] 222.211.203.246 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-01-27T08:37:13+08:00 ] 182.109.94.92 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-01-27T08:37:13+08:00 ] 182.109.94.92 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-27T09:43:57+08:00 ] 202.102.180.160 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-01-27T09:43:57+08:00 ] 202.102.180.160 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2018-01-27T10:32:07+08:00 ] 123.133.115.45 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-01-27T10:32:08+08:00 ] 123.133.115.45 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-01-27T10:45:37+08:00 ] 61.148.243.146 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-27T10:45:37+08:00 ] 61.148.243.146 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-01-27T11:47:22+08:00 ] 183.198.226.30 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-01-27T11:47:22+08:00 ] 183.198.226.30 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-01-27T12:04:58+08:00 ] 223.90.169.222 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-01-27T12:04:58+08:00 ] 223.90.169.222 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-01-27T12:15:59+08:00 ] 139.189.208.238 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2018-01-27T12:15:59+08:00 ] 139.189.208.238 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-01-27T13:21:15+08:00 ] 183.200.34.177 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-27T13:21:15+08:00 ] 183.200.34.177 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-01-27T13:21:45+08:00 ] 183.200.34.177 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-01-27T13:21:45+08:00 ] 183.200.34.177 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-01-27T13:50:11+08:00 ] 42.89.44.83 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2018-01-27T13:50:11+08:00 ] 42.89.44.83 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-01-27T13:50:24+08:00 ] 42.89.44.83 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-27T13:50:24+08:00 ] 42.89.44.83 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-01-27T14:16:40+08:00 ] 117.136.39.211 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-01-27T14:16:40+08:00 ] 117.136.39.211 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-01-27T14:23:19+08:00 ] 59.174.56.22 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-01-27T14:23:19+08:00 ] 59.174.56.22 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-01-27T14:23:26+08:00 ] 59.174.56.22 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-01-27T14:23:26+08:00 ] 59.174.56.22 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-27T14:31:15+08:00 ] 157.61.160.61 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-27T14:31:16+08:00 ] 157.61.160.61 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-01-27T14:33:04+08:00 ] 36.23.213.234 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T14:33:04+08:00 ] 36.23.213.234 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE ( id=324110 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_levelup` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_user_levelup` WHERE `uid` = 324110 AND ( `create_time` >= 1516896000 AND `create_time` <= 1516982399  ) ORDER BY new_level desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `member_id` = 324110 AND ( `get_time` >= 1516982400 AND `get_time` <= 1517068799  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517034784' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0112s ]
+
+[ 2018-01-27T14:33:06+08:00 ] 36.23.213.234 /test/index.php/Activity/Game/rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  WHERE ( a.id=324110 ) ORDER BY a.experience desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE `experience` > '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  ORDER BY a.experience desc LIMIT 20   [ RunTime:0.0003s ]
+
+[ 2018-01-27T14:36:45+08:00 ] 36.23.213.234 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T14:36:46+08:00 ] 36.23.213.234 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517035006' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:15:04+08:00 ] 219.143.139.228 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0012s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-27T16:15:04+08:00 ] 219.143.139.228 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-27T16:15:15+08:00 ] 219.143.139.228 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-01-27T16:15:16+08:00 ] 219.143.139.228 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-01-27T16:18:02+08:00 ] 219.143.139.228 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-01-27T16:18:02+08:00 ] 219.143.139.228 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-01-27T16:43:56+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `phone` = 13777585756 AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-27T16:43:56+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:43:56+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0004s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:43:56+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:43:56+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:43:56+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:43:56+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:44:00+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:44:00+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324106' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE ( id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_levelup` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_coupon_user_levelup` WHERE `uid` = 324106 AND ( `create_time` >= 1516896000 AND `create_time` <= 1516982399  ) ORDER BY new_level desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `member_id` = 324106 AND ( `get_time` >= 1516982400 AND `get_time` <= 1517068799  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517042640' WHERE ( id=324106 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324106 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:44:03+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/prizeinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  b.id as userid,a.*,b.nickname FROM dy_money_result a INNER JOIN dy_coupon_user b on a.uid=b.id  WHERE ( a.money>1 ) GROUP BY b.id ORDER BY a.create_time desc LIMIT 20   [ RunTime:0.0013s ]
+NOTIC: [2] str_repeat(): Second argument has to be greater than or equal to 0 /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 716 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-01-27T16:44:03+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-01-27T16:44:03+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-01-27T16:44:06+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:44:06+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/prizeinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  b.id as userid,a.*,b.nickname FROM dy_money_result a INNER JOIN dy_coupon_user b on a.uid=b.id  WHERE ( a.money>1 ) GROUP BY b.id ORDER BY a.create_time desc LIMIT 20   [ RunTime:0.0013s ]
+NOTIC: [2] str_repeat(): Second argument has to be greater than or equal to 0 /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 716 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-01-27T16:44:06+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-01-27T16:44:06+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-01-27T16:44:06+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324106' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517042646' WHERE ( id=324106 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324106 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:44:08+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:44:08+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324106' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517042648' WHERE ( id=324106 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324106 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T16:44:08+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  WHERE ( a.id=324106 ) ORDER BY a.experience desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE `experience` > '131' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  ORDER BY a.experience desc LIMIT 20   [ RunTime:0.0004s ]
+
+[ 2018-01-27T16:44:12+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:05:15+08:00 ] 183.226.249.118 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-27T17:05:15+08:00 ] 183.226.249.118 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-27T17:09:42+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `phone` = 13777585756 AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:42+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:42+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:42+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:42+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:42+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:42+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+
+[ 2018-01-27T17:09:53+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `phone` = 13777585756 AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-27T17:09:53+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:53+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:53+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:53+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:53+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0001s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:09:54+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:06+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `phone` = 13777585756 AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:06+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:06+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:06+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:06+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:06+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:07+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:12+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:13+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:13+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0004s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+
+[ 2018-01-27T17:10:15+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategorylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 ) ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:15+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 1  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:16+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/gethotcoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_coupon` ORDER BY upvote desc LIMIT 20   [ RunTime:0.0004s ]
+
+[ 2018-01-27T17:10:21+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategorylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 ) ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:23+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/isuvtorcet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_couupvote` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_couupvote` WHERE `coupon_id` = 1 AND `user_id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coucollect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_coupon_coucollect` WHERE `coupon_id` = 1 AND `user_id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:23+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/readno
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0006s ]
+SQL: UPDATE `dy_coupon_coupon` SET `readno`=readno+1 WHERE `id` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-27T17:10:27+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/readno
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0007s ]
+SQL: UPDATE `dy_coupon_coupon` SET `readno`=readno+1 WHERE `id` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-01-27T17:10:28+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategorylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 ) ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:10:32+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/isuvtorcet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_couupvote` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_couupvote` WHERE `coupon_id` = 1 AND `user_id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coucollect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_coupon_coucollect` WHERE `coupon_id` = 1 AND `user_id` = 324106 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-27T17:10:32+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/readno
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0005s ]
+SQL: UPDATE `dy_coupon_coupon` SET `readno`=readno+1 WHERE `id` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-01-27T17:11:06+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategorylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 ) ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:18+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/gethotcoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_coupon` ORDER BY upvote desc LIMIT 20   [ RunTime:0.0004s ]
+
+[ 2018-01-27T17:11:18+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:18+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0001s ]
+
+[ 2018-01-27T17:11:19+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategorylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 ) ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:19+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0004s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:19+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:20+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/isuvtorcet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_couupvote` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_couupvote` WHERE `coupon_id` = 92 AND `user_id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coucollect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_coupon_coucollect` WHERE `coupon_id` = 92 AND `user_id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:20+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/readno
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0005s ]
+SQL: UPDATE `dy_coupon_coupon` SET `readno`=readno+1 WHERE `id` = 92 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-01-27T17:11:26+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:26+08:00 ] 58.100.14.91 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0001s ]
+
+[ 2018-01-27T17:11:29+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:29+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324106' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517044289' WHERE ( id=324106 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324106 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:34+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0003s ]
+
+[ 2018-01-27T17:11:34+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:35+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324106' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517044295' WHERE ( id=324106 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324106 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:35+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  WHERE ( a.id=324106 ) ORDER BY a.experience desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE `experience` > '131' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.headimg,a.nickname,a.experience,a.id,b.pic FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level=b.level  ORDER BY a.experience desc LIMIT 20   [ RunTime:0.0004s ]
+
+[ 2018-01-27T17:11:40+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:11:40+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324106' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517044300' WHERE ( id=324106 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324106 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324106 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-27T17:11:40+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/prizeinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  b.id as userid,a.*,b.nickname FROM dy_money_result a INNER JOIN dy_coupon_user b on a.uid=b.id  WHERE ( a.money>1 ) GROUP BY b.id ORDER BY a.create_time desc LIMIT 20   [ RunTime:0.0014s ]
+NOTIC: [2] str_repeat(): Second argument has to be greater than or equal to 0 /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 716 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-01-27T17:11:40+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-01-27T17:11:40+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324106 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-01-27T17:11:45+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2018-01-27T17:11:50+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-01-27T17:11:55+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-01-27T17:12:00+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-01-27T17:12:05+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-27T17:12:07+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324106 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T17:12:07+08:00 ] 58.100.14.91 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324106' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517044327' WHERE ( id=324106 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324106 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324106 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-27T18:06:29+08:00 ] 117.157.168.51 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-01-27T18:06:29+08:00 ] 117.157.168.51 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-01-27T18:08:05+08:00 ] 42.49.28.68 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-01-27T18:08:05+08:00 ] 42.49.28.68 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-01-27T18:08:06+08:00 ] 42.49.28.68 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-01-27T18:08:06+08:00 ] 42.49.28.68 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-01-27T18:28:55+08:00 ] 14.215.160.182 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-01-27T18:28:56+08:00 ] 14.215.160.209 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-27T18:47:18+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517050038' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T18:47:19+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T18:47:54+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517050074' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-27T18:47:54+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T18:52:18+08:00 ] 119.62.208.73 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-01-27T18:52:18+08:00 ] 119.62.208.32 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-01-27T19:16:00+08:00 ] 112.28.181.95 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2018-01-27T19:16:00+08:00 ] 112.28.181.95 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-27T19:32:56+08:00 ] 27.204.28.254 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-01-27T19:32:56+08:00 ] 27.204.28.254 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-01-27T19:45:55+08:00 ] 117.179.228.46 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-27T19:45:55+08:00 ] 117.179.228.46 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-01-27T19:48:34+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-01-27T19:48:34+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517053714' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-27T19:48:59+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:48:59+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517053739' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:52:14+08:00 ] 1.26.60.229 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2018-01-27T19:52:14+08:00 ] 1.26.60.229 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-01-27T19:57:09+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:57:09+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0004s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517054229' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-27T19:58:23+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0003s ]
+
+[ 2018-01-27T19:58:23+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0022s ]
+
+[ 2018-01-27T19:58:25+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:25+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517054305' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:26+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0003s ]
+
+[ 2018-01-27T19:58:26+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:29+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-01-27T19:58:29+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0015s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517054309' WHERE ( id=324110 ) [ RunTime:0.0017s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:30+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0003s ]
+
+[ 2018-01-27T19:58:31+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:33+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-01-27T19:58:33+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517054313' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:34+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0003s ]
+
+[ 2018-01-27T19:58:34+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0023s ]
+
+[ 2018-01-27T19:58:37+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2018-01-27T19:58:37+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0014s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517054317' WHERE ( id=324110 ) [ RunTime:0.0016s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:38+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:38+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index: uid /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 453 行.
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0002s ]
+
+[ 2018-01-27T19:58:41+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-01-27T19:58:41+08:00 ] 122.234.9.83 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0015s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517054321' WHERE ( id=324110 ) [ RunTime:0.0018s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-27T20:12:27+08:00 ] 121.27.58.125 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-01-27T20:12:27+08:00 ] 121.27.58.125 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-01-27T20:19:33+08:00 ] 123.182.118.187 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2018-01-27T20:19:33+08:00 ] 123.182.118.187 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-01-27T20:19:33+08:00 ] 123.182.118.187 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-27T20:19:33+08:00 ] 123.182.118.187 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-27T20:31:01+08:00 ] 119.162.72.152 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-01-27T20:31:01+08:00 ] 119.162.72.152 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-01-27T20:50:28+08:00 ] 61.52.102.102 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-01-27T20:50:28+08:00 ] 61.52.102.102 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-01-27T20:53:52+08:00 ] 110.180.2.47 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-01-27T20:53:52+08:00 ] 110.180.2.47 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-01-27T20:59:49+08:00 ] 111.19.92.179 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-01-27T20:59:49+08:00 ] 111.19.92.179 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-01-27T20:59:52+08:00 ] 111.19.92.179 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-01-27T20:59:52+08:00 ] 111.19.92.179 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-01-27T20:59:54+08:00 ] 111.19.92.179 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-01-27T20:59:54+08:00 ] 111.19.92.179 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-27T21:00:06+08:00 ] 111.19.92.179 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-01-27T21:00:06+08:00 ] 111.19.92.179 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-27T21:00:28+08:00 ] 117.179.3.46 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-27T21:00:28+08:00 ] 117.179.3.46 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-27T21:06:25+08:00 ] 117.136.46.4 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0012s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-01-27T21:06:25+08:00 ] 117.136.46.4 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2018-01-27T21:10:36+08:00 ] 125.68.7.203 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-27T21:10:36+08:00 ] 125.68.7.203 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-01-27T21:33:16+08:00 ] 123.55.51.153 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-01-27T21:33:16+08:00 ] 123.55.51.153 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-01-27T22:04:31+08:00 ] 117.136.68.112 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-01-27T22:04:31+08:00 ] 117.136.68.112 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-01-27T22:09:22+08:00 ] 219.72.200.221 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-01-27T22:09:22+08:00 ] 219.72.200.221 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-01-27T22:09:23+08:00 ] 219.72.200.221 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-27T22:09:23+08:00 ] 219.72.200.221 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011365s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-01-27T22:09:35+08:00 ] 219.72.200.221 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-27T22:09:35+08:00 ] 219.72.200.221 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-01-27T22:16:16+08:00 ] 117.136.70.33 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-01-27T22:16:16+08:00 ] 117.136.70.33 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-01-27T22:17:24+08:00 ] 171.109.89.97 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-01-27T22:17:24+08:00 ] 171.109.89.97 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-27T22:29:07+08:00 ] 211.138.116.5 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-01-27T22:29:07+08:00 ] 211.138.116.5 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-01-27T22:42:48+08:00 ] 117.11.223.253 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-01-27T22:42:48+08:00 ] 117.11.223.253 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-27T22:43:06+08:00 ] 119.86.98.162 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0013s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-01-27T22:43:06+08:00 ] 119.86.98.162 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-01-27T22:47:04+08:00 ] 42.49.19.118 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-01-27T22:47:04+08:00 ] 42.49.19.118 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-27T22:47:36+08:00 ] 182.109.93.223 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011690s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-01-27T22:47:36+08:00 ] 182.109.93.223 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-01-27T22:48:45+08:00 ] 113.117.152.88 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-01-27T22:48:45+08:00 ] 113.117.152.88 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-01-27T23:20:34+08:00 ] 39.166.23.201 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-01-27T23:20:34+08:00 ] 39.166.23.201 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-27T23:28:17+08:00 ] 42.156.250.243 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-01-27T23:28:17+08:00 ] 42.156.250.243 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-01-27T23:52:53+08:00 ] 36.23.213.234 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1516982400 AND `last_login_time` <= 1517068799  ) AND `id` = '324110' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1517068373' WHERE ( id=324110 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324110 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324110 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-27T23:52:54+08:00 ] 36.23.213.234 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0006s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE `id` = 324110 LIMIT 1   [ RunTime:0.0002s ]
+

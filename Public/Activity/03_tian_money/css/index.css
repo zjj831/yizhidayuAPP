@@ -1,0 +1,204 @@
+html{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+body{
+    width:100%;
+    height:12.06rem;
+    overflow: hidden;
+}
+/*//天降红包*/
+.top{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    background: rgba(0,0,0,0.6);
+    display: none;
+}
+.top img{
+    width: 0.96rem;
+    border: 0;
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    margin-left: -0.48rem;
+}
+.tanchuang{
+    width:5.8rem;
+    height:10rem;
+    background-image:url(http://ovxy8cacs.bkt.clouddn.com/hb_bg.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index:10;
+    margin-top: -0.5rem;
+    animation:bounceInDown 0.5s linear forwards;
+    -webkit-animation:bounceInDown 0.5s linear  forwards;
+}
+.tanchuang img{
+    width:1.82rem;
+    height:1.83rem;
+    position:absolute;
+    top:6rem;
+    left:50%;
+    margin-left:-0.91rem;
+    animation:rotate1 2s linear forwards infinite;
+    -webkit-animation:rotate1 2s linear forwards infinite;
+}
+@keyframes  rotate1{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+@-webkit-keyframes  rotate1{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+@keyframes bounceInDown {
+    0%{
+        margin-top:-10rem;
+    }
+    100%{
+        margin-top:-0.5rem;
+    }
+}
+@-webkit-keyframes bounceInDown {
+    0%{
+        margin-top:-10rem;
+    }
+    100%{
+        margin-top:-0.5rem;
+    }
+}
+/*//天降红包的弹窗*/
+
+.zhezhao_two{
+    width: 100%;
+    height: 12.06rem;
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+    display: none;
+    z-index: 40;
+}
+.light_two {
+    width: 6.48rem;
+    height: 6.48rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 0.4rem;
+    z-index: -1;
+    animation: light 8s linear infinite;
+    -webkit-animation: light 8s linear infinite;
+    display:none;
+}
+.quan_two{
+    width:6.86rem;
+    height: 7.96rem;
+    background:#fff;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index:3;
+    /*animation: myfirst 0.3s linear;*/
+    animation: up  0.5s ease forwards;
+    -webkit-animation: up  0.5s ease forwards;
+}
+
+
+
+
+.name_two{
+    color: #df221f;
+    width: 4.8rem;
+    height: 0.4rem;
+    font-size: 20px;
+    line-height: 0.4rem;
+    text-align: center;
+    position: absolute;
+    top: 1.6rem;
+    left: 1.05rem;
+}
+.delete_two{
+    width: 0.66rem;
+    height: 0.66rem;
+    position: absolute;
+    top: -0.4rem;
+    right: 0;
+    z-index: 3;
+}
+.linkone_two{
+    width: 5.55rem;
+    height: 2.8rem;
+    display: block;
+    position: absolute;
+    top: 2.5rem;
+    left: 0.65rem;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.quanimg_two{
+    width:100%;
+}
+.linktwo_two{
+    display: block;
+    width: 3.6rem;
+    height: 1.36rem;
+    text-align: center;
+    position: absolute;
+    top: 5.9rem;
+    left: 1.68rem;
+    font-size: 0.3rem;
+}
+/*星星*/
+.start{
+    width:6.71rem;
+    height:3.63rem;
+    position:absolute;
+    top:-0.5rem;
+    animation:start 0.8s linear infinite;
+    -webkit-animation:start 0.8s linear infinite;
+}
+@keyframes start {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes start {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.linktwo_two img{
+    width:3.60rem;
+    height:1.36rem;
+}

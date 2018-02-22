@@ -1,0 +1,1222 @@
+[ 2018-01-22T14:37:05+08:00 ] 61.151.178.168 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-01-22T14:37:05+08:00 ] 61.129.8.250 /test/index.php/Admin/Active/coupon.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+
+[ 2018-01-22T14:37:05+08:00 ] 101.226.33.200 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+
+[ 2018-01-22T14:38:14+08:00 ] 101.226.33.218 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+
+[ 2018-01-22T14:39:32+08:00 ] 101.226.65.107 /test/index.php/Admin/Active/coupon.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+
+[ 2018-01-22T14:39:32+08:00 ] 101.226.65.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-01-22T16:28:10+08:00 ] 60.177.78.175 /test/index.php/Admin/Active/active_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-01-22T16:28:10+08:00 ] 60.177.78.175 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-22T16:28:20+08:00 ] 60.177.78.175 /test/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_admin` WHERE `user_name` = 'zhoujj' LIMIT 1   [ RunTime:0.0445s ]
+NOTIC: [8] Undefined index: username /opt/lampp/htdocs/test/Application/Admin/Controller/LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-22T16:28:21+08:00 ] 60.177.78.175 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2018-01-22T16:28:21+08:00 ] 60.177.78.175 /test/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2018-01-22T16:28:24+08:00 ] 60.177.78.175 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map1 /opt/lampp/htdocs/test/Application/Admin/Controller/CouponController.class.php 第 47 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_coupon` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.id,a.title,a.validate,a.description,a.upvote,a.enddate,a.collect,b.title as catename FROM dy_coupon_coupon a INNER JOIN dy_coupon_category b on a.cateid=b.id  ORDER BY a.id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-01-22T16:28:26+08:00 ] 60.177.78.175 /test/index.php/Admin/Active/active.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_temp_item` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `title` LIKE '%' ORDER BY status ,create_time desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` > 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 AND `join_times` >= 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` > 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 54 AND `join_times` >= 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` > 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 52 AND `join_times` >= 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` > 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 65 AND `join_times` >= 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` > 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 AND `join_times` >= 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` > 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 61 AND `join_times` >= 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` > 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 59 AND `join_times` >= 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` > 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 60 AND `join_times` >= 0 AND ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user` WHERE ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE ( `create_day` >= 1516550400 AND `create_day` <= 1516636799  ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 292 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined index: url /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 309 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 321 行.
+NOTIC: [8] Undefined variable: page /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b7d13e50965de7f69af8be9447a2c370.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2018-01-22T16:28:29+08:00 ] 60.177.78.175 /test/index.php/Admin/Active/active_edit.html?id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2018-01-22T16:29:02+08:00 ] 60.177.78.175 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map1 /opt/lampp/htdocs/test/Application/Admin/Controller/CouponController.class.php 第 47 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_coupon` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.id,a.title,a.validate,a.description,a.upvote,a.enddate,a.collect,b.title as catename FROM dy_coupon_coupon a INNER JOIN dy_coupon_category b on a.cateid=b.id  ORDER BY a.id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-01-22T16:29:05+08:00 ] 60.177.78.175 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map1 /opt/lampp/htdocs/test/Application/Admin/Controller/CouponController.class.php 第 47 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_coupon` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.id,a.title,a.validate,a.description,a.upvote,a.enddate,a.collect,b.title as catename FROM dy_coupon_coupon a INNER JOIN dy_coupon_category b on a.cateid=b.id  ORDER BY a.id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-01-22T16:29:07+08:00 ] 60.177.78.175 /test/index.php/Admin/Coupon/couponcreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_coupon_category2`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-01-22T16:29:14+08:00 ] 61.151.178.179 /test/index.php/admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2018-01-22T16:29:22+08:00 ] 101.226.33.240 /test/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-22T16:29:24+08:00 ] 61.151.178.176 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+
+[ 2018-01-22T16:29:24+08:00 ] 101.226.33.206 /test/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-01-22T16:29:27+08:00 ] 101.226.33.239 /test/index.php/admin/coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-01-22T16:29:29+08:00 ] 61.129.8.250 /test/index.php/Admin/Active/active_edit.html?id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-01-22T16:30:07+08:00 ] 101.226.33.226 /test/index.php/Admin/Coupon/couponcreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-01-22T16:30:08+08:00 ] 101.226.225.59 /test/index.php/admin/coupon/couponcreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+
+[ 2018-01-22T16:30:49+08:00 ] 60.177.78.175 /test/index.php/Admin/Worthbuy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_buycategory` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_buycategory`  [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_worthbuy` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map1 /opt/lampp/htdocs/test/Application/Admin/Controller/WorthbuyController.class.php 第 39 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_worthbuy` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.id,a.title,a.creatdate,a.upvote,a.totle,a.startdate,a.enddate,a.collect,b.title as catename FROM dy_coupon_worthbuy a INNER JOIN dy_coupon_buycategory b on a.cateid=b.id  ORDER BY a.id desc LIMIT 0,10   [ RunTime:0.0602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-01-22T16:30:51+08:00 ] 60.177.78.175 /test/index.php/Admin/Worthbuy/excel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2018-01-22T16:31:01+08:00 ] 60.177.78.175 /test/index.php/Admin/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_coupon` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map1 /opt/lampp/htdocs/test/Application/Admin/Controller/CouponController.class.php 第 47 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_coupon` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.id,a.title,a.validate,a.description,a.upvote,a.enddate,a.collect,b.title as catename FROM dy_coupon_coupon a INNER JOIN dy_coupon_category b on a.cateid=b.id  ORDER BY a.id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-22T16:31:03+08:00 ] 60.177.78.175 /test/index.php/Admin/Coupon/couponcate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 6 ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 10 ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 8 ORDER BY id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 11 ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-01-22T16:31:12+08:00 ] 60.177.78.175 /test/index.php/Admin/Coupon/couponcate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 6 ORDER BY id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 10 ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 8 ORDER BY id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dy_coupon_category` WHERE `pid` = 11 ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-01-22T16:31:49+08:00 ] 101.226.33.200 /test/index.php/Admin/Worthbuy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+
+[ 2018-01-22T16:31:51+08:00 ] 101.226.33.221 /test/index.php/Admin/Worthbuy/excel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-01-22T16:31:51+08:00 ] 61.129.7.254 /test/index.php/admin/worthbuy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-01-22T16:31:54+08:00 ] 101.226.33.238 /test/index.php/admin/worthbuy/excel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-01-22T16:32:03+08:00 ] 61.129.8.179 /test/index.php/Admin/Coupon/couponcate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-01-22T16:32:04+08:00 ] 101.226.33.227 /test/index.php/admin/coupon/couponcate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-01-22T16:32:29+08:00 ] 101.226.65.107 /test/index.php/Admin/Coupon/couponcreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2018-01-22T16:32:30+08:00 ] 101.226.65.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-01-22T16:32:30+08:00 ] 101.226.65.107 /test/index.php/admin/coupon/couponcreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-01-22T16:32:30+08:00 ] 101.226.65.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-01-22T16:34:15+08:00 ] 101.226.65.107 /test/index.php/admin/worthbuy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+
+[ 2018-01-22T16:34:16+08:00 ] 101.226.65.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2018-01-22T16:34:18+08:00 ] 60.177.78.175 /test/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载控制器:User
+
+[ 2018-01-22T16:34:21+08:00 ] 60.177.78.175 /test/index.php/Admin/Feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载控制器:Feedback
+
+[ 2018-01-22T16:34:24+08:00 ] 60.177.78.175 /test/index.php/Admin/Active/coupon.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_adver_cert` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `title` LIKE '%' ORDER BY status desc,weight desc,new_add desc,arpu desc,create_time asc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 227 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 227 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 227 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 227 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 223 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 223 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 223 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 223 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 224 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 224 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 224 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 224 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 225 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 225 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 225 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 225 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 294 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 299 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 300 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 302 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 303 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 304 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 306 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 307 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 308 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 309 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 310 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 311 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 312 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-01-22T16:35:19+08:00 ] 101.226.225.85 /test/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载控制器:User
+
+[ 2018-01-22T16:35:20+08:00 ] 61.151.178.168 /test/index.php/admin/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载控制器:User
+
+[ 2018-01-22T16:35:21+08:00 ] 61.129.8.203 /test/index.php/Admin/Feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载控制器:Feedback
+
+[ 2018-01-22T16:35:22+08:00 ] 101.226.33.218 /test/index.php/admin/feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载控制器:Feedback
+
+[ 2018-01-22T16:37:45+08:00 ] 101.226.65.107 /test/index.php/admin/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载控制器:User
+
+[ 2018-01-22T16:37:45+08:00 ] 101.226.65.107 /test/index.php/Admin/Feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载控制器:Feedback
+
+[ 2018-01-22T16:37:47+08:00 ] 101.226.65.107 /test/index.php/admin/feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载控制器:Feedback
+
+[ 2018-01-22T16:44:12+08:00 ] 101.226.33.203 /test/index.php/Admin/Feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载控制器:Feedback
+
+[ 2018-01-22T16:44:32+08:00 ] 60.177.78.175 /test/index.php/Admin/Active/coupon_edit.html?id=227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+ERR: 非法操作:coupon_edit
+
+[ 2018-01-22T16:44:41+08:00 ] 60.177.78.175 /test/index.php/Admin/Active/coupon.html?Page=2&name=&starttime=2018-01-21%2000:00:00&overtime=2018-01-21%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_adver_cert` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `title` LIKE '%' ORDER BY status desc,weight desc,new_add desc,arpu desc,create_time asc LIMIT 5,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 226 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 226 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 226 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 226 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 228 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 228 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 228 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 228 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 229 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 229 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 229 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 229 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 294 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 299 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 300 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 302 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 303 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 304 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 306 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 307 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 308 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 309 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 310 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 311 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 312 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-01-22T16:44:43+08:00 ] 60.177.78.175 /test/index.php/Admin/Active/coupon.html?Page=2&name=&starttime=2018-01-21%2000:00:00&overtime=2018-01-21%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_adver_cert` WHERE `title` LIKE '%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `title` LIKE '%' ORDER BY status desc,weight desc,new_add desc,arpu desc,create_time asc LIMIT 5,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 226 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 226 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 226 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 226 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 228 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 228 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 228 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 228 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 229 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 229 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 202 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 229 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(distinct(uid)) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 229 AND ( `create_day` >= 1516464000 AND `create_day` <= 1516550399  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 205 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Admin/Controller/ActiveController.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 294 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 299 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 300 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 301 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 302 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 303 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 304 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 305 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 306 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 307 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 308 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 309 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 310 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 311 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 312 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [8] Undefined index: company /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 335 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 340 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 344 行.
+NOTIC: [8] Undefined index: cost_money /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 347 行.
+NOTIC: [8] Undefined variable: total /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+NOTIC: [2] Division by zero /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/12d1e4e5385d0e6cc59fae6e536e9169.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-22T16:44:45+08:00 ] 60.177.78.175 /test/index.php/Admin/Active/coupon_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: list /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b00ad33c3db4f53a793f5910be475e62.php 第 261 行.
+NOTIC: [8] Undefined variable: list /opt/lampp/htdocs/test/Application/Runtime/Cache/Admin/b00ad33c3db4f53a793f5910be475e62.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2018-01-22T16:45:32+08:00 ] 61.151.178.167 /test/index.php/Admin/Active/coupon_edit.html?id=227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-01-22T16:45:34+08:00 ] 61.151.218.119 /test/index.php/admin/active/coupon_edit.html?id=227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-22T16:45:41+08:00 ] 101.226.33.224 /test/index.php/Admin/Active/coupon.html?Page=2&name=&starttime=2018-01-2100:00:00&overtime=2018-01-2123:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-01-22T16:45:43+08:00 ] 61.151.178.176 /test/index.php/admin/active/coupon.html?page=2&name=&starttime=2018-01-21%2000:00:00&overtime=2018-01-21%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-01-22T16:45:45+08:00 ] 101.226.33.204 /test/index.php/Admin/Active/coupon_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-01-22T16:45:46+08:00 ] 101.226.33.204 /test/index.php/admin/active/coupon_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-01-22T16:47:58+08:00 ] 101.226.65.107 /test/index.php/admin/active/coupon_edit.html?id=227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-01-22T16:47:58+08:00 ] 101.226.65.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-01-22T16:48:09+08:00 ] 101.226.65.107 /test/index.php/Admin/Active/coupon_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-01-22T16:48:09+08:00 ] 101.226.65.107 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-01-22T16:54:33+08:00 ] 101.226.33.238 /test/index.php/admin/active/coupon.html?page=2&name=&starttime=2018-01-21%2000:00:00&overtime=2018-01-21%2023:59:59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-01-22T16:54:39+08:00 ] 101.226.33.238 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+

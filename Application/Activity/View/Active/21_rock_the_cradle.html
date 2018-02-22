@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{$tempInfo['title']}</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <!-- CSS Code -->
+    <link rel="stylesheet" href="{:C('Public')}/Active/21_rock_the_cradle/css/wap_style.css" type="text/css">
+
+    <!-- JavaScript Code -->
+    <script src="{:C('Public')}/Active/21_rock_the_cradle/js/jquery.min.js"></script>
+    <!-- Baidu Statistics -->
+    
+</head>
+<body bgcolor="#67b238">
+    <!-- 主要内容 -->
+    <div class="index">        
+        <a href='/index.php/Active/Active/prize_list/media_id/{$media_id}/entry_id/{$entry_id}'><div class='prize'>我的奖品</div></a>
+        <div class='rule'>
+            <div class='content'>
+                <h1>活动说明</h1>
+                <p>{$tempInfo['title']}</p>
+                <p>活动说明：参与活动即有机会获得幸运大奖，每天都有免费抽奖机会。奖品数量有限,快来戳戳戳</p>
+                <p>惊喜一：2G流量</p>
+                <p>惊喜二：100元话费</p>
+                <p>惊喜三：300元话费</p>
+                <p>惊喜四：10元话费</p>
+                <p>惊喜五：幸运福袋</p>
+            </div>            
+            <img src="{:C('Public')}/Active/21_rock_the_cradle/image/rule.png">
+        </div>
+        <div class='rule-lay'></div>       
+        
+        <!--游戏模块-->
+        <div class='main'>
+            <div class="bg">
+                <img src="https://yun.yizhidayu.com/21-main.jpg">
+            </div>
+            <div class="top-font">
+                <img src="https://yun.yizhidayu.com/21-top-font.png">
+            </div>
+            <div class='wrap' id='rock'>
+                <div class="lead-start" >
+                    <div class="lead one">
+                        <img src="{:C('Public')}/Active/21_rock_the_cradle/image/arrow1.png">
+                    </div>
+                    <div class="lead two">
+                        <img src="{:C('Public')}/Active/21_rock_the_cradle/image/arrow2.png">
+                    </div>
+                    <div class="lead three">
+                        <img src="{:C('Public')}/Active/21_rock_the_cradle/image/arrow3.png">
+                    </div>
+                    <div class="lead four">
+                        <img src="{:C('Public')}/Active/21_rock_the_cradle/image/arrow4.png">
+                    </div>
+                    <div class="pointer">
+                        <img src="{:C('Public')}/Active/21_rock_the_cradle/image/pointer.png">
+                    </div>
+                </div>
+                <div class="rock">
+                    <div class="box-img box1">
+                        <img src="https://yun.yizhidayu.com/21-rock.png">
+                    </div>
+                    <div class="box-img rope hide">
+                        <img src="https://yun.yizhidayu.com/21-rock.png">
+                    </div>
+                    <div class="box-img box2 hide">
+                        <img src="https://yun.yizhidayu.com/21-rock.png">
+                    </div>                
+                </div>
+            </div>            
+            <div class="times">
+                <p>您还有<span id="last">{$times}</span>次抽奖机会</p>
+            </div>
+            <div class="bottom">
+                <div class="redbox-01"><img src="{:C('Public')}/Active/21_rock_the_cradle/image/red-2G.png"></div>
+                <div class="redbox-02"><img src="{:C('Public')}/Active/21_rock_the_cradle/image/red-100yuan.png"></div>
+                <div class="redbox-03"><img src="{:C('Public')}/Active/21_rock_the_cradle/image/red-300yuan.png"></div>
+                <div class="redbox-04"><img src="{:C('Public')}/Active/21_rock_the_cradle/image/red-10yuan.png"></div>
+                <div class="redbox-05"><img src="{:C('Public')}/Active/21_rock_the_cradle/image/lucky.png"></div>
+            </div>
+        </div>
+        
+         
+        <!--弹窗模块-->
+        <div class='overlay-over f-over'>
+            <img src="{:C('Public')}/Active/21_rock_the_cradle/image/end.png">
+        </div>
+        <div class='overlay-other f-over'>
+            <div class='list'>
+                <div class='error'>
+                    <img src="{:C('Public')}/Active/21_rock_the_cradle/image/pop2_close.png">
+                </div>
+                <img src="https://yun.yizhidayu.com/21-two.png" class='bg'>
+                <ul></ul>              
+            </div>            
+        </div>                       
+        <div class='overlay-gift f-over'>
+            <div class='box'>
+                <div class='mid'>
+                    <img src="https://yun.yizhidayu.com/21-bg01.png" class='mid-bg'>
+                    <div class='banner'>
+                        <img src=''>
+                    </div>
+                </div>
+                <div class='bottom'>
+                    <img src="{:C('Public')}/Active/21_rock_the_cradle/image/bg02.png">
+                </div>
+                <div class='error'></div>
+                <div class='get'>
+                    <img src="{:C('Public')}/Active/21_rock_the_cradle/image/btnbtn.png">
+                </div>                
+            </div>            
+        </div>
+        <div class="fail">
+            <div class="news">
+            	<div class="title">提示</div>
+                <div class="font"></div>
+                <div class="enter">确定</div>
+            </div>
+        </div>   
+    </div>
+    <p class="apple" style="display: block;color: #eee;text-align: center;font-size: 12px;">*奖品和活动均与设备生产商Apple Inc.无关</p>
+<script src="{:C('Public')}/Active/21_rock_the_cradle/js/touch.min.js"></script>      
+<script type="text/javascript">    
+    var dx=0, dy=0,offx=0,offy=0,leadStart,touchPro=0;
+    //滑动函数
+    touch.on('#rock', 'dragstart', function(ev) {
+        offx = ev.x;
+        offy = ev.y;
+        ev.preventDefault();       
+    });         
+    touch.on('#rock', 'drag', function(ev) {   
+        if(touchPro===1)return;  
+        dx = ev.x;
+        dy = ev.y;
+        //割完绳子
+        if(dx-offx>0){      
+            touchPro=1;
+            $(".lead-start .lead").removeClass('active');
+            $(".lead-start .pointer").hide(0);
+            clearInterval(leadStart);   
+            $('.rock .box1').css('visibility','hidden');  
+            $('.rock .box2,.rock .rope').show(0);
+            $('.rock .box2').addClass('active');
+            setTimeout('rockRun()',1000);            
+        }
+        ev.stopPropagation();
+    });
+    
+    var l=0;
+    function lead(){
+        $(".lead-start .lead:eq("+l+")").addClass('active').siblings('.lead').removeClass('active');
+        l++;
+        l>2?$(".lead-start .pointer").addClass('active'):$(".lead-start .pointer").removeClass('active');
+        l>4?l=0:0;
+    };
+    $('.box1').addClass('active');
+    leadStart=setInterval('lead()',180);
+        
+    var resRun=true,protect=false;    
+    function rockRun(){                
+        if(resRun===false){
+            return;
+        }
+        resRun=false;
+        $.ajax({
+            url:"{:U('Active/Ajax/run')}",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+            },                                                   
+            success: function(data) {
+                if(data.status===1){
+                    $('.overlay-gift .get').attr('data-id',data.recordID).attr('data-href',data.prize.href);                 
+                    $('.overlay-gift .banner img').attr('src',data.prize.pic);                    
+                    $('.overlay-gift').show(0);         
+                    $('#last').html(data.last);                    
+                }else if(data.status===0){
+                    $('.overlay-other').show(0);
+                    $('.overlay-other ul').html('');
+                    for(var d=0;d<data.active.length;d++){
+                        $('.overlay-other ul').append(
+                            "<li data-id="+data.active[d].id+"><img src='"+data.active[d].pic+"'></li>"                                              
+                        );
+                    }    
+                    $('.overlay-other ul li').click(function(){
+                       window.location.href="/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/"+$(this).attr('data-id')+""; 
+                    });
+                }                  
+                resRun=true;
+            },
+            error: function() {
+                $('.fail').show(0);
+                $('.fail .font').html("网络不给力,再试一次吧");
+            },
+        });			
+    };    
+    function defaultSet(){
+        $(".lead-start .pointer").show(0);
+        leadStart=setInterval('lead()',180);
+        $('.rock .box1').css('visibility','inherit');  
+        $('.rock .box2,.rock .rope').hide(0);
+        $('.rock .box2').removeClass('active');
+        touchPro=0;
+    }        
+    $('.overlay-gift .error').click(function(){    
+        defaultSet();
+        $('.overlay-gift').hide(0);
+        if($.trim($('#last').text())<1){                
+            $.ajax({
+                url:"/index.php/Active/Ajax/active_data.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                },                                                   
+                success: function(data){
+                    if(data.status===0){
+                        $('.overlay-other').show(0);
+                        for(var d=0;d<data.active.length;d++){
+                            $('.overlay-other ul').append(
+                                "<li data-id="+data.active[d].id+"><img src='"+data.active[d].pic+"'></li>"                                              
+                            );
+                        }                                
+                        $('.overlay-other ul li').click(function(){
+                           window.location.href="/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/"+$(this).attr('data-id')+""; 
+                        });
+                    }           
+                },
+                error: function(){
+                    //丢包统计
+                    window.location.href=$('.overlay-gift .get').attr('data-href');
+                },
+            });   
+        }                 
+    });
+    $('.overlay-gift .get').click(function(){
+        if(protect===true){
+            return;
+        }
+        protect=true;
+        $.ajax({
+            url:"/index.php/Active/Ajax/receive.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+                record_id:$('.overlay-gift .get').attr('data-id')
+            },                                                   
+            success: function(data){
+                protect=false;
+                if(data.status===1){
+                    window.location.href=$('.overlay-gift .get').attr('data-href');
+                }           
+            },
+            error: function(){
+                //丢包统计
+                protect=false;
+                window.location.href=$('.overlay-gift .get').attr('data-href');
+            },
+        });         
+    });      
+    //  *******       rule函数      ******* //  
+    $('.rule').attr('show','0');
+    $('.rule img').click(function(){
+        if($('.rule').attr('show')==='0'){
+            $('.rule .content').slideDown(200);
+            $('.rule').attr('show','1');
+            $('.rule-lay').show(0);
+        }else{
+            $('.rule .content').slideUp(200);
+            $('.rule').attr('show','0');
+            $('.rule-lay').hide(0);
+        }        
+    });
+    $('.rule-lay').click(function(){
+        $('.rule .content').slideUp(400);
+        $('.rule').attr('show','0');
+        $('.rule-lay').hide(0);
+    });
+    
+    
+    $('.fail .enter').click(function(){
+        $('.fail').hide(0);
+    });    
+    $('.overlay-other .error').click(function(){   
+        defaultSet();
+        $('.overlay-other').hide(0);
+    });      
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();
+</script>      
+</body>
+</html>
+	
+
+
+
+
+
+
+
+

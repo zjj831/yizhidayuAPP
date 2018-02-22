@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta https-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='{:C('Public')}/Active/common/js/jquery.min.js'></script>
+    <script src='{:C('Public')}/Active/common/js/intercept.js?version=1.2'></script>
+    <script>
+        //intercept page
+        intercept('{$member_id}','{$intercept}');
+        //font resize standard for iphone6
+        $(window).width()>540?$('html').css('font-size',''+540/375*312.5+'%'):$('html').css('font-size',''+$(window).width()/375*312.5+'%');
+        window.onresize = function(){$(window).width()>540?$('html').css('font-size',''+540/375*312.5+'%'):$('html').css('font-size',''+$(window).width()/375*312.5+'%')};
+    </script>
+    <script src="/Public/Active/14_xie_zhua/js/loading.js"></script>
+    <link rel="stylesheet" href="/Public/Active/common/css/1031_common.css">
+    <link rel="stylesheet" href="/Public/Active/41_jian_gun/css/index.css">
+    <link rel="stylesheet" href="/Public/Active/41_jian_gun/css/demo.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Active/41_jian_gun/css/sweet-alert.css">
+    <script src="/Public/Active/common/js/jquery.fly.min.js"></script>
+    <title>{$tempInfo['title']}</title>
+    <!-- Baidu Statistics -->
+    <script src="{:C('Public')}/Active/common/js/baidu-census.js"></script> 
+
+</head>
+<body>
+    <section class="box" style="background-image:url(https://yun.yizhidayu.com/41-jian-bg.jpg);background-size:100% 100%;background-repeat: no-repeat;">
+        <!--提示红包雨信息   -->
+        <img class="tishi" src="https://yun.yizhidayu.com/41-jian-newplane1.png" alt="">
+        <!--红包雨-->
+        <div class="hbrain">
+            <ul class="couten">
+            </ul>
+            <div class="mo2">
+                倒计时<span>10</span>
+            </div>
+            <!--<div class="backward">-->
+                <!--<span></span>-->
+            <!--</div>-->
+        </div>
+        <!--//抽奖机会-->
+        <div class="font">
+            <p>您还有&nbsp;<span>{$times}</span>&nbsp;次抽奖机会</p>
+        </div>
+        <!--瞄准器-->
+        <!--<img src="https://yun.yizhidayu.com/31_fire_miaozhunqi.png" alt="" class="miaozhun">-->
+        <!--走动带-->
+        <div class="Walking_band"></div>
+        <!--靶子图片-->
+        <div class="roll"></div>
+        <!--渐渐-->
+        <img src="https://yun.yizhidayu.com/41-jian-jian.png" alt="" class="fire">
+        <!--开火按钮-->
+        <img src="https://yun.yizhidayu.com/31_fire_btn.png" alt="" class="fireBtn">
+        <img src="https://yun.yizhidayu.com/31-fire-grayBtn.png" alt="" class="fireBtn_two">
+        <!--//奖品列表-->
+        <img src="https://yun.yizhidayu.com/common_price_21.png" alt="" class="price">
+        <div class="swiper-container" id="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="photo" src="https://yun.yizhidayu.com/41-jian-price1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo" src="https://yun.yizhidayu.com/41-jian-price2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo" src="https://yun.yizhidayu.com/41-jian-price3.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo" src="https://yun.yizhidayu.com/41-jian-price4.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo" src="https://yun.yizhidayu.com/41-jian-price5.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo" src="https://yun.yizhidayu.com/41-jian-price6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="pop2" style="z-index:100;">
+            <div class="velocity">
+                <div class="tomorrow">
+                    <img style="position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;" src="https://yun.yizhidayu.com/common_end_21.png" alt="">
+                </div>
+                <section class="activetwo">
+                    <img class="bg_two" src="https://yun.yizhidayu.com/common_two_21.png" alt="">
+                    <a href="" class="boxone">
+                        <img src="" alt="" class="active1">
+                    </a>
+                    <a href="" class="boxtwo">
+                        <img src="" alt="" class="active2">
+                    </a>
+                    <img class="delete" src="https://yun.yizhidayu.com/common_pop2_close_21.png" alt="">
+                </section>
+                <section class="activeone">
+                    <img class="bg_two" src="https://yun.yizhidayu.com/common_two_21.png" alt="">
+                    <a href="" class="boxone">
+                        <img src="" alt="" class="active1">
+                    </a>
+                    <img class="delete" src="https://yun.yizhidayu.com/common_pop2_close_21.png" alt="">
+                </section>
+            </div>
+        </div>
+
+        <!--//券的相关信息-->
+        <div class="zhezhao">
+            <img class="light" src="https://yun.yizhidayu.com/41-jian-light.png" alt="">
+            <div class="quan" style="background:url(https://yun.yizhidayu.com/41-jian-tcbg.png);background-size:100% 100%;background-repeat: no-repeat;">
+                <img src="https://yun.yizhidayu.com/31-fire-tcclose.png" alt="" class="delete" id="delete">
+                <section class="name"></section>
+                <div class="linkone">
+                    <img src="" alt="" class="quanimg">
+                </div>
+                <div class="linktwo">
+                    <img src="https://yun.yizhidayu.com/41-jian-btn.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--//券的相关信息-->
+        <div class="zhezhao-three">
+            <img class="light-three" src="http://ow5oe9l3t.bkt.clouddn.com/9_light_bg.png" alt="">
+            <div class="quan-three" style="background:url(https://yun.yizhidayu.com/common-hb-tcbg.png);background-size:100% 100%;background-repeat: no-repeat;">
+                <img src="https://yun.yizhidayu.com/common-hb-tcdelete.png" alt="" class="delete" id="delete-three">
+                <img class="start-three" src="https://yun.yizhidayu.com/common-hb-start.png" alt="">
+                <img class="start02-three" src="https://yun.yizhidayu.com/common-hb-tc2.png" alt="">
+                <section class="name-three"></section>
+                <div class="linkone-three">
+                    <img src="" alt="" class="quanimg-three">
+                </div>
+                <div class="linktwo-three">
+                    <img src="https://yun.yizhidayu.com/common-hb-tcbtn.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--规则内容-->
+        <div class="zhezhao2"></div>
+        <div class="rule_content">
+            <div class="rulefont">
+                <h2><span></span>&nbsp;活动说明&nbsp;<span></span></h2>
+                <p>疯狂射击送好礼<br>
+                    <br>
+                    活动说明：参与活动即有机会获得幸运大奖，每天有{$tempInfo['times']}次免费抽奖机会。此活动为概率中奖，奖品数量有限<br>
+                    <br>
+                    惊喜一：500元红包<br>
+                    惊喜二：300元红包<br>
+                    惊喜三：200元红包<br>
+                    惊喜四：100元红包<br>
+                    惊喜五：50元红包<br>
+                    惊喜六：红包福袋<br>
+                    兑换项和活动均与设备生产商Apple lnc.无关</p>
+            </div>
+            <!--规则-->
+            <div class="rule" style="background:url(https://yun.yizhidayu.com/41-jian-rule.png);background-size:100% 100%;background-repeat: no-repeat;">
+            </div>
+        </div>
+        <!--我的奖品-->
+        <a class="myprice" href="/index.php/Active/Active/prize_list/media_id/{$media_id}/entry_id/{$entry_id}">
+            <span>我的奖品</span>
+        </a>
+        <!--浮标-->
+        <!--<a class="fubiaoBtn" href="https://www.chipshare.net/dayu/index.php/Activity/Index/index/media_id/{$media_id}/entry_id/{$entry_id}/type/2">-->
+            <!--<img id="fubiao" src="https://ow5pnqstl.bkt.clouddn.com/8_fubiao.gif" alt="">-->
+        <!--</a>-->
+        <!--//跳转页面-->
+        <div class="jump" data-href="" style="display: none;"></div>
+        <!--//用户点击领券发送ajax-->
+        <div class="sendajax" style="display: none;"></div>
+        <!--//用户的id-->
+        <div class="userid" style="display: none;"></div>
+    </section>
+    <div class="sekuai">*奖品和活动均与设备生产商Apple Inc.无关</div>
+</body>
+</html>
+<link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css">
+<script src="/Public/Media/media/new/js/animate.js"></script>
+<link rel="stylesheet" href="/Public/Active/common/css/swiper.css">
+<script src="/Public/Active/common/js//swiper.min.js"></script>
+<!--<script src="{:C('Public')}/Active/41_jian_gun/js/hbrain.js"></script>-->
+
+<script>
+    //****************************天降红包**********************************************
+    //红包雨
+    var win = (parseInt($(".couten").css("width"))+200);
+    $(".mo").css("height", $(document).height());
+    $(".couten").css("height", $(document).height());
+    $(".backward").css("height", $(document).height());
+    $("li").css({});
+    // 点击确认的时候关闭模态层
+    $(".sen a").click(function(){
+        $(".mo").css("display", "none")
+    });
+
+    var del = function(){
+        nums++;
+    //					console.info(nums);
+    //					console.log($(".li" + nums).css("left"));
+        $(".li" + nums).remove();
+        setTimeout(del,200)
+    }
+
+    var add = function() {
+        var hb = parseInt(Math.random() * (3 - 1) + 1);
+        var Wh = parseInt(Math.random() * (90 - 30) + 20);
+        var Left = parseInt(Math.random() * (win - 0) + 0);
+        var rot = (parseInt(Math.random() * (45 - (-45)) - 45)) + "deg";
+        //				console.log(rot)
+        num++;
+        $(".couten").append("<li class='li" + num + "' ><img src='https://yun.yizhidayu.com/41-jian-newhh_" + hb + ".png'></li>");
+        $(".li" + num).css({
+            "left": Left,
+        });
+        $(".li" + num + " a img").css({
+            "width": Wh,
+            "transform": "rotate(" + rot + ")",
+            "-webkit-transform": "rotate(" + rot + ")",
+            "-ms-transform": "rotate(" + rot + ")", /* Internet Explorer */
+            "-moz-transform": "rotate(" + rot + ")", /* Firefox */
+            "-webkit-transform": "rotate(" + rot + ")",/* Safari 和 Chrome */
+            "-o-transform": "rotate(" + rot + ")" /* Opera */
+        });
+        $(".li" + num).animate({'top':$(window).height()+20},2800,function(){
+            //删掉已经显示的红包
+            this.remove();
+        });
+        //点击红包的时候弹出模态层
+        $(".li" + num).click(function(){
+            var arr=["https://yun.yizhidayu.com/41-jiannew-hh_11.png","https://yun.yizhidayu.com/41-jian-newhh_22.png"];
+            var index = Math.floor((Math.random()*arr.length));
+//            alert(arr[index]);
+            $(this).children("img").attr("src",arr[index]);
+        });
+        setTimeout(add,80);
+    };
+
+    // //增加红包
+    var num = 0;
+    //     setTimeout(add,3000);
+
+    // //倒数计时
+    var backward = function(){
+        var numz=$(".mo2 span").html();
+        numz--;
+        if(numz>=0){
+            $(".mo2 span").html(numz);
+        }else{
+            $(".mo2").remove();
+        }
+        setTimeout(backward,1000)
+    }
+    //     var numz = 10;
+    //天降红包弹窗出现
+    function popshow3(){
+        $('.zhezhao-three').show();
+        $('.quan-three').show();
+        //点击事件
+        setTimeout(function(){
+            $('.light-three').show();
+        },1000);
+        $('.zhezhao-three .quan-three').addClass('animated bounceUp');
+    }
+    //天降红包XX
+    $('#delete-three').on("click",function(){
+        //可点击
+        $(".fireBtn_two").hide();
+        //靶子动
+        $(".Walking_band").addClass("cloud");
+        //弓箭复位
+        $(".fire").removeClass("fly");
+        //切换新的靶子
+        var roll=document.querySelector(".roll");
+        roll.style.backgroundImage="url("+"https://yun.yizhidayu.com/31-fire-b0.png"+")";
+        //靶子滚动
+        $(".roll").addClass("cloud");
+        //浮标出来
+        var num_fubiao=$('.font p span').html();
+
+        $('.quan-three').addClass("active");
+        var t=setTimeout(function(){
+            $('.zhezhao-three').css("display","none");
+            $('#point').show();
+        },300);
+        $('.light-three').css("display","none");
+        var tt=setTimeout(function(){
+            var width=$('.myprice').css("width");
+            var newwidth=width.replace("px","")-15;
+            $('<div class="test"></div>').fly({
+                start: {top: 200, left: 150},
+                end: {top: 24, left: newwidth, width: 10, height: 10},
+                onEnd: function(){
+                    $('.quan-three').removeClass("active");
+                }
+            });
+        },300);
+    })
+
+
+    //天降红包领取
+    //点击图片
+    $("img.quanimg-three").on("click",function(){
+        //可点击
+        $(".fireBtn_two").hide();
+        //消除后坐力
+        $(".fire").removeClass("fly");
+        $(".Walking_band").addClass("cloud");
+        //靶子滚动
+        $(".roll").addClass("cloud");
+        //切换新的靶子
+        var roll=document.querySelector(".roll");
+        roll.style.backgroundImage="url("+"https://yun.yizhidayu.com/31-fire-bazinew.png"+")";
+        $(".zhezhao-three").hide();
+        $('.quan-three').hide();
+        $('.light-three').hide();
+        //点击领券
+        handleClickAjax();
+    })
+    //点击立即领取
+    $('.linktwo-three img').on("click",function(){
+        //可点击
+        $(".fireBtn_two").hide();
+        //消除后坐力
+        $(".fire").removeClass("fly");
+        $(".Walking_band").addClass("cloud");
+        //切换新的靶子
+        var roll=document.querySelector(".roll");
+        roll.style.backgroundImage="url("+"https://yun.yizhidayu.com/31-fire-bazinew.png"+")";
+        //靶子滚动
+        $(".roll").addClass("cloud");
+        $(".zhezhao-three").hide();
+        $('.quan-three').hide();
+        $('.light-three').hide();
+        //点击领券
+        handleClickAjax();
+    })
+
+
+    //****************************天降红包**********************************************
+
+
+
+
+
+
+
+
+        //iphone
+        var u = navigator.platform;
+        if(u=="iPhone"){
+            $('.sekuai').show();
+        }
+        //靶子滚动
+        $(".roll").addClass("cloud");
+        $(".Walking_band").addClass("cloud");
+        //滚动
+        var swiper = new Swiper('.swiper-container',{
+            slidesPerView: 4,
+        });
+    //点击
+        $('.fireBtn').on("click",function(evt){
+
+
+
+            var lottNum = $(".font p span").html(); // 获取抽奖次数
+            if(lottNum==0){
+                $(".font p span").html("0");
+                ajaxzero();
+            }
+            if(lottNum>0){
+                //不可点击
+                $(".fireBtn_two").show();
+                //弓箭飞出去
+                $(".fire").addClass("fly");
+
+                $(".roll").removeClass("cloud");
+                $(".Walking_band").removeClass("cloud");
+                var imgarr=["https://yun.yizhidayu.com/31-fire-b1.png","https://yun.yizhidayu.com/31-fire-b2.png","https://yun.yizhidayu.com/31-fire-b3.png"];
+                var index=Math.floor((Math.random()*imgarr.length));
+                var roll=document.querySelector(".roll");
+                roll.style.backgroundImage="url("+imgarr[index]+")";
+                ajaxone();
+                var t=setTimeout(function(){
+                    popshow();
+                },1000);
+            }
+        });
+       //弹窗出现
+        function popshow(){
+            $(".roll").removeClass("cloud");
+            $('.zhezhao').show();
+            $('.quan').show();
+            //点击事件
+            setTimeout(function(){
+                $('.light').css("display","block");
+            },100);
+            $('.quan').addClass('scale2');
+        }
+
+
+        //点击弹窗的xx让弹窗消失
+        $('#delete').on("click",function(){
+            //可点击
+            $(".fireBtn_two").hide();
+            //靶子动
+            $(".Walking_band").addClass("cloud");
+            //弓箭复位
+            $(".fire").removeClass("fly");
+            //切换新的靶子
+            var roll=document.querySelector(".roll");
+            roll.style.backgroundImage="url("+"https://yun.yizhidayu.com/31-fire-b0.png"+")";
+            //靶子滚动
+            $(".roll").addClass("cloud");
+            //浮标出来
+            var num_fubiao=$('.font p span').html();
+            if(num_fubiao==0){
+                ajaxzero();
+            }else if(num_fubiao==6){
+                $(".hbrain").show();
+                $(".tishi").show();
+                backward();
+                var t1=setTimeout(function(){
+                    $(".mo2").show();
+                    add();
+                },4500);
+
+                var tt=setTimeout(function(){
+                    $(".hbrain").hide(700);
+//                    $(".mo2").hide();
+                    ajaxthree();
+                    var t=setTimeout(function(){
+                        popshow3();
+                    },1000);
+                },10000);
+            }
+
+            $('.quan').addClass("active");
+            var t=setTimeout(function(){
+                $('.zhezhao').css("display","none");
+                $('#point').show();
+            },300);
+            $('.light').css("display","none");
+            var tt=setTimeout(function(){
+                var width=$('.myprice').css("width");
+                var newwidth=width.replace("px","")-15;
+                $('<div class="test"></div>').fly({
+                    start: {top: 200, left: 150},
+                    end: {top: 24, left: newwidth, width: 10, height: 10},
+                    onEnd: function(){
+                        $('.quan').removeClass("active");
+                    }
+                });
+            },300);
+        })
+        //点击明日再来消失
+        $('.velocity .tomorrow').on("click",function(){
+            $('.pop2').css("display","none");
+        })
+        //点击规则规则从上而下出来
+        $('.rule').on("click",function(){
+            $('.rulefont').slideToggle();
+            var display=$('.zhezhao2').css("display");
+            $('rule_content').css("height","6.1rem");
+                if(display=="none"){
+                $('.zhezhao2').css("display","block");
+                $('.myprice').hide(500);
+                $('.test').hide();
+            }else if(display=="block"){
+                $('.zhezhao2').css("display","none");
+                $('.myprice').show(500);
+                $('.test').show(500);
+            }
+        })
+        //次数为0的时候第二个弹窗显现
+        function pop2Show(){
+            $('.pop2').show();
+        }
+        //点击次数为0的时候的活动的八叉
+        $('.delete').on("click",function(){
+            $('.pop2').hide();
+        })
+        // 点击抽奖时向后台传值
+        function ajaxone() {
+            $.ajax({
+                url:"/index.php/Active/Ajax/run.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                },
+                success: function(data) {
+                    if(data.status==1){
+                        $(".font p span").html(data.last);
+                        var result=data.prize;
+                        $('.userid').html(data.recordID);
+                        $('.quanimg').attr('src', result.pic);
+                        $('.name').html(result.name);
+                        $('.jump').attr("data-href",result.href);
+                    }else if(data.status==0){
+                        alert("活动暂未开放");
+                    }
+                }
+            })
+        }
+
+    // 点击抽奖时向后台传值
+    function ajaxthree() {
+        $.ajax({
+            url:"/index.php/Active/Ajax/run.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+            },
+            success: function(data) {
+                if(data.status==1){
+                    $(".font p span").html(data.last);
+                    var result=data.prize;
+                    $('.userid').html(data.recordID);
+                    $('.quanimg-three').attr('src', result.pic);
+                    $('.name-three').html(result.name);
+                    $('.jump').attr("data-href",result.href);
+                }else if(data.status==0){
+                    alert("活动暂未开放");
+                }
+            }
+        })
+    }
+
+
+
+
+
+
+        //点击图片
+        $("img.quanimg").on("click",function(){
+            //可点击
+            $(".fireBtn_two").hide();
+            //消除后坐力
+            $(".fire").removeClass("fly");
+            $(".Walking_band").addClass("cloud");
+            //靶子滚动
+            $(".roll").addClass("cloud");
+            //切换新的靶子
+            var roll=document.querySelector(".roll");
+            roll.style.backgroundImage="url("+"https://yun.yizhidayu.com/31-fire-bazinew.png"+")";
+            $(".zhezhao").hide();
+            $('.quan').hide();
+            $('.light').hide();
+            //点击领券
+            handleClickAjax();
+        })
+        //点击立即领取
+        $('.linktwo img').on("click",function(){
+            //可点击
+            $(".fireBtn_two").hide();
+            //消除后坐力
+            $(".fire").removeClass("fly");
+            $(".Walking_band").addClass("cloud");
+            //切换新的靶子
+            var roll=document.querySelector(".roll");
+            roll.style.backgroundImage="url("+"https://yun.yizhidayu.com/31-fire-bazinew.png"+")";
+            //靶子滚动
+            $(".roll").addClass("cloud");
+            $(".zhezhao").hide();
+            $('.quan').hide();
+            $('.light').hide();
+            //点击领券
+            handleClickAjax();
+        })
+        // 点击领取发送ajax
+        function handleClickAjax() {
+            var id=$('.userid').html();
+            $.ajax({
+                url: "/index.php/Active/Ajax/receive.html",
+                type: "post",
+                data: {
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                    record_id:id,
+                },
+                dataType: "json",
+                success: function(result) {
+                    if(result.status==1){
+                        $('.sendajax').html("yes");
+                        window.location.href=$('.jump').attr("data-href");
+                    }else if(result.status==0){
+                        alert("程序员被台风吹走了");
+                    }else{
+                        alert("程序员离开一小会");
+                    }
+                },
+            });
+        }
+        // 点击以后抽奖次数为0时发送请求
+        function ajaxzero(){
+            $.ajax({
+                url: "/index.php/Active/Ajax/active_data.html",
+                type: "post",
+                data: {
+                    'activity_id':"{$activity_id}",
+                    'uid':"{$uid}",
+                    'entry_id':"{$entry_id}",
+                    'media_id': "{$media_id}"
+                } ,
+                dataType: "json",
+                success: function success(result) {
+                    if(result.status == 0) {
+                        var data = result.active;
+                        $(".zhezhao").css("display","none");
+                        pop2Show();
+                        if(data.length == 1) {
+                            $('.activeone').addClass('animated bounceInDown');
+                            $('.activeone').css("display","block");
+                            $('.boxone img').attr("src",data[0].pic);
+                            $('.boxone').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[0].id);
+                        }else if(data.length>1) {
+                            //two
+                            $('.activetwo').addClass('animated bounceInDown');
+                            $('.activetwo').css("display","block");
+                            $('.boxone img').attr("src",data[0].pic);
+                            $('.boxtwo img').attr("src",data[1].pic);
+                            $('.boxone').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[0].id);
+                            $('.boxtwo').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[1].id);
+                        }else if(data.length==0){
+                            $('.tomorrow').show();
+                        }
+                    } else {
+                        return;
+                    }
+                }
+            });
+
+
+
+
+
+        }
+
+        function check(){
+            $.ajax({
+                url:"/index.php/Active/Ajax/check.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                },
+            });
+        }
+        check();
+</script>

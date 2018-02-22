@@ -1,0 +1,149 @@
+[ 2018-02-10T13:29:43+08:00 ] 183.157.70.89 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-02-10T13:29:57+08:00 ] 183.157.70.89 /test/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_admin` WHERE `user_name` = 'yangzf' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username /opt/lampp/htdocs/test/Application/Admin/Controller/LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-02-10T13:29:58+08:00 ] 183.157.70.89 /test/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2018-02-10T13:29:58+08:00 ] 183.157.70.89 /test/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-02-10T13:30:10+08:00 ] 183.157.70.89 /test/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined index: date /opt/lampp/htdocs/test/Application/Admin/Controller/UserController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE ( system=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE ( system=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_click_uv` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_click_uv` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_click_uv` WHERE ( create_day=1518192000 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1518192000 AND `last_login_time` <= 1518278399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( create_day=1518192000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dy_active_share` WHERE ( create_day=1518192000 ) GROUP BY member_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 1 GROUP BY member_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 2 GROUP BY member_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 3 GROUP BY member_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-02-10T13:32:09+08:00 ] 183.157.70.89 /test/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: date /opt/lampp/htdocs/test/Application/Admin/Controller/UserController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE ( system=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE ( system=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_click_uv` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_click_uv` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_click_uv` WHERE ( create_day=1518192000 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1518192000 AND `last_login_time` <= 1518278399  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( create_day=1518192000 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dy_active_share` WHERE ( create_day=1518192000 ) GROUP BY member_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 1 GROUP BY member_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 2 GROUP BY member_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dy_active_share` WHERE `create_day` = 1518192000 AND `cate` = 3 GROUP BY member_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+

@@ -1,0 +1,393 @@
+*{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-text-size-adjust:none;
+}
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    width:100%;
+    height:100%;
+}
+div.content{
+    width:100%;
+    height:100%;
+}
+section{
+    width:100%;
+    height:12.06rem;
+    position:relative;
+    overflow: hidden;
+}
+/****************************闪烁的灯*******************/
+.font{
+    width:2.38rem;
+    height:0.9rem;
+    position:absolute;
+    top:3.6rem;
+    left:50%;
+    margin-left:-1.19rem;
+    z-index:5;
+}
+.diskone{
+    width:3.06rem;
+    height:1.09rem;
+    position:absolute;
+    top:3.5rem;
+    left:50%;
+    margin-left:-1.53rem;
+}
+.disktwo{
+    width:3.06rem;
+    height:1.09rem;
+    position:absolute;
+    top:3.5rem;
+    left:50%;
+    margin-left:-1.53rem;
+}
+/****************************金刚圈*******************/
+a.circle_box{
+    display: block;
+    width:2.6rem;
+    height:2.6rem;
+    position:absolute;
+    top:6.3rem;
+    left:0.8rem;
+}
+.tq{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+}
+/****************************price*******************/
+a.price{
+    display: block;
+    width:3.52rem;
+    height:2.58rem;
+    position:absolute;
+    top:7.5rem;
+    right:0.3rem;
+}
+.hb{
+    width:3.52rem;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+}
+/****************************福袋*******************/
+a.fd{
+    display: block;
+    width:2.92rem;
+    height:2.91rem;
+    position:absolute;
+    top:9rem;
+    left:0.5rem;
+}
+.ll{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+/****************************福袋*******************/
+a.down{
+    display: block;
+    width:2.15rem;
+    height:2.81rem;
+    position:absolute;
+    top:4.3rem;
+    left:4rem;
+}
+.qq{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    -webkit-animation: bounce-down 1.5s linear infinite;
+    animation: bounce-down 1.5s linear infinite;
+}
+
+.tuzi{
+    width:2.65rem;
+    height:2.56rem;
+    position:absolute;
+    right:0.5rem;
+    bottom:0.2rem;
+}
+/***********************满天星************************/
+.start1{
+    width:0.23rem;
+    height:0.25rem;
+    position:absolute;
+    top:0.2rem;
+    left:2.3rem;
+    -webkit-animation: start 1s 0.2s linear infinite;
+    animation: start 1s 0.2s linear infinite;
+}
+.start2{
+    width:0.23rem;
+    height:0.25rem;
+    position:absolute;
+    top:0.05rem;
+    left:3.6rem;
+    -webkit-animation: start 1s 0.4s linear infinite;
+    animation: start 1s 0.4s linear infinite;
+}
+.start3{
+    width:0.22rem;
+    height:0.22rem;
+    position:absolute;
+    top:1.2rem;
+    right:3.2rem;
+    -webkit-animation: start 1s 0.6s linear infinite;
+    animation: start 1s 0.6s linear infinite;
+}
+.start4{
+    width:0.23rem;
+    height:0.25rem;
+    position:absolute;
+    top:1.8rem;
+    left:1rem;
+    -webkit-animation: start 1s 0.8s linear infinite;
+    animation: start 1s 0.8s linear infinite;
+}
+.start5{
+    width:0.23rem;
+    height:0.25rem;
+    position:absolute;
+    top:1.9rem;
+    left:2rem;
+    -webkit-animation: start 1s 0.2s linear infinite;
+    animation: start 1s 0.2s linear infinite;
+}
+.start6{
+    width:0.22rem;
+    height:0.22rem;
+    position:absolute;
+    top:2.4rem;
+    left:0.7rem;
+    -webkit-animation: start 1s 0.4s linear infinite;
+    animation: start 1s 0.4s linear infinite;
+}
+.start7{
+    width:0.23rem;
+    height:0.25rem;
+    position:absolute;
+    top:2.7rem;
+    left:1.5rem;
+    -webkit-animation: start 1s 0.6s linear infinite;
+    animation: start 1s 0.6s linear infinite;
+}
+.start8{
+    width:0.23rem;
+    height:0.25rem;
+    position:absolute;
+    top:2.7rem;
+    right:1.3rem;
+    -webkit-animation: start 1s 0.8s linear infinite;
+    animation: start 1s 0.8s linear infinite;
+}
+.start9{
+     width:0.23rem;
+     height:0.25rem;
+     position:absolute;
+     top:1.2rem;
+     right:2.5rem;
+    -webkit-animation: start 1s 0.3s linear infinite;
+    animation: start 1s 0.3s linear infinite;
+ }
+.start10{
+    width:0.23rem;
+    height:0.25rem;
+    position:absolute;
+    top:1.5rem;
+    right:0.4rem;
+    -webkit-animation: start 1s 0.5s linear infinite;
+    animation: start 1s 0.5s linear infinite;
+}
+.start11{
+    width:0.23rem;
+    height:0.25rem;
+    position:absolute;
+    top:2rem;
+    right:0.7rem;
+    -webkit-animation: start 1s 0.7s linear infinite;
+    animation: start 1s 0.7s linear infinite;
+}
+
+/******************手指****************************/
+.point1{
+    width:0.52rem;
+    height:0.59rem;
+    position:absolute;
+    bottom:0;
+    right:0.5rem;
+    animation: point 1.2s 0.1s linear infinite forwards;
+    -webkit-animation: point 1.2s 0.1s linear infinite forwards;
+}
+.point2{
+    width:0.52rem;
+    height:0.59rem;
+    position:absolute;
+    bottom:0.8rem;
+    right:1.5rem;
+    animation: point 1.2s linear infinite forwards;
+    -webkit-animation: point 1.2s linear infinite forwards;
+}
+.point3{
+    width:0.52rem;
+    height:0.59rem;
+    position:absolute;
+    bottom: 1rem;
+    right: 1.5rem;
+    animation: point 1.2s 0.4s linear infinite forwards;
+    -webkit-animation: point 1.2s 0.4s linear infinite forwards;
+}
+.point4{
+    width:0.52rem;
+    height:0.59rem;
+    position:absolute;
+    bottom:0;
+    right:0.5rem;
+    animation: point 1.2s 0.2s linear infinite forwards;
+    -webkit-animation: point 1.2s 0.2s linear infinite forwards;
+}
+/***********************动画************************/
+@-webkit-keyframes bounce-down {
+    25% {
+        -webkit-transform: translateY(-3px);
+    }
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    75% {
+        -webkit-transform: translateY(3px);
+    }
+}
+@keyframes bounce-down {
+    25% {
+        transform: translateY(-3px);
+    }
+    50%, 100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(3px);
+    }
+}
+.animate-bounce-down{
+    -webkit-animation: bounce-down 1.3s linear infinite;
+    animation: bounce-down 1.3s linear infinite;
+}
+
+
+@-webkit-keyframes swing-1 {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes swing-1 {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes start {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+@-webkit-keyframes start {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+@keyframes rotate {
+     0%{
+         transform: rotate(0);
+     }
+     100%{
+         transform: rotate(360deg);
+     }
+ }
+@-webkit-keyframes rotate {
+    0%{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes point {
+    0%{
+        transform: translate(-0.1rem,-0.1rem);
+        -webkit-transform: translate(-0.1rem,-0.1rem);
+    }
+    25%{
+        transform: translate(0rem,0rem);
+        -webkit-transform: translate(0rem,0rem);
+    }
+    50%{
+        transform: translate(0.1rem,0.1rem);
+        -webkit-transform: translate(0.1rem,0.1rem);
+    }
+    75%{
+        transform: translate(0rem,0rem);
+        -webkit-transform: translate(0rem,0rem);
+    }
+    100%{
+        transform: translate(-0.1rem,-0.1rem);
+        -webkit-transform: translate(-0.1rem,-0.1rem);
+    }
+}
+@-webkit-keyframes point {
+    0%{
+        transform: translate(-0.1rem,-0.1rem);
+        -webkit-transform: translate(-0.1rem,-0.1rem);
+    }
+    25%{
+        transform: translate(0rem,0rem);
+        -webkit-transform: translate(0rem,0rem);
+    }
+    50%{
+        transform: translate(0.1rem,0.1rem);
+        -webkit-transform: translate(0.1rem,0.1rem);
+    }
+    75%{
+        transform: translate(0rem,0rem);
+        -webkit-transform: translate(0rem,0rem);
+    }
+    100%{
+        transform: translate(-0.1rem,-0.1rem);
+        -webkit-transform: translate(-0.1rem,-0.1rem);
+    }
+}
+
+@media screen and (min-width: 414px) {
+    section{
+        height:12.18rem;
+    }
+}

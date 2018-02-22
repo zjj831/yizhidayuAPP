@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if(clientWidth>=750){
+                        // 这里的640 取决于设计稿的宽度
+                        docEl.style.fontSize = '100px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            recalc();
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <script src="/Public/Active/14_xie_zhua/js/loading.js"></script>
+    <link rel="stylesheet" href="/Public/Active/common/css/common.css">
+    <link rel="stylesheet" href="/Public/Active/13_draw_crab/css/index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/Public/Active/common/js/jquery.fly.min.js"></script>
+    <script src="/Public/Active/04_draw_star/js/jQueryRotate.2.2.js"></script>
+    <title>迎中秋庆国庆</title>
+    <!-- Baidu Statistics -->
+
+</head>
+<body>
+    <!--//头部-->
+    <!--<header></header>-->
+    <!--//body-->
+    <div class="content">
+        <section style="background-image:url(http://ovxy8cacs.bkt.clouddn.com/9_30_bg001.jpg);background-size:100% 100%;background-repeat: no-repeat;">
+            <div class="zhezhao2"></div>
+            <!--规则内容-->
+            <div class="rule_content">
+                <div class="rulefont">
+                    <h2><span></span>&nbsp;活动说明&nbsp;<span></span></h2>
+                    <p>过中秋,免费吃,玩转大闸蟹<br>
+                        <br>
+                        活动说明：参与活动即有机会获得幸运大奖，每天有8次免费抽奖机会。此活动为概率中奖，奖品数量有限<br>
+                        <br>
+                        惊喜一：888元大闸蟹礼券<br>
+                        惊喜二：588元礼券<br>
+                        惊喜三：388元礼券<br>
+                        惊喜四：288元礼券<br>
+                        惊喜五：188元礼券<br>
+                        惊喜六：中秋福袋</p>
+                </div>
+                <!--规则-->
+                <div class="rule" style="background:url(http://ovxy8cacs.bkt.clouddn.com/9_30_rule.png);background-size:100% 100%;background-repeat: no-repeat;">
+                </div>
+            </div>
+            <!--我的奖品-->
+            <a class="myprice" href="/index.php/Active/Active/prize_list/media_id/{$media_id}/entry_id/{$entry_id}">
+                    <span>我的奖品</span>
+            </a>
+            <!--转盘-->
+            <div class="center" style="background:url(http://ovxy8cacs.bkt.clouddn.com/9_30_light01.png);background-size:100% 100%;background-repeat: no-repeat;">
+                <div class="center01" style="background:url(http://ovxy8cacs.bkt.clouddn.com/9_30_light02.png);background-size:100% 100%;background-repeat: no-repeat;"></div>
+
+                    <div class="zhuan" style="background:url(http://ovxy8cacs.bkt.clouddn.com/9_30_disk01.png);background-size:100% 100%;background-repeat: no-repeat;"></div>
+                    <div class="zhen" style="background:url(http://ovxy8cacs.bkt.clouddn.com/9_30_point.png);background-size:100% 100%;background-repeat: no-repeat;"></div>
+                    <div class="zhen2" style="background:url(http://ow5nmmz7d.bkt.clouddn.com/11_point-gray.png);background-size:100% 100%;background-repeat: no-repeat;"></div>
+
+            </div>
+            <!--抽奖文字-->
+            <div class="font">
+                <p>您还有<span>{$times}</span>次机会</p>
+            </div>
+            <!--次数为0的时候显示的弹窗-->
+            <div class="pop2" style="z-index:100;">
+                <div class="velocity">
+                    <div class="tomorrow">
+                        <img style="position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;" src="http://ow5nmmz7d.bkt.clouddn.com/11_end.png" alt="">
+                    </div>
+                    <section class="activetwo">
+                        <img class="bg_two" src="http://ow5nmmz7d.bkt.clouddn.com/11_two.png" alt="">
+                        <a href="" class="boxone">
+                            <img src="" alt="" class="active1">
+                        </a>
+                        <a href="" class="boxtwo">
+                            <img src="" alt="" class="active2">
+                        </a>
+                        <img class="delete" src="http://ow5nmmz7d.bkt.clouddn.com/11_pop2_close.png" alt="">
+                    </section>
+                    <section class="activeone">
+                        <img class="bg_two" src="http://ow5nmmz7d.bkt.clouddn.com/11_two.png" alt="">
+                        <a href="" class="boxone">
+                            <img src="" alt="" class="active1">
+                        </a>
+                        <img class="delete" src="http://ow5nmmz7d.bkt.clouddn.com/11_pop2_close.png" alt="">
+                    </section>
+                </div>
+            </div>
+            <!--//券的相关信息-->
+            <div class="zhezhao">
+                <img class="light" src="http://ovxy8cacs.bkt.clouddn.com/9_30_light.png" alt="">
+                <div class="quan">
+                    <img class="xie" src="http://ovxy8cacs.bkt.clouddn.com/9_30_xie.png" alt="">
+                    <img class="hongbao" src="http://ovxy8cacs.bkt.clouddn.com/9-30_hongbao.png" alt="">
+                    <img src="http://ovyb6evrq.bkt.clouddn.com/17_cha.png" alt="" class="delete" id="delete">
+                    <img class="start" src="http://ow5nmmz7d.bkt.clouddn.com/11_light01.png" alt="" >
+                    <img class="start" src="http://ow5nmmz7d.bkt.clouddn.com/11_light02.png" alt="" >
+                    <section class="name"></section>
+                    <div class="linkone">
+                        <img src="" alt="" class="quanimg">
+                    </div>
+                    <div class="linktwo">
+                        <img src="http://ovxy8cacs.bkt.clouddn.com/9_30_btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--第一个弹窗  1个抽奖券-->
+        </section>
+        <!--<a class="fubiaoBtn" href="http://www.chipshare.net/dayu/index.php/Activity/Index/index/media_id/{$media_id}/entry_id/{$entry_id}/type/2">-->
+            <!--<img id="fubiao" src="http://ow5nmmz7d.bkt.clouddn.com/11_fubiao.gif" alt="">-->
+        <!--</a>-->
+        <!--//跳转页面-->
+        <div class="jump" data-href="" style="display: none;"></div>
+        <!--//用户点击领券发送ajax-->
+        <div class="sendajax" style="display: none;"></div>
+        <!--//用户的id-->
+        <div class="userid" style="display: none;"></div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    $(function(){
+        //换灯
+        var numm = 1; // 闪烁灯基数
+        var intervalId = '';
+        // 抽奖灯闪烁
+        function twinkle() {
+            if(numm % 2){
+                $('.center01').css("display","none");
+            };
+            if(!(numm % 2)) {
+                $('.center01').css("display","block");
+            };
+            numm++;
+            if(numm === 5000) {
+                numm = 1;
+            }
+        }
+        intervalId = setInterval(twinkle, 300);
+
+        // 点击指针转动转盘
+        $('.zhen').on("touchend",function(){
+            if($('.font p span').html()>"0"){
+                ajaxone();
+                //灰色指针出现
+                $('.zhen').css("display","none");
+                lott();
+            }else{
+                $('.font p span').html("0");
+                ajaxzero();
+            }
+        })
+        //让转盘转起来
+        var fStartLottery = function (time, angle) {
+            $('.zhuan').stopRotate();  // 停止之前的旋转
+            $(".zhuan").rotate({
+                angle: 0,
+                duration: time, //转动时间
+                animateTo: 1080 + angle, // 1440表示4圈，转4圈之后转到抽奖结果的角度
+                callback: function () {
+                    initRotate(1000000, 30);
+
+                }
+            });
+        };
+        function popshow(){
+            $('.zhezhao').show();
+            $('.quan').show();
+            //点击事件
+            setTimeout(function(){
+                $('.light').show();
+            },1000);
+            $('.zhezhao .quan').addClass('animated bounceUp');
+        }
+
+        //点击弹窗的xx让弹窗消失
+        $('#delete').on("touchend",function(){
+            var num_fubiao=$('.font p span').html();
+            if(num_fubiao==0){
+                ajaxzero();
+            }
+            $('.quan').addClass("active");
+            var t=setTimeout(function(){
+                $('.zhezhao').css("display","none");
+            },500)
+            $('.light').css("display","none");
+            var tt=setTimeout(function(){
+                var tt=setTimeout(function(){
+                    var width=$('.myprice').css("width");
+                    var newwidth=width.replace("px","")-15;
+                    $('<div class="test"></div>').fly({
+                        start: {top: 200, left: 150},
+                        end: {top: 24, left: newwidth, width: 10, height: 10},
+                        onEnd: function(){
+                            $('.quan').removeClass("active");
+                        }
+                    });
+                },500);
+            })
+        })
+        //点击明日再来消失
+        $('.velocity .tomorrow').on("touchend",function(){
+            $('.pop2').css("display","none");
+        })
+
+
+        //转盘自己慢慢转
+        $('.zhuan').addClass("rotate_2");
+        //定义的参数
+        function lott() {
+            $('.zhuan').removeClass("rotate_2");
+            $('.zhuan').addClass("rotate_3");
+            var t=setTimeout(function(){
+                $('.zhuan').addClass("rotate_2");
+                $('.zhuan').removeClass("rotate_3");
+                popshow();
+                //指针出来
+                $('.zhen').css("display","block");
+            },1700);
+        };
+
+
+        //点击规则规则从上而下出来
+        $('.rule').on("touchend",function(){
+            $('.rulefont').slideToggle();
+            var display=$('.zhezhao2').css("display");
+            console.log(display);
+            if(display=="none"){
+                $('.zhezhao2').css("display","block");
+                $('.myprice').hide();
+                $('.test').hide();
+            }else if(display=="block"){
+                $('.zhezhao2').css("display","none");
+                $('.myprice').show(500);
+                $('.test').show(500);
+            }
+        })
+        //次数为0的时候第二个弹窗显现
+        function pop2Show(){
+            $('.pop2').show();
+        }
+        //点击活动的八叉
+        $('.delete').on("touchend",function(){
+            $('.pop2').hide();
+        })
+
+        //发送ajax
+// 点击抽奖时向后台传值
+        function ajaxone() {
+            $.ajax({
+                url:"/index.php/Active/Ajax/run.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                },
+                success: function(data) {
+                    if(data.status==1){
+                        $(".font p span").html(data.last);
+                        var result=data.prize;
+                        $('.userid').html(data.recordID);
+                        $('.quanimg').attr('src', result.pic);
+                        $('.name').html(result.name);
+                        $('.jump').attr("data-href",result.href);
+                    }else if(data.status==0){
+                        alert("活动暂未开放");
+                    }
+                }
+            })
+        }
+        //点击图片
+        $("img.quanimg").on("touchend",function(){
+
+            $(".zhezhao").hide();
+            $('.quan').hide();
+            $('.light').hide();
+            //点击领券
+            handleClickAjax();
+        })
+        //点击立即领取
+        $('.linktwo img').on("touchend",function(){
+
+            $(".zhezhao").hide();
+            $('.quan').hide();
+            $('.light').hide();
+            //点击领券
+            handleClickAjax();
+        })
+        // 点击领取发送ajax
+        function handleClickAjax() {
+            var id=$('.userid').html();
+            $.ajax({
+                url: "/index.php/Active/Ajax/receive.html",
+                type: "post",
+                data: {
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                    record_id:id,
+                },
+                dataType: "json",
+                success: function(result) {
+                    if(result.status==1){
+                        $('.sendajax').html("yes");
+                        window.location.href=$('.jump').attr("data-href");
+                    }else if(result.status==0){
+                        alert("程序员被台风吹走了");
+                    }else{
+                        alert("程序员离开一小会");
+                    }
+                },
+            });
+        }
+        // 点击以后抽奖次数为0时发送请求
+        function ajaxzero(){
+            $.ajax({
+                url: "/index.php/Active/Ajax/active_data.html",
+                type: "post",
+                data: {
+                    'activity_id':"{$activity_id}",
+                    'uid':"{$uid}",
+                    'entry_id':"{$entry_id}",
+                    'media_id': "{$media_id}"
+                } ,
+                dataType: "json",
+                success: function success(result) {
+                    if(result.status == 0) {
+                        var data = result.active;
+                        $(".zhezhao").css("display","none");
+                        pop2Show();
+                        if(data.length == 1) {
+                            $('.activeone').addClass('animated bounceInDown');
+                            $('.activeone').css("display","block");
+                            $('.boxone img').attr("src",data[0].pic);
+                            $('.boxone').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[0].id);
+                        }else if(data.length>1) {
+                            //two
+                            $('.activetwo').addClass('animated bounceInDown');
+                            $('.activetwo').css("display","block");
+                            $('.boxone img').attr("src",data[0].pic);
+                            $('.boxtwo img').attr("src",data[1].pic);
+                            $('.boxone').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[0].id);
+                            $('.boxtwo').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[1].id);
+                        }else if(data.length==0){
+                            $('.tomorrow').show();
+                        }
+                    } else {
+                        return;
+                    }
+                }
+            });
+        }
+    });
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();  
+</script>

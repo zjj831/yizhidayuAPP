@@ -1,0 +1,151 @@
+<extend name="Common:app"/>
+
+
+<block name='pageheader'>
+	
+	
+<section class="content-header">
+	<h1>
+		店铺意见反馈
+		<!--<small>Optional description</small>-->
+	</h1>
+	<ol class="breadcrumb">
+		<li>
+			<a href="{:U('Index/index')}">
+				<i class="fa fa-dashboard">
+				</i> 首页
+			</a>
+		</li>
+		<li class="active">
+			店铺意见反馈
+		</li>
+	</ol>
+</section>
+</block>
+
+<block name='content'>
+<div class="box">
+	<div class="box-header">
+		<form action="{:U('Feedback/shop')}"  method="get" class="form-inline">
+			<div  class="form-group">
+            <label class="control-label">日期：</label>      
+    <input  type="text" id="datepicker" name="date" data-provide="datepicker" placeholder="按日期查找" class="form-control">
+            
+             </div>	     
+               	<div class="form-group">
+                <label class="control-label">店铺名：</label>
+                <input name="keyword" type="text" size="30" placeholder="输入店铺名进行搜索" class="ipt form-control">
+                
+                <button type="submit" class="btn btn-default" >搜索</button>
+            </div>	
+		</form>
+	</div><!-- /.box-header -->
+
+	<div class="box-body" >
+		<div  class="dataTables_wrapper form-inline dt-bootstrap">
+			<div class="row">
+				<div class="col-sm-12">
+	<table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+						<thead>
+							<tr role="row">
+								<th >
+									id
+								</th>
+								<th >
+									店铺
+								</th>
+								<th >
+									年份
+								</th>
+								<th >
+									季度
+								</th>
+								<th >
+									质量评分
+								</th>
+								<th >
+									款式评分	
+								</th>
+								<th >
+									销量评分	
+								</th>
+								<th >
+									发布人
+								</th>
+								<th >
+									发布时间	
+								</th>
+						
+							<th >
+									操作
+								</th>
+									</tr>
+						</thead>
+						<tbody>
+						<foreach name='datas' item='item'>
+							<tr role="row">
+									<td>{$item.id}</td>
+									<td>{$item.shopname}({$item.opentime}开业)</td>
+									<td>{$item.year}</td>
+									<td>{$item.season}</td>
+									<td>{$item.quality}</td>
+									<td>{$item.style}</td>
+									<td>{$item.status}</td>
+									<td>{$item.author}</td>
+									
+									<td>{$item.createtime}</td>
+									<td>
+										
+										
+					<!--<a href="{:U('Feedback/index_home')}?id={$item.id}"><img class="myicon" style="display: inline;" src="{:C('PUBLIC')}/icon/bianji2.png"></img>  </a>-->					
+					<a href="" onclick="trashdialog('{$item.id}')"><img class="myicon" style="display: inline;" src="{:C('PUBLIC')}/icon/guanbi2.png"></img>  </a>					
+										
+									</td>
+								
+									</tr>
+						</foreach>
+						</tbody>
+					</table>		
+					<div class="result page">{$page}</div>
+				</div>
+			</div>
+			
+		</div>
+	</div><!-- /.box-body -->
+</div>
+
+</block>
+
+<block name="js">
+	<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript">
+	
+	
+	  $('#datepicker').datepicker({
+  	 language: 'zh-CN',
+  	 autoclose: true
+  });
+  
+  	
+	
+		function trashdialog(id){
+	var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+	if (!ifdel) {
+		return;
+	}
+	 $.get("{:U('Feedback/shop_destroy')}?id="+id,function(data,status){
+if(data=="ok"){x
+		alert("删除成功");
+ 	location.reload();
+}else{
+	alert(data);
+}
+});
+}
+			
+
+	</script>
+	
+</block>

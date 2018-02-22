@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta https-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+    <script src='{:C('Public')}/Active/common/js/intercept.js?version=1.2'></script>
+    <script>
+    //intercept page
+    intercept('{$member_id}','{$intercept}');
+    //font resize standard for iphone6
+    $(window).width()>540?$('html').css('font-size',''+540/375*312.5+'%'):$('html').css('font-size',''+$(window).width()/375*312.5+'%');
+    window.onresize = function(){$(window).width()>540?$('html').css('font-size',''+540/375*312.5+'%'):$('html').css('font-size',''+$(window).width()/375*312.5+'%')};
+    </script>
+    <script src="/Public/Active/14_xie_zhua/js/loading.js"></script>
+    <link rel="stylesheet" href="/Public/Active/common/css/1031_common.css">
+    <link rel="stylesheet" href="/Public/Active/49-scene/css/index.css">
+    <title>{$tempInfo['title']}</title>
+    <!-- Baidu Statistics -->
+
+</head>
+<body>
+<!--//头部-->
+<!--<header></header>-->
+<!--//body-->
+<div class="content">
+    <section style="background-image:url(https://yun.yizhidayu.com/49-scene-bgnew.jpg);background-size:100% 100%;background-repeat: no-repeat;">
+        <!--//闪烁的灯-->
+        <img src="https://yun.yizhidayu.com/49-scene-rubbit2.png" alt="" class="font">
+        <img src="https://yun.yizhidayu.com/48-scene-diskone.png" alt="" class="diskone">
+        <img src="https://yun.yizhidayu.com/48-scene-disktwo.png" alt="" class="disktwo">
+        <!--//金刚圈-->
+        <a class="circle_box" href="https://www.yizhidayu.com/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/68">
+            <img src="https://yun.yizhidayu.com/49-scene-tq2.gif" alt="" class="tq">
+            <img class="point1" src="https://yun.yizhidayu.com/48-scene-point.png" alt="">
+        </a>
+        <!--//price-->
+        <a class="price" href="https://www.yizhidayu.com/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/72">
+            <!--//price//红包-->
+            <img class="hb" src="https://yun.yizhidayu.com/49-scene-ll2.gif" alt="">
+            <img class="point2" src="https://yun.yizhidayu.com/48-scene-point.png" alt="">
+        </a>
+
+        <!--//福袋-->
+        <a class="fd" href="https://www.yizhidayu.com/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/86">
+            <!--//price//红包-->
+            <img class="ll" src="https://yun.yizhidayu.com/49-scene-hb2.gif" alt="">
+            <img class="point3" src="https://yun.yizhidayu.com/48-scene-point.png" alt="">
+        </a>
+        <!--//秋千-->
+        <a class="down" href="https://www.yizhidayu.com/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/80">
+            <img class="qq" src="https://yun.yizhidayu.com/49-scene-jy.png" alt="">
+            <img class="point4" src="https://yun.yizhidayu.com/48-scene-point.png" alt="">
+        </a>
+
+        <img src="https://yun.yizhidayu.com/49-scene-tuzi.png" class="tuzi" alt="">
+        <!--//满天星-->
+        <img class="start1" src="https://yun.yizhidayu.com/48-scene-startBig.png" alt="">
+        <img class="start2" src="https://yun.yizhidayu.com/48-scene-startBig.png" alt="">
+        <!--<img class="start3" src="https://yun.yizhidayu.com/48-scene-startBig.png" alt="">-->
+        <!--<img class="start4" src="https://yun.yizhidayu.com/48-scene-startBig.png" alt="">-->
+        <!--<img class="start5" src="https://yun.yizhidayu.com/48-scene-startBig.png" alt="">-->
+        <img class="start6" src="https://yun.yizhidayu.com/48-scene-startSmall.png" alt="">
+        <img class="start7" src="https://yun.yizhidayu.com/48-scene-startSmall.png" alt="">
+        <img class="start8" src="https://yun.yizhidayu.com/48-scene-startSmall.png" alt="">
+        <!--<img class="start9" src="https://yun.yizhidayu.com/48-scene-startSmall.png" alt="">-->
+        <img class="start10" src="https://yun.yizhidayu.com/48-scene-startSmall.png" alt="">
+        <!--<img class="start11" src="https://yun.yizhidayu.com/48-scene-startSmall.png" alt="">-->
+    </section>
+
+</div>
+
+</body>
+</html>
+<script>
+    //// 抽奖灯闪烁
+    var numm = 1; // 闪烁灯基数
+    function twinkle() {
+        if(numm% 2){
+            $(".qq_two").hide();
+        };
+        if(!(numm % 2)) {
+            $(".qq_two").show();
+        };
+        numm++;
+        if(numm === 5000) {
+            numm = 1;
+        }
+    }
+    intervalId3 = setInterval(twinkle, 300);
+
+    //// 抽奖灯闪烁
+    var numm3 = 1; // 闪烁灯基数
+    function twinkle3() {
+        if(numm3 % 2){
+            $(".disktwo").hide();
+        };
+        if(!(numm3 % 2)) {
+            $(".disktwo").show();
+        };
+        numm3++;
+        if(numm3 === 5000) {
+            numm3 = 1;
+        }
+    }
+    intervalId3 = setInterval(twinkle3, 300);
+
+
+    //国恩的统计
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();  
+</script>

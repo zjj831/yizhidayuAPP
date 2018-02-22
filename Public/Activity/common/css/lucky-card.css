@@ -1,0 +1,11 @@
+
+#cover{
+    position: absolute;
+    top:50%;
+    left:50.6%;
+    transform: translate(-50%,-50%);
+    width:6.05rem;
+    height:2.67rem;
+    border-radius:1px;
+}
+#card{ -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}

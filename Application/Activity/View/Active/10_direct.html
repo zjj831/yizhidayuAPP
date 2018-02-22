@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>直通车</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <!-- CSS Code -->
+    <link rel="stylesheet" href="/Public/Active/10_direct/css/wap_style.css" type="text/css">
+
+    <!-- JavaScript Code -->
+    <script src="/Public/Active/10_direct/js/jquery.min.js"></script>
+    
+    <!-- Baidu Statistics -->
+    
+</head>
+
+<body bgcolor="#f7f8f3">
+	<!-- 主要内容 -->
+    <div class="index" style='-webkit-overflow-scrolling: touch;overflow-y: scroll; '>
+        <iframe id='content' style='display: block'></iframe> 
+        <div class="fail">
+            <div class="news">
+            	<div class="title">提示</div>
+                <div class="font"></div>
+                <div class="enter">确定</div>
+            </div>
+        </div>   
+    </div>
+<script type="text/javascript">   
+    var recordID,recordInfo;
+    function run(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/run.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+            },                                                   
+            success: function(data) {
+                if(data.status===1){
+                    recordID=data.recordID;
+                    recordInfo=data.prize.href;
+                    $.ajax({
+                        url:"/index.php/Active/Ajax/receive.html",
+                        type:"POST",
+                        dataType:"json",
+                        data:{
+                            uid:"{$uid}",
+                            media_id:"{$media_id}",
+                            entry_id:"{$entry_id}",
+                            active_id:"{$active_id}",
+                            record_id:recordID
+                        },                                                   
+                        success: function(data){
+                            if(data.status===1){
+                                $('#content').attr('src',recordInfo);
+                            }           
+                        },
+                        error: function(){
+                            //丢包统计
+                            protect=false;
+                        },
+                    });          
+                }          
+            },
+            error: function(){
+                alert(data);
+                
+                $('.fail').show(0);
+                $('.fail .font').html("网络不给力,再试一次吧");
+            },
+        });
+    } 
+    $('.fail .enter').click(function(){
+        $('.fail').hide(0);
+    }); 
+    run();
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();  
+    
+</script>      
+</body>
+</html>
+	
+
+
+
+
+
+
+
+

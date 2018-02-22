@@ -1,0 +1,2093 @@
+[ 2018-02-13T01:18:33+08:00 ] 112.64.119.39 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-02-13T01:18:33+08:00 ] 112.64.119.39 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-02-13T09:27:44+08:00 ] 126.229.80.128 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-02-13T09:27:44+08:00 ] 126.229.80.128 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-02-13T09:33:36+08:00 ] 220.195.66.94 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-02-13T09:33:36+08:00 ] 220.195.66.94 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-02-13T09:34:36+08:00 ] 220.195.66.94 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-02-13T09:34:36+08:00 ] 220.195.66.94 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-02-13T09:34:37+08:00 ] 220.195.66.94 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-02-13T09:34:37+08:00 ] 220.195.66.94 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-02-13T10:51:13+08:00 ] 223.104.15.29 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-02-13T10:51:13+08:00 ] 223.104.15.29 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-02-13T10:53:46+08:00 ] 223.104.15.29 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-02-13T10:53:46+08:00 ] 223.104.15.29 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-02-13T11:20:16+08:00 ] 222.216.130.72 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-02-13T11:20:16+08:00 ] 222.216.130.72 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-02-13T11:28:02+08:00 ] 120.9.74.145 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2018-02-13T11:28:02+08:00 ] 120.9.74.145 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-02-13T11:30:09+08:00 ] 106.61.93.137 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-02-13T11:30:09+08:00 ] 106.61.93.137 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-02-13T11:57:27+08:00 ] 111.19.78.8 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-02-13T11:57:27+08:00 ] 111.19.78.8 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-02-13T13:00:01+08:00 ] 111.41.189.100 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-02-13T13:00:01+08:00 ] 111.41.189.100 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2018-02-13T13:18:14+08:00 ] 14.16.197.196 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-02-13T13:18:14+08:00 ] 14.16.197.196 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-02-13T13:27:06+08:00 ] 43.242.153.72 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-02-13T13:27:06+08:00 ] 43.242.153.72 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-02-13T13:53:41+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_user` WHERE `phone` = 15691815572 AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:53:41+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0469s ]
+
+[ 2018-02-13T13:53:41+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0004s ]
+
+[ 2018-02-13T13:53:41+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0480s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+
+[ 2018-02-13T13:53:41+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-02-13T13:53:41+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0001s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+
+[ 2018-02-13T13:53:42+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-02-13T13:53:53+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/islastday
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-02-13T13:53:53+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/gethistoryphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `phone` FROM `dy_coupon_order` WHERE `uid` = 324180 AND `pay_status` > 0 AND `is_show` = 0  [ RunTime:0.0121s ]
+
+[ 2018-02-13T13:53:53+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:54:08+08:00 ] 113.214.200.174 /test/index.php/Activity/Payfor/appPay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dy_coupon_order` (`buyer_pay_amount`,`phone`,`uid`,`pay_status`,`createtime`,`order_body`,`order_subject`,`out_trade_no`) VALUES ('47','15691815572','324180','0','1518501248','我是测试数据一只大鱼','中国联通1G全国流量','VP52M8OQ1518501247') [ RunTime:0.0365s ]
+
+[ 2018-02-13T13:54:19+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-02-13T13:54:19+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/rotationpic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_rotationpic` [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic`,`link` FROM `dy_coupon_rotationpic` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2018-02-13T13:54:19+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0001s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+
+[ 2018-02-13T13:54:21+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/islastday
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-02-13T13:54:21+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/gethistoryphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `phone` FROM `dy_coupon_order` WHERE `uid` = 324180 AND `pay_status` > 0 AND `is_show` = 0  [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:54:22+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-13T13:54:23+08:00 ] 113.214.200.174 /test/index.php/Activity/Payfor/appPay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: INSERT INTO `dy_coupon_order` (`buyer_pay_amount`,`phone`,`uid`,`pay_status`,`createtime`,`order_body`,`order_subject`,`out_trade_no`) VALUES ('10','15691815572','324180','0','1518501263','我是测试数据一只大鱼','中国联通1G全国流量','EUB6P80C1518501263') [ RunTime:0.0029s ]
+
+[ 2018-02-13T13:54:29+08:00 ] 110.75.242.137 /test/index.php/Activity/Payfor/AliPayNotify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `out_trade_no` = 'EUB6P80C1518501263' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `dy_coupon_order` SET `pay_status`='1',`pay_type`='1',`trade_type`='0',`pay_time`='1518501269' WHERE `out_trade_no` = 'EUB6P80C1518501263' [ RunTime:0.0032s ]
+
+[ 2018-02-13T13:54:31+08:00 ] 113.214.200.174 /test/index.php/Activity/Fmmarket/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [2048] Declaration of Activity\Controller\RequestCurlController::get() should be compatible with Think\Controller::get($name = '') /opt/lampp/htdocs/test/Application/Activity/Controller/RequestCurlController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `out_trade_no` = 'EUB6P80C1518501263' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `content` = '中国联通1G全国流量' AND `costprice` = 10 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-13T13:54:37+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/oncerecharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `uid` = 324180 AND `pay_status` > 0 AND `pay_time` > 1518451200  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-02-13T13:54:42+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-02-13T13:54:42+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+
+[ 2018-02-13T13:54:42+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/islastday
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+
+[ 2018-02-13T13:54:43+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/gethistoryphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `phone` FROM `dy_coupon_order` WHERE `uid` = 324180 AND `pay_status` > 0 AND `is_show` = 0  [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:54:43+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:54:44+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getbuyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `uid` = 324180 ORDER BY createtime DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:54:49+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:57:29+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getbuyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `uid` = 324180 ORDER BY createtime DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:57:33+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:57:34+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getbuyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `uid` = 324180 ORDER BY createtime DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:57:37+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T13:57:38+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getbuyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `uid` = 324180 ORDER BY createtime DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2018-02-13T14:01:29+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T14:01:31+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getbuyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `uid` = 324180 ORDER BY createtime DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2018-02-13T14:01:32+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T14:01:35+08:00 ] 113.214.200.174 /test/index.php/Activity/MobileList/getbuyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `uid` = 324180 ORDER BY createtime DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2018-02-13T15:06:16+08:00 ] 111.199.191.29 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-02-13T15:06:16+08:00 ] 111.199.191.29 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0009s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2018-02-13T15:06:58+08:00 ] 111.199.191.29 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-02-13T15:06:58+08:00 ] 111.199.191.29 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-02-13T16:18:01+08:00 ] 113.200.204.217 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T16:18:02+08:00 ] 113.200.204.217 /test/index.php/Activity/Payfor/appPay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: INSERT INTO `dy_coupon_order` (`buyer_pay_amount`,`phone`,`uid`,`pay_status`,`createtime`,`order_body`,`order_subject`,`out_trade_no`) VALUES ('47','15691815572','324180','0','1518509882','我是测试数据一只大鱼','中国联通1G全国流量','C9RSZLMS1518509882') [ RunTime:0.0126s ]
+
+[ 2018-02-13T16:18:11+08:00 ] 113.200.204.217 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-13T16:18:11+08:00 ] 113.200.204.217 /test/index.php/Activity/MobileList/getbuyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_order` WHERE `uid` = 324180 ORDER BY createtime DESC LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2018-02-13T16:18:13+08:00 ] 113.200.204.217 /test/index.php/Activity/MobileList/getflowinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_flow` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_flow` WHERE `cttype` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T16:18:14+08:00 ] 113.200.204.217 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+
+[ 2018-02-13T16:18:14+08:00 ] 113.200.204.217 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-02-13T16:18:16+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324180 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-13T16:18:17+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1518451200 AND `last_login_time` <= 1518537599  ) AND `id` = '324180' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `gamesex` FROM `dy_coupon_user` WHERE ( id=324180 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_levelup` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_coupon_user_levelup` WHERE `uid` = 324180 AND ( `create_time` >= 1518364800 AND `create_time` <= 1518451199  ) ORDER BY new_level desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `member_id` = 324180 AND ( `get_time` >= 1518364800 AND `get_time` <= 1518451199  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1518509897' WHERE ( id=324180 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324180 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324180 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-13T16:18:25+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/prizeinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  b.id as userid,a.*,b.nickname FROM dy_money_result a INNER JOIN dy_coupon_user b on a.uid=b.id  ORDER BY a.create_time desc LIMIT 15   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-02-13T16:18:25+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0005s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-02-13T16:18:25+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `score`,`remaining_sum` FROM `dy_coupon_user` WHERE ( id=324180 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `last_get_time` FROM `dy_coupon_user` WHERE ( `last_get_time` >= 1518451200 AND `last_get_time` <= 1518537599  ) AND `id` = '324180' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `dy_coupon_user` SET `last_get_time`='1518509905' WHERE ( id=324180 ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-02-13T16:18:28+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0003s ]
+
+[ 2018-02-13T16:18:28+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0023s ]
+SQL: SELECT `score`,`remaining_sum` FROM `dy_coupon_user` WHERE ( id=324180 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `last_get_time` FROM `dy_coupon_user` WHERE ( `last_get_time` >= 1518451200 AND `last_get_time` <= 1518537599  ) AND `id` = '324180' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2018-02-13T16:18:28+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0004s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-02-13T16:18:31+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/lotteryjudge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `score` FROM `dy_coupon_user` WHERE ( id=324180 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-02-13T16:18:34+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/getactive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`content` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type2` = 1  [ RunTime:0.0003s ]
+
+[ 2018-02-13T16:18:37+08:00 ] 150.138.216.133 /test/index.php/Activity/Active/index?member_id=324180&active_id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2048] Declaration of Activity\Controller\ActiveController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /opt/lampp/htdocs/test/Application/Activity/Controller/ActiveController.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT `uid` FROM `dy_active_member` WHERE `token` = 'b675048283203ad420b0c880ae2bb2c3' AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `member_id` = 324180 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_member` WHERE `addr_ip` = '150.138.216.133' AND `member_id` = 324180 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_member` (`addr_ip`,`member_id`,`create_time`,`create_day`,`day_stamp`) VALUES ('150.138.216.133','324180','1518509917','1518451200','2018-02-13 16:18:37') [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0004s ]
+SQL: UPDATE `dy_active_member` SET `token`='ef50120e22ac138a8e7492f27402628f' WHERE `uid` = 450 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_member_pv` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_member_pv` WHERE `member_id` = 324180 AND `create_day` = 1518451200 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_member_pv` (`member_id`,`create_day`,`pv`) VALUES ('324180','1518451200','1') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 42 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 42 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `dy_active_user` WHERE `uid` = 450 AND `member_id` = 324180 AND `active_id` = 52 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 450 AND `member_id` = 324180 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_user` WHERE `uid` = 450 AND `member_id` = 324180 AND `active_id` = 42 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user` (`uid`,`member_id`,`active_id`,`create_time`,`create_day`,`time_stamp`) VALUES ('450','324180','42','1518509917','1518451200','2018-02-13 16:18:37') [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: UPDATE `dy_active_temp_item` SET `cur_deter`='192',`update_time`='1518509917' WHERE `id` = 42 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: activity_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/1abea62dd3db601cf36af06585e3747d.php 第 581 行.
+NOTIC: [8] Undefined variable: memben_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/1abea62dd3db601cf36af06585e3747d.php 第 596 行.
+NOTIC: [8] Undefined variable: memben_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/1abea62dd3db601cf36af06585e3747d.php 第 603 行.
+NOTIC: [8] Undefined variable: memben_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/1abea62dd3db601cf36af06585e3747d.php 第 604 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-02-13T16:18:41+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/cartlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`name` FROM `dy_adver_cert` WHERE `isalone` = 1 AND `status` = 1 ORDER BY weight desc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T16:18:48+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/cartlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`pic`,`icon`,`name` FROM `dy_adver_cert` WHERE `isalone` = 1 AND `status` = 1 ORDER BY weight desc  [ RunTime:0.0003s ]
+
+[ 2018-02-13T16:18:52+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/showmoneysum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `dy_money_num` [ RunTime:0.0006s ]
+SQL: SELECT SUM(addmoney) as sum FROM `dy_money_num` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_money_result` [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) as consume FROM `dy_money_result` WHERE `type` = '+' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_coupon_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-02-13T16:18:52+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/getnowscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+SQL: SELECT `score`,`remaining_sum` FROM `dy_coupon_user` WHERE ( id=324180 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `last_get_time` FROM `dy_coupon_user` WHERE ( `last_get_time` >= 1518451200 AND `last_get_time` <= 1518537599  ) AND `id` = '324180' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-02-13T16:18:59+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/iffirstlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `gamesex`,`score` FROM `dy_coupon_user` WHERE `id` = 324180 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-13T16:19:00+08:00 ] 113.200.204.217 /test/index.php/Activity/Game/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0007s ]
+SQL: SELECT `last_login_time` FROM `dy_coupon_user` WHERE ( `last_login_time` >= 1518451200 AND `last_login_time` <= 1518537599  ) AND `id` = '324180' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_coupon_user` SET `last_login_time`='1518509940' WHERE ( id=324180 ) [ RunTime:0.0002s ]
+SQL: SELECT a.nickname,a.gamesex,a.headimg,a.level,a.id,a.experience,a.score as nowscore,b.score,b.share,c.uppic,c.uppic2 FROM dy_coupon_user a INNER JOIN dy_coupon_user_level b on a.level+1=b.level INNER JOIN dy_coupon_user_level c on a.level=c.level  WHERE ( a.id=324180 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user_level` [ RunTime:0.0004s ]
+SQL: SELECT `pic` FROM `dy_coupon_user_level` WHERE ( level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uv /opt/lampp/htdocs/test/Application/Activity/Controller/GameController.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `dy_active_share` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_share` WHERE ( member_id=324180 ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-02-13T16:19:01+08:00 ] 113.200.204.217 /test/index.php/Activity/MobileList/getcategory2list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+
+[ 2018-02-13T16:19:01+08:00 ] 113.200.204.217 /test/index.php/Activity/MobileList/getcouponbycate2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_category2` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_category2` ORDER BY displayor asc  [ RunTime:0.0002s ]
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=1 order by a.validate desc limit 0,4 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=2 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=3 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+SQL: select a.*,b.title as catename from dy_coupon_coupon a join dy_coupon_category b on a.cateid=b.id and a.cateid2=4 order by a.validate desc limit 0,4 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+NOTIC: [8] Undefined index: banner /opt/lampp/htdocs/test/Application/Activity/Controller/MobileListController.class.php 第 539 行.
+
+[ 2018-02-13T16:36:11+08:00 ] 122.224.212.190 /test/index.php/Activity/Fmmarket/callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [2048] Declaration of Activity\Controller\RequestCurlController::get() should be compatible with Think\Controller::get($name = '') /opt/lampp/htdocs/test/Application/Activity/Controller/RequestCurlController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `dy_coupon_order` [ RunTime:0.0006s ]
+SQL: UPDATE `dy_coupon_order` SET `pay_status`='5' WHERE `out_trade_no` = 'EUB6P80C1518501263' [ RunTime:0.0351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-02-13T17:26:29+08:00 ] 27.221.112.167 /test/index.php/Activity/Active/index?member_id=&active_id=55&mType=Group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [2048] Declaration of Activity\Controller\ActiveController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /opt/lampp/htdocs/test/Application/Activity/Controller/ActiveController.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT `uid` FROM `dy_active_member` WHERE `token` = null AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `member_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_member` WHERE `addr_ip` = '27.221.112.167' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `dy_active_member` (`addr_ip`,`member_id`,`create_time`,`create_day`,`day_stamp`) VALUES ('27.221.112.167','0','1518513989','1518451200','2018-02-13 17:26:29') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0004s ]
+SQL: UPDATE `dy_active_member` SET `token`='ded5fef455593a30ce8e7afb22e4cbfa' WHERE `uid` = 451 [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `dy_member_pv` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_member_pv` WHERE `member_id` = 0 AND `create_day` = 1518451200 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_member_pv` (`member_id`,`create_day`,`pv`) VALUES ('0','1518451200','1') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `dy_active_user` WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 52 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_user` WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user` (`uid`,`member_id`,`active_id`,`create_time`,`create_day`,`time_stamp`) VALUES ('451','0','55','1518513989','1518451200','2018-02-13 17:26:29') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user` WHERE `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0005s ]
+SQL: UPDATE `dy_active_temp_item` SET `cur_deter`='28',`update_time`='1518513989' WHERE `id` = 55 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: media_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/a080013375ded57abb7283c4bdade3a6.php 第 284 行.
+NOTIC: [8] Undefined variable: entry_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/a080013375ded57abb7283c4bdade3a6.php 第 284 行.
+NOTIC: [8] Undefined variable: activity_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/a080013375ded57abb7283c4bdade3a6.php 第 761 行.
+NOTIC: [8] Undefined variable: memben_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/a080013375ded57abb7283c4bdade3a6.php 第 775 行.
+NOTIC: [8] Undefined variable: memben_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/a080013375ded57abb7283c4bdade3a6.php 第 782 行.
+NOTIC: [8] Undefined variable: memben_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/a080013375ded57abb7283c4bdade3a6.php 第 783 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-02-13T17:26:36+08:00 ] 27.221.112.164 /test/index.php/Activity/Ajax/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `uid` = 451 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_adver_white_cert` [ RunTime:0.0003s ]
+SQL: SELECT `cert_id` FROM `dy_adver_white_cert` WHERE ( active_id=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518513996 AND `id` NOT IN ('') ORDER BY weight desc,new_add desc,arpu desc,create_time asc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`system`,`area`,`daily_limit`,`full_limit` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518513996 AND `id` IN ('246','231','233','236','1') ORDER BY weight desc,new_add desc,arpu desc,create_time asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 246 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user_record` (`uid`,`member_id`,`active_id`,`company_id`,`cert_id`,`get_ip`,`create_time`,`create_day`,`time_stamp`,`rounds`) VALUES ('451','0','55','0','246','27.221.112.164','1518513996','1518451200','2018-02-13 17:26:36','1') [ RunTime:0.0727s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0005s ]
+SQL: UPDATE `dy_active_user` SET `join_times`='1' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) [ RunTime:0.0002s ]
+
+[ 2018-02-13T17:26:43+08:00 ] 150.138.216.137 /test/index.php/Activity/Ajax/receive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `dy_active_user_record` SET `get_time`='1518514003',`status`='1' WHERE `id` = 340 AND `uid` = 451 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_user_record` WHERE `id` = 340 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0005s ]
+SQL: SELECT `xframe` FROM `dy_adver_cert` WHERE `id` = 246 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: UPDATE `dy_active_user` SET `catch_times`='1' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 [ RunTime:0.0002s ]
+SQL: SELECT `get_time` FROM `dy_active_user_record` WHERE `status` = 1 AND `member_id` = 0 LIMIT 59,1   [ RunTime:0.0003s ]
+SQL: SELECT `get_time` FROM `dy_active_user_record` WHERE `status` = 1 AND `member_id` = 0 LIMIT 29,1   [ RunTime:0.0002s ]
+SQL: SELECT `get_time` FROM `dy_active_user_record` WHERE `status` = 1 AND `member_id` = 0 LIMIT 9,1   [ RunTime:0.0002s ]
+SQL: SELECT `get_time` FROM `dy_active_user_record` WHERE `status` = 1 AND `member_id` = 0 LIMIT 149,1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 418 行.
+SQL: SHOW COLUMNS FROM `dy_coupon_coin_consume` [ RunTime:0.0004s ]
+SQL: SELECT `num`,`create_time` FROM `dy_coupon_coin_consume` WHERE `uid` = 0 AND `create_time` = 1518451200 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_coupon_coin_consume` (`create_time`,`uid`,`num`,`type`,`name`) VALUES ('1518451200','0','10','+','分发') [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_user` [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `dy_coupon_user` SET `experience`=experience+10 WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `dy_coupon_user` SET `experience`=experience+10 WHERE ( id= )
+
+[ 2018-02-13T17:26:44+08:00 ] 150.138.216.132 /test/index.php/Activity/Ajax/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `uid` = 451 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_white_cert` [ RunTime:0.0003s ]
+SQL: SELECT `cert_id` FROM `dy_adver_white_cert` WHERE ( active_id=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514004 AND `id` NOT IN ('') ORDER BY weight desc,new_add desc,arpu desc,create_time asc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`system`,`area`,`daily_limit`,`full_limit` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514004 AND `id` IN ('246','231','233','236','1') ORDER BY weight desc,new_add desc,arpu desc,create_time asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 246 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 231 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `id` = 231 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user_record` (`uid`,`member_id`,`active_id`,`company_id`,`cert_id`,`get_ip`,`create_time`,`create_day`,`time_stamp`,`rounds`) VALUES ('451','0','55','0','231','150.138.216.132','1518514004','1518451200','2018-02-13 17:26:44','1') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: UPDATE `dy_active_user` SET `join_times`='2' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) [ RunTime:0.0002s ]
+
+[ 2018-02-13T17:26:50+08:00 ] 27.221.112.171 /test/index.php/Activity/Ajax/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `uid` = 451 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_white_cert` [ RunTime:0.0005s ]
+SQL: SELECT `cert_id` FROM `dy_adver_white_cert` WHERE ( active_id=55 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514010 AND `id` NOT IN ('') ORDER BY weight desc,new_add desc,arpu desc,create_time asc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`system`,`area`,`daily_limit`,`full_limit` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514010 AND `id` IN ('246','231','233','236','1') ORDER BY weight desc,new_add desc,arpu desc,create_time asc  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 246 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 231 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 233 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `id` = 233 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user_record` (`uid`,`member_id`,`active_id`,`company_id`,`cert_id`,`get_ip`,`create_time`,`create_day`,`time_stamp`,`rounds`) VALUES ('451','0','55','0','233','27.221.112.171','1518514010','1518451200','2018-02-13 17:26:50','1') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0005s ]
+SQL: UPDATE `dy_active_user` SET `join_times`='3' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) [ RunTime:0.0003s ]
+
+[ 2018-02-13T17:27:03+08:00 ] 27.221.112.166 /test/index.php/Activity/Ajax/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `uid` = 451 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_adver_white_cert` [ RunTime:0.0003s ]
+SQL: SELECT `cert_id` FROM `dy_adver_white_cert` WHERE ( active_id=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514023 AND `id` NOT IN ('') ORDER BY weight desc,new_add desc,arpu desc,create_time asc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`system`,`area`,`daily_limit`,`full_limit` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514023 AND `id` IN ('246','231','233','236','1') ORDER BY weight desc,new_add desc,arpu desc,create_time asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 246 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 231 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 233 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 236 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `id` = 236 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user_record` (`uid`,`member_id`,`active_id`,`company_id`,`cert_id`,`get_ip`,`create_time`,`create_day`,`time_stamp`,`rounds`) VALUES ('451','0','55','0','236','27.221.112.166','1518514023','1518451200','2018-02-13 17:27:03','1') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: UPDATE `dy_active_user` SET `join_times`='4' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) [ RunTime:0.0002s ]
+
+[ 2018-02-13T17:27:09+08:00 ] 27.221.112.164 /test/index.php/Activity/Ajax/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `uid` = 451 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_adver_white_cert` [ RunTime:0.0003s ]
+SQL: SELECT `cert_id` FROM `dy_adver_white_cert` WHERE ( active_id=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514029 AND `id` NOT IN ('') ORDER BY weight desc,new_add desc,arpu desc,create_time asc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`system`,`area`,`daily_limit`,`full_limit` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514029 AND `id` IN ('246','231','233','236','1') ORDER BY weight desc,new_add desc,arpu desc,create_time asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 246 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 231 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 233 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 236 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 1 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `dy_active_user_record` (`uid`,`member_id`,`active_id`,`company_id`,`cert_id`,`get_ip`,`create_time`,`create_day`,`time_stamp`,`rounds`) VALUES ('451','0','55','0','1','27.221.112.164','1518514029','1518451200','2018-02-13 17:27:09','1') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0003s ]
+SQL: UPDATE `dy_active_user` SET `join_times`='5' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) [ RunTime:0.0002s ]
+
+[ 2018-02-13T17:27:18+08:00 ] 150.138.216.139 /test/index.php/Activity/Ajax/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `uid` = 451 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_adver_white_cert` [ RunTime:0.0003s ]
+SQL: SELECT `cert_id` FROM `dy_adver_white_cert` WHERE ( active_id=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514038 AND `id` NOT IN ('') ORDER BY weight desc,new_add desc,arpu desc,create_time asc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`system`,`area`,`daily_limit`,`full_limit` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514038 AND `id` IN ('246','231','233','236','1') ORDER BY weight desc,new_add desc,arpu desc,create_time asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 246 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 231 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 233 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 236 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 236 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 1 AND `rounds` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dy_active_member` SET `rounds`='2' WHERE `uid` = 451 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user_record` (`uid`,`member_id`,`active_id`,`company_id`,`cert_id`,`get_ip`,`create_time`,`create_day`,`time_stamp`,`rounds`) VALUES ('451','0','55','0','246','150.138.216.139','1518514038','1518451200','2018-02-13 17:27:18','2') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0004s ]
+SQL: UPDATE `dy_active_user` SET `join_times`='6' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) [ RunTime:0.0002s ]
+
+[ 2018-02-13T17:27:22+08:00 ] 27.221.112.172 /test/index.php/Activity/Ajax/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `uid` = 451 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dy_adver_white_cert` [ RunTime:0.0003s ]
+SQL: SELECT `cert_id` FROM `dy_adver_white_cert` WHERE ( active_id=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514042 AND `id` NOT IN ('') ORDER BY weight desc,new_add desc,arpu desc,create_time asc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`system`,`area`,`daily_limit`,`full_limit` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514042 AND `id` IN ('246','231','233','236','1') ORDER BY weight desc,new_add desc,arpu desc,create_time asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 246 AND `rounds` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 231 AND `rounds` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `id` = 231 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user_record` (`uid`,`member_id`,`active_id`,`company_id`,`cert_id`,`get_ip`,`create_time`,`create_day`,`time_stamp`,`rounds`) VALUES ('451','0','55','0','231','27.221.112.172','1518514042','1518451200','2018-02-13 17:27:22','2') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0003s ]
+SQL: UPDATE `dy_active_user` SET `join_times`='7' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) [ RunTime:0.0002s ]
+
+[ 2018-02-13T17:27:27+08:00 ] 150.138.216.134 /test/index.php/Activity/Ajax/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_member` WHERE `uid` = 451 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_white_cert` [ RunTime:0.0003s ]
+SQL: SELECT `cert_id` FROM `dy_adver_white_cert` WHERE ( active_id=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_adver_cert` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514047 AND `id` NOT IN ('') ORDER BY weight desc,new_add desc,arpu desc,create_time asc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`system`,`area`,`daily_limit`,`full_limit` FROM `dy_adver_cert` WHERE `status` = 1 AND `expiry_time` > 1518514047 AND `id` IN ('246','231','233','236','1') ORDER BY weight desc,new_add desc,arpu desc,create_time asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 246 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 246 AND `rounds` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 231 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 231 AND `rounds` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `cert_id` = 233 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+NOTIC: [8] Undefined index: catch_limit /opt/lampp/htdocs/test/Application/Activity/Controller/AjaxController.class.php 第 166 行.
+SQL: SELECT * FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `cert_id` = 233 AND `rounds` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_adver_cert` WHERE `id` = 233 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dy_active_user_record` (`uid`,`member_id`,`active_id`,`company_id`,`cert_id`,`get_ip`,`create_time`,`create_day`,`time_stamp`,`rounds`) VALUES ('451','0','55','0','233','150.138.216.134','1518514047','1518451200','2018-02-13 17:27:27','2') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_user` [ RunTime:0.0003s ]
+SQL: UPDATE `dy_active_user` SET `join_times`='8' WHERE `uid` = 451 AND `member_id` = 0 AND `active_id` = 55 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) [ RunTime:0.0002s ]
+
+[ 2018-02-13T17:27:30+08:00 ] 27.221.112.163 /test/index.php/Activity/Ajax/active_data.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`times` FROM `dy_active_temp_item` WHERE `status` = 1 AND `type` = 1 ORDER BY weight desc,create_time desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dy_active_temp_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dy_active_user_record` WHERE `uid` = 451 AND `member_id` = 0 AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `active_id` = 65 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dy_active_temp_item` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-13T17:27:35+08:00 ] 150.138.216.132 /test/index.php/Activity/Active/prize_list/member_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2048] Declaration of Activity\Controller\ActiveController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /opt/lampp/htdocs/test/Application/Activity/Controller/ActiveController.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `dy_active_member` [ RunTime:0.0006s ]
+SQL: SELECT `uid` FROM `dy_active_member` WHERE `token` = 'ded5fef455593a30ce8e7afb22e4cbfa' AND ( `create_time` >= 1518451200 AND `create_time` <= 1518537599  ) AND `member_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: media_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/befa84d17732a995c1c0baa1937d03f9.php 第 111 行.
+NOTIC: [8] Undefined variable: entry_id /opt/lampp/htdocs/test/Application/Runtime/Cache/Activity/befa84d17732a995c1c0baa1937d03f9.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-02-13T17:27:35+08:00 ] 150.138.216.137 /test/index.php/Activity/Ajax/prize_data.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dy_active_user_record` [ RunTime:0.0006s ]
+SQL: SELECT b.href,a.id,b.pic,b.name,b.expiry_time FROM dy_active_user_record a INNER JOIN dy_adver_cert b ON a.cert_id = b.id  WHERE a.uid = '451' AND a.member_id = '' ORDER BY a.create_time desc LIMIT 0,8   [ RunTime:0.0003s ]
+
+[ 2018-02-13T18:31:05+08:00 ] 58.243.254.28 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-02-13T18:31:05+08:00 ] 58.243.254.28 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-02-13T18:50:37+08:00 ] 58.53.130.2 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-02-13T18:50:37+08:00 ] 58.53.130.2 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-02-13T19:34:15+08:00 ] 27.41.179.64 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-02-13T19:34:15+08:00 ] 27.41.179.64 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2018-02-13T19:34:35+08:00 ] 27.41.179.64 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-02-13T19:34:35+08:00 ] 27.41.179.64 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-02-13T20:21:20+08:00 ] 116.253.201.135 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0012s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-02-13T20:21:20+08:00 ] 116.253.201.135 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-02-13T20:21:29+08:00 ] 116.253.201.135 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-02-13T20:21:29+08:00 ] 116.253.201.135 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-02-13T20:29:08+08:00 ] 119.115.36.193 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-02-13T20:29:08+08:00 ] 119.115.36.193 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-02-13T20:30:17+08:00 ] 119.115.36.193 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-02-13T20:30:17+08:00 ] 119.115.36.193 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-02-13T21:31:41+08:00 ] 123.136.107.60 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-02-13T21:31:41+08:00 ] 123.136.107.60 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-02-13T21:40:02+08:00 ] 106.117.64.163 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-02-13T21:40:02+08:00 ] 106.117.64.163 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-02-13T21:40:36+08:00 ] 106.117.64.163 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-02-13T21:40:36+08:00 ] 106.117.64.163 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-02-13T22:48:55+08:00 ] 139.213.222.201 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-02-13T22:48:55+08:00 ] 139.213.222.201 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-02-13T23:18:00+08:00 ] 144.48.211.228 /test/index.php/Activity/MobileList/getcardh5?jsoncallback=jsonp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_card` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dy_coupon_card` ORDER BY handlingtime desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-02-13T23:18:00+08:00 ] 144.48.211.228 /test/index.php/Activity/MobileList/getloanh5?jsoncallback=jsonp2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `dy_coupon_loan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM dy_coupon_loan a INNER JOIN dy_coupon_loancate b on a.cate=b.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+

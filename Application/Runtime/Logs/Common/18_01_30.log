@@ -1,0 +1,6 @@
+[ 2018-01-30T11:58:19+08:00 ] 122.235.204.92 /test/index.php/test/Activity/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Test
+

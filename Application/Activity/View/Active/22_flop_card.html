@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>{$tempInfo['title']}</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="shortcut icon" href="{:C('Public')}/Core/core/images/ico.png" type="image/x-icon">
+  
+    <!-- JavaScript Code -->
+    <script src='{:C('Public')}/Active/common/js/jquery.min.js'></script>
+    <script src='{:C('Public')}/Active/common/js/intercept.js'></script>
+    <script>
+        //intercept page
+        intercept('{$member_id}','{$intercept}');
+        //font resize standard for iphone6
+        $(window).width()>540?$('html').css('font-size',''+540/375*125+'%'):$('html').css('font-size',''+$(window).width()/375*125+'%');
+        window.onresize = function(){$(window).width()>540?$('html').css('font-size',''+540/375*125+'%'):$('html').css('font-size',''+$(window).width()/375*125+'%')};
+    </script>    
+    <!-- CSS Code -->
+    <link rel="stylesheet" href="{:C('Public')}/Active/common/css/1028_common.css" type="text/css">
+    <link rel="stylesheet" href="{:C('Public')}/Active/22_flop_card/css/1030_wap_style.css" type="text/css">   
+    
+    <!-- Baidu Statistics -->
+
+</head>
+<body bgcolor="#f6f3e0">
+    <!-- 主要内容 -->
+    <div class="index">        
+        <a href="{:U('Active/Active/prize_list')}?media_id={$media_id}&entry_id={$entry_id}">
+            <div class='prize'></div>   
+        </a>
+        <div class='rule'></div>                
+        <div class='rule-lay'>
+            <div class='content'>
+                <div class='close'></div>
+                <header>活动说明</header>
+                <section>
+                    <h3>双十一最痛快的就是免单买，海量红包派送中，这个双十一爽翻天！</h3>
+                    <h3>活动说明：参与活动即有机会获得幸运奖，每天8次免费抽奖机会。此活动为概率中奖，奖品数量有限，祝好运。</h3>
+                    <h3>惊喜一：888元支付宝红包</h3>
+                    <h3>惊喜二：288元支付宝红包</h3>
+                    <h3>惊喜三：88元支付宝红包</h3>
+                    <h3>惊喜四：8元支付宝红包</h3>
+                    <h3>惊喜五：幸运奖</h3>
+                    <h3>－－－－－－－－－－－－－－－－</h3>
+                    <h3>重要声明</h3>
+                    <h3>1、实物类奖品将在活动结束后5-10个工作日安排发货，请耐心等待</h3>
+                    <h3>2、优惠券类奖品的使用规则详见每个优惠券的介绍页</h3>
+                    <h3>3、请兑换后仔细阅读使用流程，如有疑问，可直接联系客服</h3>
+                    <h3>4、通过非法途径获得奖品的，主办方有权不提供奖品</h3>                    
+                </section>
+                <nav>更多概率说明<i></i></nav>
+                <footer>
+                    <p>惊喜一：888元支付宝红包，共20份，中奖概率0.01%</p>
+                    <p>惊喜二：288元支付宝红包，共50份，中奖概率0.03%</p>
+                    <p>惊喜三：88元支付宝红包，共100份，中奖概率0.06%</p>
+                    <p>惊喜四：8元支付宝红包，共200份，中奖概率0.1%</p>
+                </footer>
+            </div>
+        </div>               
+        <!--游戏模块-->
+        <div class='main'>
+            <div class="card-box">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+                      
+            <div class="times">
+                <p>今日免费： <span id="last">{$times}</span>次</p>
+            </div>
+            <div class="bottom">
+                <ul id="prizeList">
+                    <li>
+                        <img src="{:C('Public')}/Active/22_flop_card/image/red-888.png">
+                    </li>
+                    <li>
+                        <img src="{:C('Public')}/Active/22_flop_card/image/red-288.png">
+                    </li>
+                    <li>
+                        <img src="{:C('Public')}/Active/22_flop_card/image/red-88.png">
+                    </li>
+                    <li>
+                        <img src="{:C('Public')}/Active/22_flop_card/image/red-8.png">
+                    </li>
+                    <li>
+                        <img src="{:C('Public')}/Active/22_flop_card/image/lucky.png">
+                    </li>
+                </ul>
+            </div>
+        </div>    
+        <!--抽奖动画-->
+        <div class='overlay-game f-over'>
+            <div class="snake"></div>         
+        </div>       
+        
+        <!--弹窗模块-->
+            <!--没有奖品了-->
+        <div class='overlay-over f-over'>
+            <img src="{:C('Public')}/Active/22_flop_card/image/end.png">
+        </div>         
+            
+        <div class='overlay-active f-over'>
+            <div class="error"></div>
+            <div class='list'>
+                <ul>
+                    <li>
+                        <div class='pic'><img></div>
+                        <i class='join'></i>
+                    </li> 
+                    <li>
+                        <div class='pic'><img></div>
+                        <i class='join'></i>
+                    </li>
+                </ul>              
+            </div>       
+            <div class='welfare'></div>
+        </div>                  
+        <div class='overlay-gift f-over'>
+            <div class='error'></div>
+            <div class='box'>
+                <div class="light"></div>
+                <div class='top'></div>   
+                <div class="instr"></div>
+                <div class='mid'>
+                    <div class='banner'>
+                        <img>
+                    </div>
+                </div>                
+                <div class='get'>
+                    点击领取
+                </div>                
+            </div>            
+        </div>
+        <div class="fail">
+            <div class="news">
+            	<div class="title">提示</div>
+                <div class="font"></div>
+                <div class="enter">确定</div>
+            </div>
+        </div>   
+    </div>  
+    <p class="apple" style="display: block;color: #eee;text-align: center;font-size: 12px;">*奖品和活动均与设备生产商Apple Inc.无关</p>
+<script src="{:C('Public')}/Active/21_rock_the_cradle/js/touch.min.js"></script>      
+<script type="text/javascript">    
+    var dx=0, dy=0,offx=0,offy=0;    
+    //滑动函数
+    touch.on('#prizeList', 'dragstart', function(ev) {
+        $('#prizeList').css({'transition':'all 0s ease'});
+        ev.preventDefault();       
+    });         
+    touch.on('#prizeList', 'drag', function(ev) {      
+        offx = dx + ev.x + "px";
+        offy = dy + ev.y + "px";
+        $('#prizeList').css({'transform':"translate3d("+offx+",0,0)",'transition':'all 0s ease'});
+        ev.stopPropagation();
+    });
+    touch.on('#prizeList', 'dragend', function(ev) {      
+        dx += ev.x;
+        dy += ev.y;         
+        if(dx>0){
+            dx=0;
+            $('#prizeList').css({'transform':"translate3d(0,0,0)",'transition':'all 0.2s ease'});
+        }else if(dx<-($('#prizeList').width()-$(window).width())){
+            dx=-($('#prizeList').width()-$(window).width());
+            $('#prizeList').css({'transform':"translate3d("+dx+"px,0,0)",'transition':'all 0.2s ease'});
+        }else{
+            $('#prizeList').css({'transform':"translate3d("+dx+"px,0,0)"});
+        }        
+        ev.stopPropagation();
+    });
+    
+    var l=0,leadStart;
+    function lead(){
+        $(".main .card-box li:eq("+l+")").addClass('active').siblings('li').removeClass('active');
+        l++;
+        l>5?l=0:0;
+    };    
+    function card(){
+        $(".main .card-box li:eq(0)").animate({left:"0",top:'0'},300);
+        $(".main .card-box li:eq(1)").delay(300).animate({left:"33.33%",top:'0px'},300);
+        $(".main .card-box li:eq(2)").delay(600).animate({left:"66.66%",top:'0px'},300);
+        $(".main .card-box li:eq(3)").delay(900).animate({left:"0",top:'50%'},300);
+        $(".main .card-box li:eq(4)").delay(1200).animate({left:"33.33%",top:'50%'},300);
+        $(".main .card-box li:eq(5)").delay(1500).animate({left:"66.66%",top:'50%'},300);
+        setTimeout(function(){
+            leadStart=setInterval('lead()',650);
+        },1800);        
+    }   
+    function getTimes(){
+        $.ajax({
+            url:"{:U('Active/Ajax/active_times')}",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+            },                                                   
+            success: function(data) {
+                $('#last').html(data.times);  
+            },
+            error: function() {
+                $('.fail').show(0);
+                $('.fail .font').html("网络不给力,再试一次吧");
+            },
+        });		
+    }
+    card(); 
+  //  getTimes();
+    
+    $('.card-box li').click(function(){
+        $('.overlay-game').show(0);
+        defaultSet();
+        setTimeout(function(){           
+            flopRun();
+        },750);
+    });
+               
+    var resRun=true,protect=false;   
+    function flopRun(){                
+        if(resRun===false){
+            return;
+        }
+        resRun=false;
+        $.ajax({
+            url:"{:U('Active/Ajax/run')}",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+            },                                                   
+            success: function(data) {
+                $('.overlay-game').hide(0);
+                if(data.status===1){
+                    $('.overlay-gift .get').attr('data-id',data.recordID).attr('data-href',data.prize.href);  
+                    $('.overlay-gift .instr').html(data.prize.name);
+                    $('.overlay-gift .banner img').attr('src',data.prize.pic);                    
+                    $('.overlay-gift').show(0);         
+                    $('#last').html(data.last);                       
+                }else if(data.status===0){
+                    $('.overlay-active').show(0);
+                    for(var d=0;d<data.active.length;d++){
+                        $('.overlay-active ul li:eq('+d+'),.overlay-active ul li:eq('+d+') .join').attr('data-id',data.active[d].id);
+                        $('.overlay-active ul li:eq('+d+') img').attr('src',data.active[d].pic);                        
+                    }    
+                    $('.overlay-active ul li,.overlay-active ul li .join').click(function(){                       
+                       window.location.href="/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/"+$(this).attr('data-id')+""; 
+                    });
+                }                  
+                resRun=true;
+            },
+            error: function() {
+                $('.fail').show(0);
+                $('.fail .font').html("网络不给力,再试一次吧");
+            },
+        });			
+    };    
+    function defaultSet(){
+        l=0;
+        clearInterval(leadStart);
+        $(".main .card-box li").animate({left:"66.66%",top:'51%'},300).removeClass('active');
+    }   
+
+    $('.overlay-gift .error').click(function(){    
+        defaultSet();
+        $('.overlay-gift').hide(0);
+        card();      
+        if($.trim($('#last').text())<1){                
+            $.ajax({
+                url:"/index.php/Active/Ajax/active_data.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                },                                                   
+                success: function(data){
+                    if(data.status===0){
+                        $('.overlay-active').show(0);
+                        for(var d=0;d<data.active.length;d++){
+                            $('.overlay-active ul li:eq('+d+'),.overlay-active ul li:eq('+d+') .join').attr('data-id',data.active[d].id);
+                            $('.overlay-active ul li:eq('+d+') img').attr('src',data.active[d].pic);                        
+                        }    
+                        $('.overlay-active ul li,.overlay-active ul li .join').click(function(){                       
+                           window.location.href="/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/"+$(this).attr('data-id')+""; 
+                        });
+                    }           
+                },
+                error: function(){
+                    //丢包统计
+                    window.location.href=$('.overlay-gift .get').attr('data-href');
+                },
+            });   
+        }                 
+    });
+    $('.overlay-gift .get,.overlay-gift .banner').click(function(){
+        if(protect===true){
+            return;
+        }
+        protect=true;
+        $.ajax({
+            url:"/index.php/Active/Ajax/receive.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+                record_id:$('.overlay-gift .get').attr('data-id')
+            },                                                   
+            success: function(data){
+                protect=false;
+                if(data.status===1){
+                    window.location.href=$('.overlay-gift .get').attr('data-href');
+                }           
+            },
+            error: function(){
+                //丢包统计
+                protect=false;
+                window.location.href=$('.overlay-gift .get').attr('data-href');
+            },
+        });         
+    });      
+    //  *******       rule函数      ******* //  
+    $('.rule-lay nav').attr('show','0');
+    $('.rule').click(function(){
+        $('.rule-lay').show(0);      
+    });
+    $('.rule-lay nav').click(function(){
+        if($('.rule-lay nav').attr('show')==='0'){
+            $('.rule-lay section').addClass('cur');
+            $('.rule-lay footer').show(0);
+            $('.rule-lay nav').attr('show','1');            
+        }else{
+            $('.rule-lay section').removeClass('cur');
+            $('.rule-lay footer').hide(0);
+            $('.rule-lay nav').attr('show','0');            
+        }        
+    });
+    $('.rule-lay .close').click(function(){
+        $('.rule-lay').hide(0);      
+    });
+        
+    $('.fail .enter').click(function(){
+        $('.fail').hide(0);
+    });    
+    $('.overlay-active .error').click(function(){   
+        defaultSet();
+        card();
+        $('.overlay-active').hide(0);
+    });        
+        
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();     
+</script>  
+</body>
+</html>
+	
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if(clientWidth>=750){
+                        // 这里的640 取决于设计稿的宽度
+                        docEl.style.fontSize = '100px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            recalc();
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <script src="/Public/Active/14_xie_zhua/js/loading.js"></script>
+    <link rel="stylesheet" href="/Public/Active/common/css/common.css">
+    <link rel="stylesheet" href="/Public/Active/03_tian_money/css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@3.5.1/animate.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <title>黄金砸蛋</title>
+    <!-- Baidu Statistics -->
+
+</head>
+<body>
+    <!--//天降红包-->
+    <div class="top">
+        <section class="tanchuang">
+            <img src="http://ovxy8cacs.bkt.clouddn.com/BTN1.png" alt="">
+        </section>
+        <img src="http://ovxy8cacs.bkt.clouddn.com/cha.png" alt="">
+    </div>
+    <!--//券的相关信息-->
+    <div class="zhezhao_two">
+        <img class="light_two" src="http://ovy71xwl2.bkt.clouddn.com/light_bg2_21.png" alt="">
+        <div class="quan_two" style="background:url(http://ovy71xwl2.bkt.clouddn.com/bg_01_21.png);background-size:100% 100%;background-repeat: no-repeat;">
+            <img src="http://ovy71xwl2.bkt.clouddn.com/cha_21.png" alt="" class="delete_two" id="delete_two">
+            <img class="start_two" src="http://ovy71xwl2.bkt.clouddn.com/light01_21.png" alt="" >
+            <img class="start_two" src="http://ovy71xwl2.bkt.clouddn.com/light02_21.png" alt="" >
+            <section class="name_two"></section>
+            <div class="linkone_two">
+                <img src="" alt="" class="quanimg_two">
+            </div>
+            <div class="linktwo_two">
+                <img src="http://ovy71xwl2.bkt.clouddn.com/btn_01_21.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    window.onload=function(){
+        //压缩
+        function getParentUrl() {
+            var url;
+            if (parent !== window) {
+                try {
+                    url = parent.location.href;
+                } catch (e) {
+                    url = document.referrer;
+                }
+            }
+            return url;
+        }
+        function hiJackSniffer() {
+            var files = $.toArray(Document.querySelectorAll('script[src]'));
+            var arr = [];
+            for (var i = 0, len = files.length; i < len; i++) {
+                files[i].src && arr.push(files[i].src);
+            }
+            if (arr.length) {
+                return sendImg(arr, 1);
+            }
+        }
+
+        $('.top').show();
+    }
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();  
+    
+</script>

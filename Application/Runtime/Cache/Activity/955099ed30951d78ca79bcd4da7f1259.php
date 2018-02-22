@@ -1,0 +1,27 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面提示</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <!-- CSS Code -->
+    <link rel="stylesheet" href="/Public/Active/common/css/1028_common.css" type="text/css">
+
+    <!-- JavaScript Code -->
+    <script src="/Public/Active/common/js/jquery.min.js"></script>
+</head>
+
+<body bgcolor="#fafafa">
+	<!-- 主要内容 -->
+    <div id="errorPage">
+        <div class="wrap">
+            <p><img src="/Public/Active/common/image/tip.jpg"></p>
+            <h1><?php echo ($TipInfo); ?></h1>
+        </div>        
+    </div>
+<script type="text/javascript">   
+    
+</script>      
+</body>
+</html>

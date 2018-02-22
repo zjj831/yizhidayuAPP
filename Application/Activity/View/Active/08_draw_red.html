@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{$tempInfo['title']}</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="shortcut icon" href="{:C('Public')}/Core/core/images/ico.png" type="image/x-icon">
+  
+    <!-- JavaScript Code -->
+    <script src='{:C('Public')}/Active/common/js/jquery.min.js'></script>
+    <script src='{:C('Public')}/Active/common/js/intercept.js'></script>
+    <script>
+        //intercept page
+        intercept('{$media_id}','{$entry_id}','{$intercept}');        
+        //font resize standard for iphone6
+        $(window).width()>540?$('html').css('font-size',''+540/375*125+'%'):$('html').css('font-size',''+$(window).width()/375*125+'%');
+        window.onresize = function(){$(window).width()>540?$('html').css('font-size',''+540/375*125+'%'):$('html').css('font-size',''+$(window).width()/375*125+'%')};
+    </script>    
+    <!-- CSS Code -->
+    <link rel="stylesheet" href="{:C('Public')}/Active/common/css/1028_common.css" type="text/css">
+    <link rel="stylesheet" href="{:C('Public')}/Active/08_draw_red/css/wap_style.css" type="text/css">    
+          
+    <!-- Baidu Statistics -->
+
+</head>
+<body bgcolor="#f15740">
+    <!-- 主要内容 -->
+    <div class="index">
+        <div class='main'><img src='https://yun.yizhidayu.com/08-main-bg.jpg'></div>
+        <a href='/index.php/Active/Active/prize_list/media_id/{$media_id}/entry_id/{$entry_id}'><div class='prize'>我的奖品</div></a>
+        <div class='rule'>
+            <div class='content'>
+                <h1>活动说明</h1>
+                <p>领百元现金</p>
+                <p>活动说明：参与活动即有机会获得幸运大奖，每天都有免费抽奖机会。奖品数量有限,快来戳戳戳</p>
+                <p>惊喜一：200元红包</p>
+                <p>惊喜二：100元红包</p>
+                <p>惊喜三：50元红包</p>
+                <p>惊喜四：10元红包</p>
+                <p>惊喜五：5元红包</p>
+                <p>惊喜六：幸运福袋</p>
+            </div>            
+            <img src='/Public/Active/08_draw_red/image/rule.png'>
+        </div>
+        <div class='rule-lay'></div>
+        <div class='draw'>
+            <img src='https://yun.yizhidayu.com/08-disk01-1.png' class='start' style='display: block'>
+            <img src='https://yun.yizhidayu.com/08-disk01-2.png' class='end'>
+            <div class='bg rotate'>
+                <img src='https://yun.yizhidayu.com/08-disk02.png' id='rotate' style='width: 100%'>
+            </div>
+            <div class='btn'>
+                <img src='/Public/Active/08_draw_red/image/pointer.png'>
+            </div>        
+            <div class='time'>您还有 <span id='last'>{$times}</span> 次机会</div>
+        </div>   
+        <div class='overlay-over f-over'>
+            <img src='/Public/Active/08_draw_red/image/end.png'>
+        </div>
+        <div class='overlay-other f-over'>
+            <div class='list'>
+                <div class='error'>
+                    <img src='/Public/Active/08_draw_red/image/pop2_close.png'>
+                </div>
+                <img src='/Public/Active/08_draw_red/image/two.png' class='bg'>
+                <ul></ul>              
+            </div>            
+        </div>                       
+        <div class='overlay-gift f-over'>
+            <div class='box'>
+                <div class='mid'>
+                    <img src='/Public/Active/08_draw_red/image/bg01.png' class='mid-bg'>
+                    <div class='banner'>
+                        <img src=''>
+                    </div>
+                </div>
+                <div class='bottom'>
+                    <img src='/Public/Active/08_draw_red/image/bg02.png'>
+                </div>
+                <div class='error'></div>
+                <div class='get'>
+                    <img src='/Public/Active/08_draw_red/image/btnbtn.png'>
+                </div>                
+            </div>            
+        </div>
+        <div class="fail">
+            <div class="news">
+            	<div class="title">提示</div>
+                <div class="font"></div>
+                <div class="enter">确定</div>
+            </div>
+        </div>   
+    </div>  
+<script type="text/javascript">       
+    //旋转转轴
+    var begain=1;
+    function DrawRotate(){
+        begain++;
+        if(begain%2){
+            $(".draw .end").hide(0);
+        }else{
+            $(".draw .end").show(0);
+        }
+    };
+    var drawRotate=setInterval('DrawRotate()',500);        
+    
+    var resRun=true,recordID,protect=false,recordInfo;
+    $('.draw .btn img').click(function (){                
+        if(resRun===false){
+            return;
+        }
+        resRun=false;
+        $('.draw .bg').removeClass('rotate');
+        $('.draw .btn img').attr('src','/Public/Active/08_draw_red/image/pointer_gray.png');
+        $.ajax({
+            url:"/index.php/Active/Ajax/run.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+            },                                                   
+            success: function(data) {
+                if(data.status===1){
+                    recordID=data.recordID;
+                    $('.overlay-gift .get').attr('data-id',recordID);                   
+                    $('.draw .bg').addClass('run');
+                    recordInfo=data;
+                    setTimeout("rotateFn()",1400);
+                }else if(data.status===0){
+                    $('.overlay-other').show(0);
+                    $('.overlay-other ul').html('');
+                    for(var d=0;d<data.active.length;d++){
+                        $('.overlay-other ul').append(
+                            "<li data-id="+data.active[d].id+"><img src='"+data.active[d].pic+"'></li>"                                              
+                        );
+                    }    
+                    $('.overlay-other ul li').click(function(){
+                       window.location.href="/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/"+$(this).attr('data-id')+""; 
+                    });
+                }                  
+            },
+            error: function() {
+                $('.fail').show(0);
+                $('.fail .font').html("网络不给力,再试一次吧");
+            },
+        });			
+    });    
+    function rotateFn(){
+        resRun=true;
+        $('.overlay-gift .banner img').attr('src',recordInfo.prize.pic);
+        $('.overlay-gift .get').attr('data-href',recordInfo.prize.href);
+        $('.overlay-gift').show(0);    
+        $('.draw .bg').removeClass('run').addClass('rotate');        
+        $('#last').html(recordInfo.last);
+    };
+    $('.overlay-gift .error').click(function(){
+        $('.draw .btn img').attr('src','/Public/Active/08_draw_red/image/pointer.png');
+        $('.overlay-gift').hide(0);            
+        if($.trim($('#last').text())<1){                
+            $.ajax({
+                url:"/index.php/Active/Ajax/active_data.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                },                                                   
+                success: function(data){
+                    if(data.status===0){
+                        $('.overlay-other').show(0);
+                        for(var d=0;d<data.active.length;d++){
+                            $('.overlay-other ul').append(
+                                "<li data-id="+data.active[d].id+"><img src='"+data.active[d].pic+"'></li>"                                              
+                            );
+                        }                                
+                        $('.overlay-other ul li').click(function(){
+                           window.location.href="/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/"+$(this).attr('data-id')+""; 
+                        });
+                    }           
+                },
+                error: function(){
+                    //丢包统计
+                    protect=false;
+                    window.location.href=$('.overlay-gift .get').attr('data-href');
+                },
+            });   
+        }                           
+    });
+    $('.overlay-gift .get').click(function(){
+        if(protect===true){
+            return;
+        }
+        protect=true;
+        $.ajax({
+            url:"/index.php/Active/Ajax/receive.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+                record_id:$('.overlay-gift .get').attr('data-id')
+            },                                                   
+            success: function(data){
+                protect=false;
+                $('.draw .bg').addClass('rotate');
+                $('.draw .btn img').attr('src','/Public/Active/08_draw_red/image/pointer.png');
+                if(data.status===1){
+                    window.location.href=$('.overlay-gift .get').attr('data-href');
+                }           
+            },
+            error: function(){
+                //丢包统计
+                protect=false;
+                window.location.href=$('.overlay-gift .get').attr('data-href');
+            },
+        })         
+    });      
+    $('.rule').attr('show','0');
+    //  *******       rule函数      ******* //  
+    $('.rule img').click(function(){
+        if($('.rule').attr('show')==='0'){
+            $('.rule .content').slideDown(200);
+            $('.rule').attr('show','1');
+            $('.rule-lay').show(0);
+        }else{
+            $('.rule .content').slideUp(200);
+            $('.rule').attr('show','0');
+            $('.rule-lay').hide(0);
+        }        
+    });
+    $('.fail .enter').click(function(){
+        $('.fail').hide(0);
+    });
+    $('.rule-lay').click(function(){
+        $('.rule .content').slideUp(400);
+        $('.rule').attr('show','0');
+        $('.rule-lay').hide(0);
+    });
+    $('.overlay-other .error').click(function(){   
+        resRun=true;
+        $('.draw .bg').addClass('rotate');
+        $('.draw .btn img').attr('src','/Public/Active/08_draw_red/image/pointer.png');
+        $('.overlay-other').hide(0);
+    });    
+     
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();        
+</script>      
+</body>
+</html>
+	
+
+
+
+
+
+
+
+

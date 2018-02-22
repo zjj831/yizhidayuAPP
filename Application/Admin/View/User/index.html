@@ -1,0 +1,260 @@
+<extend name="Common:app"/>
+
+
+<block name='pageheader'>
+	
+	
+<section class="content-header">
+	<h1>
+		用户数据统计
+		<!--<small>Optional description</small>-->
+	</h1>
+	<ol class="breadcrumb">
+		<li>
+			<a href="{:U('Index/index')}">
+				<i class="fa fa-dashboard">
+				</i> 首页
+			</a>
+		</li>
+		<li class="active">
+			用户数据统计
+		</li>
+	</ol>
+</section>
+</block>
+
+<block name='content'>
+<div class="box">
+	<div class="box-header">
+		
+<!--<button class="btn btn-primary  pull-right" data-toggle="modal" data-target="#myModal">
+	添加用户
+</button>-->
+		<form action="{:U('User/index')}"  method="get" class="form-inline">
+			<div  class="form-group">
+            <label class="control-label">日期：</label>      
+    <input  type="text" id="datepicker" name="date" data-provide="datepicker" placeholder="按日期查找" class="form-control">
+            
+             </div>	     
+               	<div class="form-group">
+
+                <button type="submit" class="btn btn-default" >搜索</button>
+            </div>	
+		</form>
+	</div><!-- /.box-header -->
+
+	<div class="box-body" >
+		<div  class="dataTables_wrapper form-inline dt-bootstrap">
+			<div class="row">
+				<div class="col-sm-12">
+	<table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+						<thead>
+							<tr role="row">
+								<th >
+									当前注册用户
+								</th>
+								<th >
+									IOS用户数量
+								</th>
+								<th >
+									安卓用户数量
+								</th>
+								<th >
+									用户总分享次数
+								</th>
+								<th >
+									APP进入总UV
+								</th>
+								<th >
+									当日登陆用户数
+								</th>
+
+
+
+									</tr>
+						</thead>
+						<tbody>
+							<tr role="row">
+									<td>{$info.usersum}</td>
+									<td>{$info.usersumios}</td>
+									<td>{$info.usersuman}</td>
+									<td>{$info.sharetimessum}</td>
+									<td>{$info.clickuv}</td>
+									<td>{$info.usertodaylogin}</td>
+								
+									</tr>
+						</tbody>
+					</table>
+
+				</div><div class="col-sm-12">
+				<table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+					<thead>
+					<tr role="row">
+						<th >
+							当日进入UV
+						</th>
+						<th >
+							当日分享次数
+						</th>
+						<th >
+							当日分享人数
+						</th>
+						<th >
+							当日分享邀请次数
+						</th>
+						<th >
+							当日分享邀请人数
+						</th>
+						<th >
+							当日分享活动次数
+						</th>
+						<th >
+							当日分享活动人数
+						</th>
+						<th >
+							当日分享活动次数
+						</th>
+						<th >
+							当日分享活动人数
+						</th>
+
+					</tr>
+					</thead>
+					<tbody>
+					<tr role="row">
+						<td>{$info.clickuvtoday}</td>
+						<td>{$info.sharetimestoday}</td>
+						<td>{$info.sharepersontoday}</td>
+						<td>{$info.sharetimesyq}</td>
+						<td>{$info.sharepersonyq}</td>
+						<td>{$info.sharetimesactive}</td>
+						<td>{$info.sharepersonactive}</td>
+						<td>{$info.sharetimescert}</td>
+						<td>{$info.sharepersonacert}</td>
+
+					</tr>
+					</tbody>
+				</table>
+
+			</div>
+			</div>
+			
+		</div>
+	</div><!-- /.box-body -->
+</div>
+<!-- Modal -->  
+<div class="modal fade" id="myModal" style="background: rgba(0,0,0,0);" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">  
+  <div class="modal-dialog">  
+    <div class="modal-content">  
+      <div class="modal-header">  
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>  
+        <h4 class="modal-title" id="myModalLabel">添加用户</h4>  
+      </div>  
+      <div style="padding:5px;">  
+      <div class="modal-body" data-scrollbar="true" data-height="200" data-scrollcolor="#000">  
+  
+  
+<form class="form-horizontal" method="post" action="{:U('User/store')}" enctype="multipart/form-data">
+                  	<div class="form-group">
+                      <label for="inputPassword3" class="col-sm-3 control-label">联系人 </label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" name="realname" id="inputPassword3" placeholder="">
+                      </div>
+                    </div>
+                  	<div class="form-group">
+                      <label for="inputPassword3" class="col-sm-3 control-label">联系电话 </label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" name="contact" id="inputPassword3" placeholder="">
+                      </div>
+                    </div>
+                  	<div class="form-group">
+                      <label for="inputPassword3" class="col-sm-3 control-label">所属店铺 </label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" name="shopname" id="inputPassword3" placeholder="">
+                      </div>
+                    </div>
+                  	<div class="form-group">
+                      <label for="inputPassword3" class="col-sm-3 control-label">负责人 </label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" name="manager" id="inputPassword3" placeholder="">
+                      </div>
+                    </div>
+                  	<div class="form-group">
+                      <label for="inputPassword3" class="col-sm-3 control-label">负责人电话 </label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" name="manager_contact" id="inputPassword3" placeholder="">
+                      </div>
+                    </div>
+             
+              
+  
+</div>  
+      </div>  
+      <div class="modal-footer">  
+        <button type="submit" class="btn btn-primary btn-block">保存</button>  
+      </div>  
+        </form>
+  
+    </div>  
+  </div>  
+</div>  
+	
+	
+</block>
+
+<block name="js">
+	<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" type="text/javascript" charset="utf-8"></script>
+<script src="{:C('PUBLIC')}/adminlte/plugins/jQueryUI/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript">
+//	$("#myModal").draggable({   
+//  handle: ".modal-header",   
+//  cursor: 'move',   
+//  refreshPositions: false  
+//});  
+	
+	
+	/* center modal */  
+function centerModals() {   
+    $('#myModal').each(function(i) {   
+        var $clone = $(this).clone().css('display', 'block').appendTo('body'); var top = Math.round(($clone.height() - $clone.find('.modal-content').height()) / 2);   
+        top = top > 0 ? top : 0;   
+        $clone.remove();   
+        $(this).find('.modal-content').css("margin-top", top);   
+    });   
+}   
+$('#myModal').on('show.bs.modal', centerModals);   
+$(window).on('resize', centerModals);  
+	
+	$("#myModal").draggable({   
+    handle: ".modal-header",   
+    cursor: 'move',   
+    refreshPositions: false  
+});  
+	  $('#datepicker').datepicker({
+  	 language: 'zh-CN',
+  	 autoclose: true
+  });
+  
+  	
+	
+		function trashdialog(id){
+	var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+	if (!ifdel) {
+		return;
+	}
+	 $.get("{:U('User/user_destroy')}?id="+id,function(data,status){
+if(data=="ok"){x
+		alert("删除成功");
+ 	location.reload();
+}else{
+	alert(data);
+}
+});
+}
+			
+
+	</script>
+	
+</block>

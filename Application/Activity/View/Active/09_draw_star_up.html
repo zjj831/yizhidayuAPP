@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢乐星巴克</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <!-- CSS Code -->
+    <link rel="stylesheet" href="/Public/Active/09_draw_star_up/css/wap_style.css" type="text/css">
+
+    <!-- JavaScript Code -->
+    <script src="/Public/Active/09_draw_star_up/js/jquery.min.js"></script>
+    <!-- Baidu Statistics -->
+
+</head>
+
+<body bgcolor="#f7f8f3">
+	<!-- 主要内容 -->
+    <div class="index">
+        <div class='main'><img src='http://owu67etj4.bkt.clouddn.com/bg03.jpg'></div>
+        <a href='/index.php/Active/Active/prize_list/media_id/{$media_id}/entry_id/{$entry_id}'><div class='prize'>我的奖品</div></a>
+        <div class='rule'>
+            <div class='content'>
+                <h1>活动说明</h1>
+                <p>免费大派送</p>
+                <p>活动说明：参与活动即有机会获得幸运大奖，每天都有免费抽奖机会。奖品数量有限,快来戳戳戳</p>
+                <p>惊喜一：200元红包</p>
+                <p>惊喜二：100元红包</p>
+                <p>惊喜三：50元红包</p>
+                <p>惊喜四：10元红包</p>
+                <p>惊喜五：5元红包</p>
+                <p>惊喜六：幸运福袋</p>
+            </div>            
+            <img src='/Public/Active/09_draw_star_up/image/rule.png'>
+        </div>
+        <div class='rule-lay'></div>
+        <div class='draw'>
+            <img src='http://owu67etj4.bkt.clouddn.com/disk01.png' class='start' style='display: block'>
+            <img src='http://owu67etj4.bkt.clouddn.com/disk02.png' class='end'>
+            <div class='bg rotate'>
+                <img src='http://owu67etj4.bkt.clouddn.com/disk04.png' id='rotate' style='width: 100%'>
+            </div>
+            <div class='btn'>
+                <img src='/Public/Active/09_draw_star_up/image/btn2.png'>
+            </div>        
+            <div class='time'>您还有 <span id='last'>{$times}</span> 次机会</div>
+        </div>   
+        <div class='overlay-over f-over'>
+            <img src='/Public/Active/09_draw_star_up/image/end.png'>
+        </div>
+        <div class='overlay-other f-over'>
+            <div class='list'>
+                <div class='error'>
+                    <img src='/Public/Active/09_draw_star_up/image/pop2_close.png'>
+                </div>
+                <img src='http://owu67etj4.bkt.clouddn.com/two.png' class='bg'>
+                <ul></ul>              
+            </div>            
+        </div>                       
+        <div class='overlay-gift f-over'>
+            <div class='box'>
+                <div class='mid'>
+                    <img src='/Public/Active/09_draw_star_up/image/bg01.png' class='mid-bg'>
+                    <div class='banner'>
+                        <img src=''>
+                    </div>
+                </div>
+                <div class='bottom'>
+                    <img src='/Public/Active/09_draw_star_up/image/bg02.png'>
+                </div>
+                <div class='error'></div>
+                <div class='get'>
+                    <img src='/Public/Active/09_draw_star_up/image/btnbtn.png'>
+                </div>                
+            </div>            
+        </div>
+        <div class="fail">
+            <div class="news">
+            	<div class="title">提示</div>
+                <div class="font"></div>
+                <div class="enter">确定</div>
+            </div>
+        </div>   
+    </div>
+<script type="text/javascript">   
+    //旋转转轴
+    var begain=1;
+    function DrawRotate(){
+        begain++;
+        if(begain%2){
+            $(".draw .end").hide(0);
+        }else{
+            $(".draw .end").show(0);
+        }
+    };
+    var drawRotate=setInterval('DrawRotate()',500);        
+    
+    var resRun=true,recordID,protect=false,recordInfo;
+    $('.draw .btn img').click(function (){                
+        if(resRun===false){
+            return;
+        }
+        resRun=false;
+        $('.draw .bg').removeClass('rotate');
+        $('.draw .btn img').attr('src','/Public/Active/09_draw_star_up/image/point-gray.png');
+        $.ajax({
+            url:"/index.php/Active/Ajax/run.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+            },                                                   
+            success: function(data) {
+                if(data.status===1){
+                    recordID=data.recordID;
+                    $('.overlay-gift .get').attr('data-id',recordID);                   
+                    $('.draw .bg').addClass('run');
+                    recordInfo=data;
+                    var run=setTimeout("rotateFn()",1400);
+                }else if(data.status===0){
+                    $('.overlay-other').show(0);
+                    $('.overlay-other ul').html('');
+                    for(var d=0;d<data.active.length;d++){
+                        $('.overlay-other ul').append(
+                            "<li data-id="+data.active[d].id+"><img src='"+data.active[d].pic+"'></li>"                                              
+                        );
+                    }    
+                    $('.overlay-other ul li').click(function(){
+                       window.location.href="/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/"+$(this).attr('data-id')+""; 
+                    });
+                }                  
+            },
+            error: function() {
+                $('.fail').show(0);
+                $('.fail .font').html("网络不给力,再试一次吧");
+            },
+        });			
+    });    
+    function rotateFn(){
+        resRun=true;
+        $('.overlay-gift .banner img').attr('src',recordInfo.prize.pic);
+        $('.overlay-gift .get').attr('data-href',recordInfo.prize.href);
+        $('.overlay-gift').show(0);    
+        $('.draw .bg').removeClass('run').addClass('rotate');        
+        $('#last').html(recordInfo.last);
+    };
+    $('.overlay-gift .error').click(function(){
+        $('.draw .btn img').attr('src','/Public/Active/09_draw_star_up/image/btn2.png');
+        $('.overlay-gift').hide(0);            
+        if($.trim($('#last').text())<1){                
+            $.ajax({
+                url:"/index.php/Active/Ajax/active_data.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                },                                                   
+                success: function(data){
+                    if(data.status===0){
+                        $('.overlay-other').show(0);
+                        $('.overlay-other ul').html('');
+                        for(var d=0;d<data.active.length;d++){
+                            $('.overlay-other ul').append(
+                                "<li data-id="+data.active[d].id+"><img src='"+data.active[d].pic+"'></li>"                                              
+                            );
+                        }                                
+                        $('.overlay-other ul li').click(function(){
+                           window.location.href="/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/"+$(this).attr('data-id')+""; 
+                        });
+                    }           
+                },
+                error: function(){
+                    //丢包统计
+                    protect=false;
+                    window.location.href=$('.overlay-gift .get').attr('data-href');
+                },
+            });   
+        }                           
+    });  
+    $('.overlay-gift .get').click(function(){
+        if(protect===true){
+            return;
+        }
+        protect=true;
+        $.ajax({
+            url:"/index.php/Active/Ajax/receive.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+                record_id:$('.overlay-gift .get').attr('data-id')
+            },                                                   
+            success: function(data){
+                protect=false;
+                $('.draw .bg').addClass('rotate');
+                $('.draw .btn img').attr('src','/Public/Active/09_draw_star_up/image/btn2.png');
+                if(data.status===1){
+                    window.location.href=$('.overlay-gift .get').attr('data-href');
+                }           
+            },
+            error: function(){
+                //丢包统计
+                protect=false;
+                window.location.href=$('.overlay-gift .get').attr('data-href');
+            },
+        });         
+    });    
+    $('.rule').attr('show','0');
+    //  *******       rule函数      ******* //  
+    $('.rule img').click(function(){
+        if($('.rule').attr('show')==='0'){
+            $('.rule .content').slideDown(200);
+            $('.rule').attr('show','1');
+            $('.rule-lay').show(0);
+        }else{
+            $('.rule .content').slideUp(200);
+            $('.rule').attr('show','0');
+            $('.rule-lay').hide(0);
+        }        
+    });
+    $('.fail .enter').click(function(){
+        $('.fail').hide(0);
+    });
+    $('.rule-lay').click(function(){
+        $('.rule .content').slideUp(400);
+        $('.rule').attr('show','0');
+        $('.rule-lay').hide(0);
+    });
+    $('.overlay-other .error').click(function(){   
+        resRun=true;
+        $('.draw .bg').addClass('rotate');
+        $('.draw .btn img').attr('src','/Public/Active/09_draw_star_up/image/btn2.png');
+        $('.overlay-other').hide(0);
+    });    
+    function check(){
+        $.ajax({
+            url:"/index.php/Active/Ajax/check.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+            },                                                   
+        });	
+    }   
+    check();  
+</script>      
+</body>
+</html>
+	
+
+
+
+
+
+
+
+

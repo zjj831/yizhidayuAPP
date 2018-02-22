@@ -1,0 +1,220 @@
+<extend name="Common:app"/>
+
+
+<block name='pageheader'>
+	
+	
+<section class="content-header">
+	<h1>
+		优惠卷管理
+		<!--<small>Optional description</small>-->
+	</h1>
+	<ol class="breadcrumb">
+		<li>
+			<a href="{:U('Index/index')}">
+				<i class="fa fa-dashboard">
+				</i> 首页
+			</a>
+		</li>
+		<li class="active">
+			优惠卷管理
+		</li>
+	</ol>
+</section>
+</block>
+
+<block name='content'>
+<div class="box">
+	<div class="box-header">
+		<a class="btn btn-primary pull-right" href="{:U('Coupon/couponcreate')}">添加</a>
+		<form action="{:U('Coupon/index')}"  method="get" class="form-inline">
+			<div class="form-group">
+                <label class="control-label">类型：</label>
+                <select id="types" name="type" class="select form-control">
+                    <option selected="selected" value="0">全部</option>
+					<foreach name='cate' item='v1'>
+						<option value="{$v1.id}">{$v1.title}</option>
+					</foreach>
+				</select>
+            </div>
+			<div  class="form-group">
+            <label class="control-label">日期：</label>
+ 			<input  type="text" id="datepicker" name="date" data-provide="datepicker" placeholder="结束时间" class="form-control">
+
+			</div>
+               	<div class="form-group">
+                <label class="control-label">标题：</label>
+                <input name="keyword" type="text" size="30" placeholder="输入标题进行搜索" class="ipt form-control">
+                
+                <button type="submit" class="btn btn-default" >搜索</button>
+            </div>	
+		</form>
+	</div><!-- /.box-header -->
+
+	<div class="box-body" >
+		<div  class="dataTables_wrapper form-inline dt-bootstrap">
+			<div class="row">
+				<div class="col-sm-12">
+<table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+						<thead>
+							<tr role="row">
+								<th >
+									ID
+								</th>
+								<th >
+									标题
+								</th>
+								<th >
+									点赞量
+								</th>
+								<th >
+									收藏量
+								</th>
+								<th >
+									简介
+								</th>
+								<th >
+									类别
+								</th>
+								<th >
+									活动时间
+								</th>
+								<th >
+									操作
+								</th>
+									</tr>
+						</thead>
+						<tbody>
+						<foreach name='datas' item='item'>
+							<tr role="row">
+									<td>{$item.id}</td>
+									<td>{$item.title}</td>
+									<td>{$item.upvote}</td>
+									<td>{$item.collect}</td>
+									<td>{$item.description}</td>
+								<td>{$item.catename}</td>
+									<td>{$item.validate}-{$item.enddate}</td>
+									<td>
+					<a href="{:U('Coupon/index_home')}?id={$item.id}"><img class="myicon" style="display: inline;" src="{:C('PUBLIC')}/icon/bianji2.png"></img>  </a>
+					<a href="" onclick="trashdialog('{$item.id}')"><img class="myicon" style="display: inline;" src="{:C('PUBLIC')}/icon/guanbi2.png"></img>  </a>					
+										
+									</td>
+								
+									</tr>
+						</foreach>
+						</tbody>
+					</table>		
+					<div class="result page">{$page}</div>
+				</div>
+			</div>
+			
+		</div>
+	</div><!-- /.box-body -->
+</div>
+
+
+<!-- Modal -->  
+<div class="modal fade" id="myModal" style="background: rgba(0,0,0,0);" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">  
+  <div class="modal-dialog">  
+    <div class="modal-content">  
+      <div class="modal-header">  
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>  
+        <h4 class="modal-title" id="myModalLabel">评论</h4>  
+      </div>  
+      <div style="padding:5px;">  
+      <div class="modal-body" data-scrollbar="true" data-height="200" data-scrollcolor="#000">  
+  
+  <ul id="comments" class="list-group">
+  	
+  </ul>
+  
+</div>  
+      </div>  
+      <!--<div class="modal-footer">  
+     </div>  
+    -->
+    </div>  
+  </div>  
+</div>  
+	
+
+
+
+</block>
+
+<block name="js">
+	<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" type="text/javascript" charset="utf-8"></script>
+<script src="{:C('PUBLIC')}/adminlte/plugins/jQueryUI/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript">
+	
+	/* center modal模态框居中 */  
+function centerModals() {   
+    $('#myModal').each(function(i) {   
+        var $clone = $(this).clone().css('display', 'block').appendTo('body'); var top = Math.round(($clone.height() - $clone.find('.modal-content').height()) / 2);   
+        top = top > 0 ? top : 0;   
+        $clone.remove();   
+        $(this).find('.modal-content').css("margin-top", top);   
+    });   
+}   
+$('#myModal').on('show.bs.modal', centerModals);   
+$(window).on('resize', centerModals);  
+	
+	$("#myModal").draggable({   
+    handle: ".modal-header",   
+    cursor: 'move',   
+    refreshPositions: false  
+});  
+	
+	  $('#datepicker').datepicker({
+  	 language: 'zh-CN',
+  	 autoclose: true
+  });
+  
+
+
+	
+		function trashdialog(id){
+	var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+	if (!ifdel) {
+		return;
+	}
+	 $.get("{:U('Coupon/index_destroy')}?id="+id,function(data,status){
+if(data=="ok"){
+		alert("删除成功");
+ 	location.reload();
+}else{
+	alert(data);
+}
+});
+}
+function comment_destroy(cid,noteid){
+	var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+	if (!ifdel) {
+		return;
+	}
+		$.ajax({
+                url: "{:U('api/comment_destroy')}?cid="+cid+"&noteid="+noteid,   
+                success: function (data) {
+//              alert('s');
+		
+//              	alert(data);
+ if(data=="ok"){
+		alert("删除成功");
+ 	 	location.reload();
+// 	 	$('#myModal').modal('hide');
+}else{
+	alert(data);
+}
+                     },
+                error: function (msg) {
+                    alert("出错了！"+JSON.stringify(msg));
+                }
+            });   
+	
+	
+}
+	</script>
+	
+</block>

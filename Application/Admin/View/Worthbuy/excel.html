@@ -1,0 +1,87 @@
+<extend name="Common:app"/>
+
+
+<block name='pageheader'>
+<section class="content-header">
+	<h1>
+		excel导入商品
+		<!--<small>Optional description</small>-->
+	</h1>
+	<ol class="breadcrumb">
+		<li>
+			<a href="#">
+				<i class="fa fa-dashboard">
+				</i> 首页
+			</a>
+		</li>
+		<li>
+			<a href="{:('./index')}">
+				</i>值得买管理
+			</a>
+		</li>
+		<li class="active">
+			excel商品
+		</li>
+	</ol>
+</section>
+</block>
+
+<block name='content'>
+<div class="box">
+	<div class="box-header">
+		
+	</div><!-- /.box-header -->
+
+	<div class="box-body" >
+		<div  class="">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-1">
+
+
+<form class="form-horizontal" id="myform" method="post" action="{:U('Worthbuy/excel_handler')}" enctype="multipart/form-data">
+                  <div class="box-body">
+                   
+                    <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label" title="必填">选择excel文件： <span id=""  style="color: red;">
+                      	*
+                      </span></label>
+                      <div class="col-sm-10">
+                        <input type="file" class="form-control" name="file" id="inputPassword3" placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label">温馨提示:</label>
+                      <div class="col-sm-10">
+                      	<p>请上传xls或xlsx格式的文件.</p>
+                       <p>每一列的数据格式：1标题 2来源地（淘宝京东） 3开始时间 4.结束时间  5.发放总量 6.优惠介绍  7.使用说明  8.领取说明  9.图片地址  10.活动链接  11.原价  12.现价   13.简介  14.种类（准确填写） 15.标签  </p>
+                        <!--<input type="text" class="form-control" disabled="" name="remarks" id="inputPassword3" value="">-->
+                      </div>
+                    </div>
+              
+                  </div><!-- /.box-body -->
+                  <div class="box-footer">
+                    <input type="button" id="form-submit" onClick="submiting()" class="btn btn-info pull-right" value="开始导入">
+                  </div><!-- /.box-footer -->
+                </form>
+
+				</div>
+			</div>
+			
+		</div>
+	</div><!-- /.box-body -->
+</div>
+
+</block>
+<block name="js">
+	
+	
+	<script type="text/javascript">
+		function submiting(){
+			document.getElementById("form-submit").setAttribute("value","处理中...");
+			document.getElementById("form-submit").setAttribute("disabled", true);
+		document.getElementById("myform").submit();
+//		$('#myform').submit();
+	}	
+	
+	</script>
+</block>

@@ -1,0 +1,333 @@
+
+/*********************************************************************
+                             26_welfare
+**********************************************************************/
+.index{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+a{
+    text-decoration:none;
+    outline:0;color:#333;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+header{
+    width:100%;
+    height:6.5rem;
+    background-image:url("https://yun.yizhidayu.com/53-service-banner.jpg");
+    background-size:100% 100%;
+    background-position: center;
+}
+/*************************nav******************************/
+.nav{
+    width:100%;
+    height:4.75rem;
+    display: flex;
+    margin-top:0.5rem;
+    background:#fff;
+}
+.nav div{
+    flex:1;
+}
+.nav div a{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.nav div img{
+    width:2.5rem;
+    height:2.5rem;
+    display: block;
+    margin:0.5rem auto 0.375rem auto;
+}
+.nav div p{
+    width:100%;
+    text-align: center;
+    font-size:14px;
+    line-height:0.75rem;
+}
+/**********************list***********************************/
+
+
+ul.list{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background:#fff;
+    margin-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+
+.list li:first-child{
+    width:100%;
+    height:2.5rem;
+    line-height:2.5rem;
+    border:none;
+    margin-bottom:0;
+}
+.list li:first-child span:first-child{
+    width:0.125rem;
+    height:1.125rem;
+    background:#ec5155;
+    display: block;
+    float:left;
+    margin-left:0.5rem;
+    margin-top:0.6875rem;
+}
+.list li:first-child span:nth-child(2){
+    display: block;
+    color:#000;
+    font-size:16px;
+    font-weight: bold;
+    margin-left:1.25rem;
+
+}
+.list li{
+    width:8.375rem;
+    height:6.25rem;
+    border:2px solid #fafafa;
+    box-sizing: border-box;
+    float:left;
+    margin-bottom:0.5rem;
+}
+.list li a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.list li img{
+    width:100%;
+}
+.list li p{
+    display: block;
+    width:100%;
+    height:1.25rem;
+    line-height:1.25rem;
+    font-size:14px;
+    color:#333;
+    text-align: center;
+}
+.list li:nth-child(even){
+    margin-left:0.5rem;
+}
+.list li:nth-child(odd){
+    margin-left:1rem;
+}
+/******************dibu**************/
+.footer{
+    width:100%;
+    height:2rem;
+    line-height:2rem;
+    text-align: center;
+    color:#333;
+    font-size:14px;
+    background:#fff;
+}
+
+
+
+.index .fail{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    display:none;
+}
+.index .fail .news{
+    text-align:center;
+    width:70%;
+    height:8rem;
+    background:#fff;
+    margin:50% auto 0 auto;
+    border-radius:0.2rem;
+    color:#3d4245;
+    position:relative;
+    overflow:hidden;
+}
+@media only screen and (max-width: 340px){
+.index .fail .news{
+    width:76%;
+}
+}
+.index .fail .news .title{
+    background:#e25d4e;
+    color:#fff;
+    height:1.8rem;
+    line-height:1.8rem;
+}
+.index .fail .news .font{
+    line-height:4rem;
+    height:4rem;
+    width:100%;
+    font-size:0.65rem;
+}
+.index .fail .news .enter{
+    height:2rem;
+    line-height:2rem;
+    background:#fff;
+    text-align:center;
+    color:#e25d4e;
+    border-top:1px solid #ebebeb;
+    position:absolute;
+    left:0;
+    width:100%;
+    bottom:0;
+}
+.index .overlay-gift{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    z-index: 999; 
+    overflow: hidden;
+}    
+.index .overlay-gift .box{
+    position: absolute;
+    left: 6.5%;
+    top: 4.2rem;
+    width: 87%;
+    -webkit-animation: zoomIn 0.6s ease 1; 
+    animation: zoomIn 0.6s ease 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0.2s;
+    -webkit-animation-delay:0s;   
+}
+.index .overlay-gift .light{
+    position: absolute;
+    top: -3.5rem;
+    left: 5%;
+    width: 90%;
+    height: 17.6rem;
+    background: url(https://yun.yizhidayu.com/24-light.png) no-repeat;
+    background-size: 100%;
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 5s linear infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0s;
+    transform-origin: 49% 43%;
+} 
+.index .overlay-gift .top{
+    position: absolute;
+    top: 2rem;
+    left: 23.5%;
+    width: 54%;
+    height: 3.5rem;
+    background: url(../image/modal-head.png) no-repeat;
+    background-size: 100%;
+    color: #f62934;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.2rem;
+    z-index: 99;
+}    
+.index .overlay-gift .instr{
+    position: absolute;
+    top: 5.4rem;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    z-index: 99;
+    font-weight: 700;
+    width: 92%;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    padding: 0 4%;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;  
+}    
+.index .overlay-gift .mid{
+    position: relative;
+    background: url(https://yun.yizhidayu.com/24-body1.png) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 19.52rem;
+}
+.index .overlay-gift .mid .banner{
+    position: absolute;
+    left: 10%;
+    top: 7.3rem;
+    width: 80%;
+    height: 6.05rem;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.index .overlay-gift .mid .banner img{
+    width: 100%;
+}
+@-webkit-keyframes zoomOut{
+    0%,40%,80%{
+        -webkit-transform:scale3d(1.1,1.1,1.1);
+    }
+    20%,60%{
+        -webkit-transform:scale3d(0.8,0.8,0.8);
+    }
+    100%{
+        -webkit-transform:scale3d(1,1,1);
+    }
+}
+@keyframes zoomOut{
+    0%,40%,80%{
+        transform:scale3d(1.1,1.1,1.1);
+    }
+    20%,60%{
+        transform:scale3d(0.8,0.8,0.8);
+    }
+    100%{
+        transform:scale3d(1,1,1);
+    }
+}
+.index .overlay-gift .get{
+    position: absolute;
+    bottom: 8.2%;
+    left: 8%;
+    width: 84%;
+    height: 12.8%;
+    background: url(../image/btn.png) no-repeat;
+    background-size: cover;
+    color: #f62934;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    -webkit-animation: zoomOut 1s ease 1; 
+    animation: zoomOut 1s ease 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0.2s;
+    -webkit-animation-delay:0s;   
+}
+.index .overlay-gift .error{
+    width: 1.3rem;
+    height: 1.3rem;
+    background: url(../image/close.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    -webkit-animation: fadeIn 0.6s ease 1; 
+    animation: fadeIn 0.6s ease 1; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    animation-delay:0.2s;
+    -webkit-animation-delay:0s;  
+}
+

@@ -1,0 +1,948 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta https-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='{:C('Public')}/Active/common/js/jquery.min.js'></script>
+    <script src='{:C('Public')}/Active/common/js/intercept.js?version=1.2'></script>
+    <script>
+        //intercept page
+        intercept('{$media_id}','{$entry_id}','{$intercept}');
+        //font resize standard for iphone6
+        $(window).width()>540?$('html').css('font-size',''+540/375*312.5+'%'):$('html').css('font-size',''+$(window).width()/375*312.5+'%');
+        window.onresize = function(){$(window).width()>540?$('html').css('font-size',''+540/375*312.5+'%'):$('html').css('font-size',''+$(window).width()/375*312.5+'%')};
+    </script>
+    <script src="/Public/Active/14_xie_zhua/js/loading.js"></script>
+    <link rel="stylesheet" href="/Public/Active/common/css/1031_common.css">
+    <link rel="stylesheet" href="/Public/Active/69_zhua_wawa/css/index_001.css">
+    <link rel="stylesheet" href="/Public/Active/common/css/swiper.css">
+    <script src="/Public/Active/common/js/jquery.fly.min.js"></script>
+    <script src="/Public/Active/common/js//swiper.min.js"></script>
+
+    <link rel="stylesheet" href="/Public/Active/45_dug_gu/css/demo.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Active/45_dug_gu/css/sweet-alert.css">
+    <title>{$tempInfo['title']}</title>
+    <!-- Baidu Statistics -->
+    <script src="{:C('Public')}/Active/common/js/baidu-census.js"></script>
+</head>
+<body>
+<!--//规则遮罩-->
+    <div class="zhezhao2"></div>
+<!--//券的相关信息-->
+<div class="zhezhao">
+    <img class="light" src="https://yun.yizhidayu.com/42-whackMole-tclight.png" alt="">
+    <div class="quan" style="background:url(https://yun.yizhidayu.com/42-whackMole-tcbgnew.png);background-size:100% 100%;background-repeat: no-repeat;">
+        <img src="https://yun.yizhidayu.com/42-whackMole-tcdelete.png" alt="" class="delete" id="delete">
+        <section class="name"></section>
+        <div class="linkone">
+            <img src="" alt="" class="quanimg">
+        </div>
+        <div class="linktwo">
+            <img src="https://yun.yizhidayu.com/42-whackMole-tcbtn.png" alt="">
+        </div>
+    </div>
+</div>
+<!--提示红包雨信息   -->
+<img class="tishi" src="https://yun.yizhidayu.com/41-jian-newplane1.png" alt="">
+<div class="hbrain">
+    <ul class="couten">
+    </ul>
+    <div class="mo2">
+        <span>7</span>
+    </div>
+    <img src="https://yun.yizhidayu.com/common-rain-bottom.png" alt="" class="rain-bottom">
+</div>
+<section class="dugzhezhao"></section>
+<!--//券的相关信息-->
+<div class="zhezhao-three">
+    <img class="light-three" src="https://yun.yizhidayu.com/common_light_bg2_21.png" alt="">
+    <div class="quan-three" style="background:url(https://yun.yizhidayu.com/tc-rain-bg.png);background-size:100% 100%;background-repeat: no-repeat;">
+        <img src="https://yun.yizhidayu.com/common-hb-tcdelete.png" alt="" class="delete" id="delete-three">
+        <img class="start02-three" src="https://yun.yizhidayu.com/tc-rain-bg2.png" alt="">
+        <img class="tc_one" src="https://yun.yizhidayu.com/tc-rain-b1.png" alt="">
+        <img class="tc_two" src="https://yun.yizhidayu.com/tc-rain-b2.png" alt="">
+        <img class="tc_three" src="https://yun.yizhidayu.com/tc-rain-b3.png" alt="">
+        <img class="tc_four" src="https://yun.yizhidayu.com/tc-rain-b4.png" alt="">
+        <img class="tc_five" src="https://yun.yizhidayu.com/tc-rain-b5.png" alt="">
+        <img class="tc_six" src="https://yun.yizhidayu.com/tc-rain-b6.png" alt="">
+        <img class="tc_seven" src="https://yun.yizhidayu.com/tc-rain-b7.png" alt="">
+        <img class="tc_eight" src="https://yun.yizhidayu.com/tc-rain-b8.png" alt="">
+        <img class="tc_nine" src="https://yun.yizhidayu.com/tc-rain-b9.png" alt="">
+        <img class="tc_ten" src="https://yun.yizhidayu.com/tc-rain-b10.png" alt="">
+        <img class="tc_eleven" src="https://yun.yizhidayu.com/tc-rain-b11.png" alt="">
+        <img class="tc_twelve" src="https://yun.yizhidayu.com/tc-rain-b12.png" alt="">
+        <img class="tc_thirty" src="https://yun.yizhidayu.com/tc-rain-b13.png" alt="">
+        <section class="name-three"></section>
+        <div class="linkone-three">
+            <img src="https://yun.yizhidayu.com/tc-rain-box.png" alt="" class="tc-box">
+            <img src="" alt="" class="quanimg-three">
+        </div>
+        <div class="linktwo-three">
+            <img src="https://yun.yizhidayu.com/tc-rain-btn.png" alt="">
+        </div>
+    </div>
+</div>
+<!--/**中奖公式**/-->
+<img class="prize-scale" src="https://yun.yizhidayu.com/prize-common-btn.png" alt="">
+<div class="prize-z">
+    <div class="prize-c">
+        <div class="prize-btn">
+            <span>中奖用户</span>
+            <span>中奖奖品</span>
+        </div>
+        <div class="ul">
+            <ul>
+                <li>
+                    <div>153****7204</div>
+                    <div>5元支付宝红包</div>
+                </li>
+                <li>
+                    <div>189****7725</div>
+                    <div>0.26元支付宝红包</div>
+                </li>
+                <li>
+                    <div>180****3195</div>
+                    <div>2.36元支付宝红包</div>
+                </li>
+                <li>
+                    <div>游客</div>
+                    <div>0.28元支付宝红包</div>
+                </li>
+                <li>
+                    <div>150****6065</div>
+                    <div>0.39元支付宝红包</div>
+                </li>
+                <li>
+                    <div>游客</div>
+                    <div>1.91元支付宝红包</div>
+                </li>
+                <li>
+                    <div>151****8010</div>
+                    <div>0.48元支付宝红包</div>
+                </li>
+                <li>
+                    <div>180****6114</div>
+                    <div>2.6元支付宝红包</div>
+                </li>
+                <li>
+                    <div>186****6596</div>
+                    <div>0.28元支付宝红包</div>
+                </li>
+                <li>
+                    <div>150****6065</div>
+                    <div>0.18元支付宝红包</div>
+                </li>
+                <li>
+                    <div>游客</div>
+                    <div>0.32元支付宝红包</div>
+                </li>
+                <li>
+                    <div>151****8010</div>
+                    <div>0.31元支付宝红包</div>
+                </li>
+                <!--/***dierbian-->
+                <li>
+                    <div>153****7204</div>
+                    <div>5元支付宝红包</div>
+                </li>
+                <li>
+                    <div>189****7725</div>
+                    <div>0.26元支付宝红包</div>
+                </li>
+                <li>
+                    <div>180****3195</div>
+                    <div>2.36元支付宝红包</div>
+                </li>
+                <li>
+                    <div>游客</div>
+                    <div>0.28元支付宝红包</div>
+                </li>
+                <li>
+                    <div>150****6065</div>
+                    <div>0.39元支付宝红包</div>
+                </li>
+                <li>
+                    <div>游客</div>
+                    <div>1.91元支付宝红包</div>
+                </li>
+                <li>
+                    <div>151****8010</div>
+                    <div>0.48元支付宝红包</div>
+                </li>
+                <li>
+                    <div>180****6114</div>
+                    <div>2.6元支付宝红包</div>
+                </li>
+                <li>
+                    <div>186****6596</div>
+                    <div>0.28元支付宝红包</div>
+                </li>
+                <li>
+                    <div>150****6065</div>
+                    <div>0.18元支付宝红包</div>
+                </li>
+                <li>
+                    <div>游客</div>
+                    <div>0.32元支付宝红包</div>
+                </li>
+                <li>
+                    <div>151****8010</div>
+                    <div>0.31元支付宝红包</div>
+                </li>
+            </ul>
+        </div>
+        <img src="https://yun.yizhidayu.com/prize-common-delete.png" alt="" class="prize-delete">
+    </div>
+</div>
+<div class="pop2" style="z-index:100;">
+    <div class="velocity">
+        <div class="tomorrow">
+            <img style="position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;" src="https://yun.yizhidayu.com/common_end_21.png" alt="">
+        </div>
+        <section class="activetwo">
+            <img class="bg_two" src="https://yun.yizhidayu.com/common_two_21.png" alt="">
+            <a href="" class="boxone">
+                <img src="" alt="" class="active1">
+            </a>
+            <a href="" class="boxtwo">
+                <img src="" alt="" class="active2">
+            </a>
+            <img class="delete" src="https://yun.yizhidayu.com/common_pop2_close_21.png" alt="">
+        </section>
+        <section class="activeone">
+            <img class="bg_two" src="https://yun.yizhidayu.com/common_two_21.png" alt="">
+            <a href="" class="boxone">
+                <img src="" alt="" class="active1">
+            </a>
+            <img class="delete" src="https://yun.yizhidayu.com/common_pop2_close_21.png" alt="">
+        </section>
+    </div>
+</div>
+
+    <section class="box" style="background-image:url(https://yun.yizhidayu.com/69-zhua-bg.jpg);background-size:100% 100%;background-repeat: no-repeat;">
+        <!--//狗-->
+        <img src="https://yun.yizhidayu.com/69-zhua-dogone.png" alt="" class="dog dog_one">
+        <img src="https://yun.yizhidayu.com/69-zhua-dogtwo.png" alt="" class="dog dog_two">
+        <img src="https://yun.yizhidayu.com/69-zhua-dogthree.png" alt="" class="dog dog_three">
+        <img src="https://yun.yizhidayu.com/69-zhua-dogfour.png" alt="" class="dog dog_four">
+        <img src="https://yun.yizhidayu.com/69-zhua-dogone.png" alt="" class="dog dog_five">
+        <img src="https://yun.yizhidayu.com/69-zhua-dogtwo.png" alt="" class="dog dog_six">
+
+        <!--//**按钮-->
+        <img src="https://yun.yizhidayu.com/69-zhua-redbtn.gif" alt="" class="btn">
+        <img src="https://yun.yizhidayu.com/69-zhua-gray-btn.png" alt="" class="graybtn">
+        <!--//**钩子-->
+        <div class="hook"><img src="https://yun.yizhidayu.com/69-zhua-dog.png" alt="" class="dog dogdog"></div>
+        <!--//**铆钉-->
+        <img src="https://yun.yizhidayu.com/69-zhua-maoding1.png" alt="" class="maodingLeft">
+        <img src="https://yun.yizhidayu.com/69-zhua-maoding2.png" alt="" class="maodingRight">
+        <!--//**传送带-->
+        <img src="https://yun.yizhidayu.com/69-zhua-chuan.gif" alt="" class="chuansongdai">
+        <img src="https://yun.yizhidayu.com/69-zhua-gig.gif" alt="" class="limao">
+        <img src="https://yun.yizhidayu.com/69-zhua-title.gif" alt="" class="title">
+        <!--蛋蛋-->
+        <section class="dugzhezhao"></section>
+        <!--//抽奖机会-->
+        <div class="font">
+            <p>您还有&nbsp;<span>{$times}</span>&nbsp;次抽奖机会</p>
+        </div>
+        <!--规则内容-->
+        <div class="rule_content">
+            <div class="rulefont">
+                <h2><span></span>&nbsp;活动说明&nbsp;<span></span></h2>
+                <p>妈妈再也不担心我的话费啦<br>
+                    <br>
+                    活动说明：参与活动即有机会获得幸运大奖，每天有{$tempInfo['times']}次免费抽奖机会。此活动为概率中奖，奖品数量有限<br>
+                    <br>
+                    惊喜一：500元红包<br>
+                    惊喜二：300元红包<br>
+                    惊喜三：200元红包<br>
+                    惊喜四：100元红包<br>
+                    惊喜五：50元红包<br>
+                    惊喜六：红包福袋<br>
+                    兑换项和活动均与设备生产商Apple lnc.无关</p>
+            </div>
+            <!--规则-->
+            <div class="rule" style="background:url(https://yun.yizhidayu.com/69-zhua-rule.png);background-size:100% 100%;background-repeat: no-repeat;">
+            </div>
+        </div>
+        <!--我的奖品-->
+        <a class="myprice" href="/index.php/Active/Active/prize_list/media_id/{$media_id}/entry_id/{$entry_id}">
+            <span>我的奖品</span>
+        </a>
+        <!--//跳转页面-->
+        <div class="jump" data-href="" style="display: none;"></div>
+        <!--//用户点击领券发送ajax-->
+        <div class="sendajax" style="display: none;"></div>
+        <!--//用户的id-->
+        <div class="userid" style="display: none;"></div>
+    </section>
+    <div class="swiper-container" id="swiper">
+        <img src="https://yun.yizhidayu.com/65-dug-prize.png" alt="" class="price">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="photo" src="https://yun.yizhidayu.com/69-zhua-price01.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="photo" src="https://yun.yizhidayu.com/69-zhua-price02.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="photo" src="https://yun.yizhidayu.com/69-zhua-price03.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="photo" src="https://yun.yizhidayu.com/69-zhua-price04.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="photo" src="https://yun.yizhidayu.com/69-zhua-price05.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="photo" src="https://yun.yizhidayu.com/69-zhua-price06.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="sekuai">*奖品和活动均与设备生产商Apple Inc.无关</div>
+</body>
+</html>
+<script>
+
+
+
+    //可以点击
+    $(".btn").show();
+    $(".hook img").remove();
+    //            //娃娃消失 换娃娃
+    $(".dog_one").remove();
+    $(".dog_two").remove();
+    $(".dog_three").remove();
+    $(".dog_four").remove();
+    $(".dog_five").remove();
+    var imgbox="<img src=\"https://yun.yizhidayu.com/69-zhua-dogone.png\" alt=\"\" class=\"dog dog_one\">\n" +
+        "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogtwo.png\" alt=\"\" class=\"dog dog_two\">\n" +
+        "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogthree.png\" alt=\"\" class=\"dog dog_three\">\n" +
+        "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogfour.png\" alt=\"\" class=\"dog dog_four\">\n" +
+        "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogone.png\" alt=\"\" class=\"dog dog_five\">\n" +
+        "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogtwo.png\" alt=\"\" class=\"dog dog_six\">";
+    $(imgbox).prependTo($(".box"));
+
+    var d_oneshow=setTimeout(function(){
+        $(".dog_one").show().addClass("dog-framesone");
+        clearTimeout(d_oneshow);
+    },0)
+
+    var d_twoshow=setTimeout(function(){
+        $(".dog_two").show().addClass("dog-framestwo");
+        clearTimeout(d_twoshow);
+    },1200)
+
+    var d_threeshow=setTimeout(function(){
+        $(".dog_three").show().addClass("dog-framesthree");
+        clearTimeout(d_threeshow);
+    },2400)
+
+    var d_fourshow=setTimeout(function(){
+        $(".dog_four").show().addClass("dog-framesfour");
+        clearTimeout(d_fourshow);
+    },3600)
+
+    var d_fiveshow=setTimeout(function(){
+        $(".dog_five").show().addClass("dog-framesfive");
+        clearTimeout(d_fiveshow);
+    },4800)
+
+    var d_sixshow=setTimeout(function(){
+        $(".dog_sixs").show().addClass("dog-framessix");
+        clearTimeout(d_sixshow);
+    },6000);
+    if(localStorage.aa69){
+        $(".prize-scale").removeClass("scale-move").css("left", "-0.5rem");
+    }else{
+        localStorage.aa69="yes";
+        $(".prize-scale").addClass("scale-move");
+    }
+    //点击奖品的球球中奖公式出现
+    $(".prize-scale").on("touchend",function(){
+        $(".prize-z").show();
+    })
+    //点击奖品xx中奖公式消失
+    $(".prize-delete").on("touchend",function(){
+        $(".prize-z").hide();
+    })
+
+    $(".title").on("touchend",function(){
+        window.location.href="https://www.yizhidayu.com/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/52";
+    });
+    $(".limao").on("touchend",function(){
+        window.location.href="https://www.yizhidayu.com/index.php/Active/Active/index/media_id/{$media_id}/entry_id/{$entry_id}/active_id/75";
+    });
+    //****************************天降红包**********************************************
+    //红包雨
+    var win = (parseInt($(".couten").css("width"))+180);
+    $(".mo").css("height", $(document).height());
+    $(".couten").css("height", $(document).height());
+    $(".backward").css("height", $(document).height());
+    $("li").css({});
+    // 点击确认的时候关闭模态层
+    $(".sen a").click(function(){
+        $(".mo").css("display", "none");
+    });
+
+    var del = function(){
+        nums++;
+        //					console.info(nums);
+        //					console.log($(".li" + nums).css("left"));
+        $(".li" + nums).remove();
+        setTimeout(del,200)
+    }
+
+    var add = function() {
+        var hb = parseInt(Math.random() * (3 - 1) + 1);
+        var Wh = parseInt(Math.random() * (90 - 30) + 20);
+        var Left = parseInt(Math.random() * (win - 0) + 0);
+        var rot = (parseInt(Math.random() * (45 - (-45)) - 45)) + "deg";
+        //				console.log(rot)
+        num++;
+        $(".couten").append("<li class='li" + num + "' ><img src='https://yun.yizhidayu.com/common-newrain2-hb.png'></li>");
+        $(".li" + num).css({
+            "left": Left,
+        });
+        $(".li" + num + " a img").css({
+            "width": 80,
+            "transform": "rotate(" + rot + ")",
+            "-webkit-transform": "rotate(" + rot + ")",
+            "-ms-transform": "rotate(" + rot + ")", /* Internet Explorer */
+            "-moz-transform": "rotate(" + rot + ")", /* Firefox */
+            "-webkit-transform": "rotate(" + rot + ")",/* Safari 和 Chrome */
+            "-o-transform": "rotate(" + rot + ")" /* Opera */
+        });
+        $(".li" + num).animate({'top':$(window).height()+0},3000,function(){
+            //删掉已经显示的红包
+            this.remove();
+        });
+        //点击红包的时候弹出模态层
+        $(".li" + num).click(function(){
+            var arr=["https://yun.yizhidayu.com/common-rain2-click.png","https://yun.yizhidayu.com/common-rain2-click.png"];
+            var index = Math.floor((Math.random()*arr.length));
+//            alert(arr[index]);
+            $(this).children("img").attr("src",arr[index]);
+        });
+        setTimeout(add,350);
+    };
+
+    // //增加红包
+    var num = 0;
+    //     setTimeout(add,3000);
+
+    // //倒数计时
+    var backward = function(){
+        var numz=$(".mo2 span").html();
+        numz--;
+        if(numz>=0){
+            $(".mo2 span").html(numz);
+        }
+        setTimeout(backward,1000)
+    }
+    //     var numz = 10;
+    //天降红包弹窗出现
+    function popshow3(){
+        $('.zhezhao-three').show();
+        $('.quan-three').show();
+        //点击事件
+        setTimeout(function(){
+            $('.light-three').show();
+        },1000);
+    }
+    //天降红包XX
+    $('#delete-three').on("click",function() {
+        //可以点击
+        $('.dugzhezhao').hide();
+        var num_fubiao = $('.font p span').html();
+        if (num_fubiao == 0) {
+            ajaxzero();
+        }
+        $('.quan-three').addClass("active");
+        $('.zhezhao-three').css("display", "none");
+        $('.light-three').css("display", "none");
+        $('.hbrain').css("display", "none");
+        var tt = setTimeout(function () {
+            var tt = setTimeout(function () {
+                var width = $('.myprice').css("width");
+                var newwidth = width.replace("px", "") - 15;
+                $('<div class="test"></div>').fly({
+                    start: {top: 200, left: 150},
+                    end: {top: 24, left: newwidth, width: 10, height: 10},
+                    onEnd: function () {
+                        $('.quan').removeClass("active");
+                    }
+                });
+            }, 500);
+        })
+    })
+
+    //天降红包领取
+    //点击图片
+    $("img.quanimg-three").on("click",function(){
+        //可以点击
+        $('.dugzhezhao').hide();
+        $(".zhezhao").hide();
+        $('.quan').hide();
+        $('.light').hide();
+        //点击领券
+        handleClickAjax();
+    })
+    //点击立即领取
+    $('.linktwo-three img').on("click",function(){
+        //可以点击
+        $('.dugzhezhao').hide();
+        $(".zhezhao").hide();
+        $('.quan').hide();
+        $('.light').hide();
+        //点击领券
+        handleClickAjax();
+    })
+
+    // 点击抽奖时向后台传值
+    function ajaxthree() {
+        $.ajax({
+            url:"/index.php/Active/Ajax/run.html",
+            type:"POST",
+            dataType:"json",
+            data:{
+                uid:"{$uid}",
+                media_id:"{$media_id}",
+                entry_id:"{$entry_id}",
+                active_id:"{$active_id}",
+            },
+            success: function(data) {
+                if(data.status==1){
+                    $(".font p span").html(data.last);
+                    var result=data.prize;
+                    $('.userid').html(data.recordID);
+                    $('.quanimg-three').attr('src', result.pic);
+                    $('.name-three').html(result.name);
+                    $('.jump').attr("data-href",result.href);
+                }else if(data.status==0){
+                    alert("活动暂未开放");
+                }
+            }
+        })
+    }
+    //****************************天降红包**********************************************
+
+
+
+        //iphone
+        var u = navigator.platform;
+        if(u=="iPhone"){
+            $('.sekuai').show();
+        }
+        //滚动
+        var swiper = new Swiper('.swiper-container',{
+            slidesPerView: 4,
+        });
+        //点击
+        $('.btn').on("click",function(evt){
+            $(".hook").removeClass("hook-littleup hook-bigup");
+            var lottNum = $(".font p span").html(); // 获取抽奖次数
+            if(lottNum==0){
+                $(".font p span").html("0");
+                ajaxzero();
+            }
+            if(lottNum>0){
+                $(".btn").hide();
+                var a=setTimeout(function(){
+                    var pingwidth=parseInt($(window).width());
+                    var leftwidth=parseFloat($(".maodingLeft").css("left"));
+                    var hookwidth=parseInt($('.hook').width());
+                    var maodingRight=parseInt($('.maodingRight').width());
+                    if(pingwidth-leftwidth*2-maodingRight*2<hookwidth-20){
+                        $(".hook").addClass("hook-littleup");
+                        $(".btn").show();
+                    }else{
+                        $(".hook").addClass("hook-bigup");
+                        var dogleft=setTimeout(function(){
+                            for(var i=0;i<$(".dog").length;i++){
+                                var pingwidth=parseInt($(window).width());
+                                var dogwidth=parseInt($(".dog").eq(i).width());
+                                var left=parseInt($(".dog").eq(i).css("left"));
+                                if(pingwidth-dogwidth-left*2<=80&&pingwidth-dogwidth-left*2>0){
+                                    $(".dog").eq(i).removeClass("dog-framesone dog-framestwo dog-framesthree dog-framesfour dog-framesfive dog-framessix").css({top: "3.65rem", left:"3.09rem"}).addClass("hook-dogdown");
+                                    var index=i;
+                                    ajaxone();
+                                    var t=setTimeout(function(){
+                                        popshow();
+                                        if(i===0){
+                                            $(".dog").eq(i).removeClass("hook-dogdown").addClass("dog-framesone").appendTo($(".box"));
+                                        }else if(i===1){
+                                            $(".dog").eq(i).removeClass("hook-dogdown").addClass("dog-framestwo").appendTo($(".box"));
+                                        }else if(i===2){
+                                            $(".dog").eq(i).removeClass("hook-dogdown").addClass("dog-framesthree").appendTo($(".box"));
+                                        }else if(i===3){
+                                            $(".dog").eq(i).removeClass("hook-dogdown").addClass("dog-framesfour").appendTo($(".box"));
+                                        }else if(i===4){
+                                            $(".dog").eq(i).removeClass("hook-dogdown").addClass("dog-framesfive").appendTo($(".box"));
+                                        }else if(i===5){
+                                            $(".dog").eq(i).removeClass("hook-dogdown").addClass("dog-framessix").appendTo($(".box"));
+                                        }
+
+                                    },600);
+                                }else{
+                                    $(".btn").show();
+                                }
+                            }
+                        },500);
+                    };
+                },300);
+            }
+        });
+
+
+       //弹窗出现
+        function popshow(){
+            $('.zhezhao').show();
+            $('.quan').show();
+            //点击事件
+            setTimeout(function(){
+                $('.light').css("display","block");
+            },1000);
+            $('.zhezhao .quan').addClass('animated bounceUp');
+        }
+        //点击弹窗的xx让弹窗消失
+        $('#delete').on("click",function(){
+            //可以点击
+            $(".btn").show();
+            $(".hook img").remove();
+//            //娃娃消失 换娃娃
+            $(".dog_one").remove();
+            $(".dog_two").remove();
+            $(".dog_three").remove();
+            $(".dog_four").remove();
+            $(".dog_five").remove();
+            var imgbox="<img src=\"https://yun.yizhidayu.com/69-zhua-dogone.png\" alt=\"\" class=\"dog dog_one\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogtwo.png\" alt=\"\" class=\"dog dog_two\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogthree.png\" alt=\"\" class=\"dog dog_three\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogfour.png\" alt=\"\" class=\"dog dog_four\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogone.png\" alt=\"\" class=\"dog dog_five\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogtwo.png\" alt=\"\" class=\"dog dog_six\">";
+            $(imgbox).prependTo($(".box"));
+
+            var d_oneshow=setTimeout(function(){
+                $(".dog_one").show().addClass("dog-framesone");
+                clearTimeout(d_oneshow);
+            },0)
+
+            var d_twoshow=setTimeout(function(){
+                $(".dog_two").show().addClass("dog-framestwo");
+                clearTimeout(d_twoshow);
+            },1200)
+
+            var d_threeshow=setTimeout(function(){
+                $(".dog_three").show().addClass("dog-framesthree");
+                clearTimeout(d_threeshow);
+            },2400)
+
+            var d_fourshow=setTimeout(function(){
+                $(".dog_four").show().addClass("dog-framesfour");
+                clearTimeout(d_fourshow);
+            },3600)
+
+            var d_fiveshow=setTimeout(function(){
+                $(".dog_five").show().addClass("dog-framesfive");
+                clearTimeout(d_fiveshow);
+            },4800)
+
+            var d_sixshow=setTimeout(function(){
+                $(".dog_sixs").show().addClass("dog-framessix");
+                clearTimeout(d_sixshow);
+            },6000);
+
+            //浮标出来
+            var num_fubiao=$('.font p span').html();
+            if(num_fubiao==0){
+                ajaxzero();
+            }else if(num_fubiao==7){
+                //滑落的gif图
+            }else if(num_fubiao==6){
+                console.log(6)
+                $(".limao").show();
+            }else if(num_fubiao==5){
+                $(".limao").hide();
+            }else if(num_fubiao==4){
+                //红包雨出现
+                $(".hbrain").show();
+                $(".tishi").show();
+                $(".rain-bottom").show();
+                backward();
+                var t1=setTimeout(function(){
+                    $(".mo2").show();
+                    add();
+                },3200);
+                var tt=setTimeout(function(){
+                    $(".dugzhezhao").show();
+                    $(".couten").hide();
+                    ajaxthree();
+                    var t=setTimeout(function(){
+                        popshow3();
+                    },1000);
+                },6200);
+            }
+
+            $('.quan').addClass("active");
+            var t=setTimeout(function(){
+                $('.zhezhao').css("display","none");
+                $('#point').show();
+            },500);
+            $('.light').css("display","none");
+            var tt=setTimeout(function(){
+                var width=$('.myprice').css("width");
+                var newwidth=width.replace("px","")-15;
+                $('<div class="test"></div>').fly({
+                    start: {top: 200, left: 150},
+                    end: {top: 24, left: newwidth, width: 10, height: 10},
+                    onEnd: function(){
+                        $('.quan').removeClass("active");
+                    }
+                });
+            },500);
+        })
+        //点击明日再来消失
+        $('.velocity .tomorrow').on("click",function(){
+            $('.pop2').css("display","none");
+        })
+        //点击规则规则从上而下出来
+        $('.rule').on("click",function(){
+            $('.rulefont').slideToggle();
+            var display=$('.zhezhao2').css("display");
+            $('rule_content').css("height","6.1rem");
+            if(display=="none"){
+                $('.zhezhao2').css("display","block");
+                $('.myprice').hide(500);
+                $('.test').hide();
+            }else if(display=="block"){
+                $('.zhezhao2').css("display","none");
+                $('.myprice').show(500);
+                $('.test').show(500);
+            }
+        })
+        //次数为0的时候第二个弹窗显现
+        function pop2Show(){
+            $('.pop2').show();
+        }
+        //点击次数为0的时候的活动的八叉
+        $('.delete').on("click",function(){
+            $('.pop2').hide();
+        })
+        // 点击抽奖时向后台传值
+        function ajaxone() {
+            $.ajax({
+                url:"/index.php/Active/Ajax/run.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                },
+                success: function(data) {
+                    if(data.status==1){
+                        $(".font p span").html(data.last);
+                        var result=data.prize;
+                        $('.userid').html(data.recordID);
+                        $('.quanimg').attr('src', result.pic);
+                        $('.name').html(result.name);
+                        $('.jump').attr("data-href",result.href);
+                    }else if(data.status==0){
+                        alert("活动暂未开放");
+                    }
+                }
+            })
+        }
+        //点击图片
+        $("img.quanimg").on("click",function(){
+            //可以点击
+            $(".btn").show();
+            $(".hook img").remove();
+//            //娃娃消失 换娃娃
+            $(".dog_one").remove();
+            $(".dog_two").remove();
+            $(".dog_three").remove();
+            $(".dog_four").remove();
+            $(".dog_five").remove();
+            var imgbox="<img src=\"https://yun.yizhidayu.com/69-zhua-dogone.png\" alt=\"\" class=\"dog dog_one\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogtwo.png\" alt=\"\" class=\"dog dog_two\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogthree.png\" alt=\"\" class=\"dog dog_three\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogfour.png\" alt=\"\" class=\"dog dog_four\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogone.png\" alt=\"\" class=\"dog dog_five\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogtwo.png\" alt=\"\" class=\"dog dog_six\">";
+            $(imgbox).prependTo($(".box"));
+
+            var d_oneshow=setTimeout(function(){
+                $(".dog_one").show().addClass("dog-framesone");
+                clearTimeout(d_oneshow);
+            },0)
+
+            var d_twoshow=setTimeout(function(){
+                $(".dog_two").show().addClass("dog-framestwo");
+                clearTimeout(d_twoshow);
+            },1200)
+
+            var d_threeshow=setTimeout(function(){
+                $(".dog_three").show().addClass("dog-framesthree");
+                clearTimeout(d_threeshow);
+            },2400)
+
+            var d_fourshow=setTimeout(function(){
+                $(".dog_four").show().addClass("dog-framesfour");
+                clearTimeout(d_fourshow);
+            },3600)
+
+            var d_fiveshow=setTimeout(function(){
+                $(".dog_five").show().addClass("dog-framesfive");
+                clearTimeout(d_fiveshow);
+            },4800)
+
+            var d_sixshow=setTimeout(function(){
+                $(".dog_sixs").show().addClass("dog-framessix");
+                clearTimeout(d_sixshow);
+            },6000);
+            $(".zhezhao").hide();
+            $('.quan').hide();
+            $('.light').hide();
+            //点击领券
+            handleClickAjax();
+        })
+        //点击立即领取
+        $('.linktwo img').on("click",function(){
+            //可以点击
+            $(".btn").show();
+            $(".hook img").remove();
+//            //娃娃消失 换娃娃
+            $(".dog_one").remove();
+            $(".dog_two").remove();
+            $(".dog_three").remove();
+            $(".dog_four").remove();
+            $(".dog_five").remove();
+            var imgbox="<img src=\"https://yun.yizhidayu.com/69-zhua-dogone.png\" alt=\"\" class=\"dog dog_one\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogtwo.png\" alt=\"\" class=\"dog dog_two\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogthree.png\" alt=\"\" class=\"dog dog_three\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogfour.png\" alt=\"\" class=\"dog dog_four\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogone.png\" alt=\"\" class=\"dog dog_five\">\n" +
+                "        <img src=\"https://yun.yizhidayu.com/69-zhua-dogtwo.png\" alt=\"\" class=\"dog dog_six\">";
+            $(imgbox).prependTo($(".box"));
+
+            var d_oneshow=setTimeout(function(){
+                $(".dog_one").show().addClass("dog-framesone");
+                clearTimeout(d_oneshow);
+            },0)
+
+            var d_twoshow=setTimeout(function(){
+                $(".dog_two").show().addClass("dog-framestwo");
+                clearTimeout(d_twoshow);
+            },1200)
+
+            var d_threeshow=setTimeout(function(){
+                $(".dog_three").show().addClass("dog-framesthree");
+                clearTimeout(d_threeshow);
+            },2400)
+
+            var d_fourshow=setTimeout(function(){
+                $(".dog_four").show().addClass("dog-framesfour");
+                clearTimeout(d_fourshow);
+            },3600)
+
+            var d_fiveshow=setTimeout(function(){
+                $(".dog_five").show().addClass("dog-framesfive");
+                clearTimeout(d_fiveshow);
+            },4800)
+
+            var d_sixshow=setTimeout(function(){
+                $(".dog_sixs").show().addClass("dog-framessix");
+                clearTimeout(d_sixshow);
+            },6000);
+            $(".zhezhao").hide();
+            $('.quan').hide();
+            $('.light').hide();
+            //点击领券
+            handleClickAjax();
+        })
+        // 点击领取发送ajax
+        function handleClickAjax() {
+            var id=$('.userid').html();
+            $.ajax({
+                url: "/index.php/Active/Ajax/receive.html",
+                type: "post",
+                data: {
+                    uid:"{$uid}",
+                    media_id:"{$media_id}",
+                    entry_id:"{$entry_id}",
+                    active_id:"{$active_id}",
+                    record_id:id,
+                },
+                dataType: "json",
+                success: function(result) {
+                    if(result.status==1){
+                        $('.sendajax').html("yes");
+                        window.location.href=$('.jump').attr("data-href");
+                    }else if(result.status==0){
+                        alert("程序员被台风吹走了");
+                    }else{
+                        alert("程序员离开一小会");
+                    }
+                },
+            });
+        }
+        // 点击以后抽奖次数为0时发送请求
+        function ajaxzero(){
+            $.ajax({
+                url: "/index.php/Active/Ajax/active_data.html",
+                type: "post",
+                data: {
+                    'activity_id':"{$activity_id}",
+                    'uid':"{$uid}",
+                    'entry_id':"{$entry_id}",
+                    'media_id': "{$media_id}"
+                } ,
+                dataType: "json",
+                success: function success(result) {
+                    console.log(result);
+                    if(result.status == 0) {
+                        var data = result.active;
+                        $(".zhezhao").css("display","none");
+                        pop2Show();
+                        if(data.length == 1) {
+                            $('.activeone').addClass('animated bounceInDown');
+                            $('.activeone').css("display","block");
+                            $('.boxone img').attr("src",data[0].pic);
+                            $('.boxone').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[0].id);
+                        }else if(data.length>1) {
+                            //two
+                            $('.activetwo').addClass('animated bounceInDown');
+                            $('.activetwo').css("display","block");
+                            $('.boxone img').attr("src",data[0].pic);
+                            $('.boxtwo img').attr("src",data[1].pic);
+                            $('.boxone').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[0].id);
+                            $('.boxtwo').attr("href","/index.php/Active/Active/index.html?media_id={$media_id}&entry_id={$entry_id}&active_id="+data[1].id);
+                        }else if(data.length==0){
+                            $('.tomorrow').show();
+                        }
+                    } else {
+                        return;
+                    }
+                }
+            });
+        }
+
+        function check(){
+            $.ajax({
+                url:"/index.php/Active/Ajax/check.html",
+                type:"POST",
+                dataType:"json",
+                data:{
+                    uid:"{$uid}",
+                },
+            });
+        }
+        check();
+</script>

@@ -1,0 +1,423 @@
+<extend name="Common:app"/>
+
+<block name='pageheader'>
+
+	<section class="content-header">
+		<h1>
+			单卷管理
+			<!--<small>Optional description</small>-->
+		</h1>
+		<ol class="breadcrumb">
+			<li>
+				<a href="{:U('Index/index')}">
+					<i class="fa fa-dashboard">
+					</i> 首页
+				</a>
+			</li>
+			<li class="active">
+				单卷管理
+			</li>
+		</ol>
+	</section>
+</block>
+
+<block name='content'>
+	<div class="box">
+		<div class="box-header">
+			<a class="btn btn-primary pull-right" href="{:U('Active/coupon_add')}">添加</a>
+			<form action="{:U('Active/coupon')}"  method="get" class="form-inline">
+				<!--<div class="form-group">
+                    <label class="control-label">类型：</label>
+                    <select id="types" name="type" class="select form-control">
+                        <option  value="全部">全部</option>
+                        <option  value="未上线">未上线</option>
+                        <option  value="已上线">已上线</option>
+                    </select>
+                </div>-->
+				<div  class="form-group">
+					<label class="control-label">日期：</label>
+					<!--<input  type="text" id="datepicker" name="date" data-provide="datepicker" placeholder="按日期查找" class="form-control">-->
+					<input placeholder="请选择开始时间" id='startTime' value="{:date('Y-m-d H:i:s',$starttime)}" maxlength="30"  style='cursor: pointer;margin-right: 0px;color: #444'>
+					<input placeholder="请选择结束时间" id='overTime' value="{:date('Y-m-d H:i:s',$overtime)}" maxlength="30"  style='cursor: pointer;color: #444'>
+
+
+				</div>
+				<div class="form-group">
+					<label class="control-label">标题：</label>
+					<input name="name" type="text" size="30" placeholder="输入标题进行搜索" class="ipt form-control">
+
+				</div>
+			</form>
+			<button type="" class="btn btn-default" >搜索</button>
+		</div><!-- /.box-header -->
+
+		<div class="scroll-box">
+			<ul class="title clear">
+				<li>ID</li>
+				<li>权重</li>
+				<li>状态</li>
+				<li>优惠券信息</li>
+				<li>所属公司</li>
+				<li>结算方式</li>
+				<li>结算单价</li>
+				<li>发券量</li>
+				<li>发券uv</li>
+				<li>重复量</li>
+				<li>发券arpu</li>
+				<li>领券量</li>
+				<li>领券uv</li>
+				<li>重复量</li>
+				<li>领券arpu</li>
+				<li>券点击率</li>
+				<li>消耗</li>
+				<li>累计消耗</li>
+				<li>券充值金</li>
+				<li>日限制</li>
+				<li>总量限制</li>
+				<li>发券占比</li>
+				<li>操作</li>
+			</ul>
+			<ul class="content1 clear m-total">
+				<li>合</li>
+				<li></li>
+				<li>{$total['cert_load']}/{$dataCount}</li>
+				<li>{$dataCount}</li>
+				<li>{$dataCount}</li>
+				<li></li>
+				<li></li>
+				<li>{$total['grant']}</li>
+				<li>{$total['grant_uv']}</li>
+				<li>{:number_format(($total['grant']/$total['grant_uv']),2)}</li>
+				<li>{$total['grant_arpu']}</li>
+				<li>{$total['catch']}</li>
+				<li>{$total['catch_uv']}</li>
+				<li>{:number_format(($total['catch']/$total['catch_uv']),2)}</li>
+				<li>{$total['catch_arpu']}</li>
+				<li>{$total['rotate']}%</li>
+				<li style="color:#ff4b04">{:number_format($total['total']/100,2)}</li>
+				<li style="color:#ff4b04">{:number_format($total['cost']/100,2)}</li>
+				<li style="color:#ff4b04">{:number_format($total['balance']/100,2)}</li>
+				<li>{:number_format($total['daily_limit'],0)}</li>
+				<li>{:number_format($total['full_limit'],0)}</li>
+				<li>100%</li>
+				<li></li>
+			</ul>
+			<volist name="certList" id="item" key="k" >
+			<ul class="content1 clear" id="{$item['id']}">
+				<li>{$item['id']}</li>
+				<li>
+					<input data-id="{$item['id']}" class="weight" value="{$item['weight']}">
+				</li>
+				<li class="status" style="padding:0 10px">
+					<if condition="$item['status'] eq 0">
+						<span class="end status-btn" data-id="{$item['id']}">下架</span>
+						<elseif condition="$item['expiry_time'] lt time()"/>
+						<span class="error status-btn" data-id="{$item['id']}">过期</span>
+						<else/>
+						<span class="load status-btn" data-id="{$item['id']}">上架</span>
+					</if>
+				</li>
+
+				<li style="overflow: inherit;padding-top: 0;">
+					<div class='pic' style='top: -1px;'>
+						<img src="{$item['pic']}" alt='picture' style='width: 100%'>
+					</div>
+					<a href="/test/index.php/Admin/Active/coupon_edit.html?id={$item['id']}"><div class='instr' style='padding-left: 13.5rem;'>{$item['title']}</div></a>
+				</li>
+				<li>{$item['company']}</li>
+				<li>{$item['type']}</li>
+				<li style="color:#ff4b04">{$item['price']}</li>
+				<li>{$item['grant']}</li>
+				<li>{$item['grant_uv']}</li>
+				<li>{:number_format(($item['grant']/$item['grant_uv']),2)}</li>
+				<li>{$item['grant_arpu']}</li>
+				<li>{$item['catch']}</li>
+				<li>{$item['catch_uv']}</li>
+				<li>{:number_format(($item['catch']/$item['catch_uv']),2)}</li>
+				<li>{$item['catch_arpu']}</li>
+				<li>{$item['rotate']}%</li>
+				<li style="color:#ff4b04">{:number_format($item['cost_money']/100,2)}</li>
+				<li style="color:#ff4b04">{:number_format($item['cost']/100,2)}</li>
+				<li style="color:#ff4b04">{:number_format($item['total']/100,2)}</li>
+				<li>{:number_format($item['daily_limit'],0)}</li>
+				<li>{:number_format($item['full_limit'],0)}</li>
+				<li>{:number_format(($item['grant']/$total['grant'])*100,2)}%</li>
+				<li class="oper">
+					<div class="owrap">
+						<a href="/test/index.php/Admin/Active/coupon_edit.html?id={$item['id']}"><span>查看详情</span></a>
+					</div>
+				</li>
+			</ul>
+			</volist>
+		</div>
+		<div class="foot" style="margin-top: 20px;">
+			<div class='total fl'>
+				共计<span>{$dataCount}</span>条记录
+			</div>
+			<if condition="$dataCount gt $offnum">
+				<ul>
+					<if condition="$Page neq 1">
+						<li data-src='{$Page-1}'>
+							上一页
+						</li>
+					</if>
+					<for start="$startPage" end="($viewPages+1)">
+						<if condition="$Page eq $i">
+							<li class='cur' data-src="{$i}">{$Page}</li>
+							<else/>
+							<li data-src="{$i}">{$i}</li>
+						</if>
+					</for>
+					<if condition="$Page neq $Pages">
+						<li data-src='{$Page+1}'>
+							下一页
+						</li>
+					</if>
+					<li>{$Page}/{$Pages}</li>
+				</ul>
+			</if>
+		</div>
+</block>
+
+<block name="js">
+	<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+	<script src="{:C('PUBLIC')}/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="{:C('PUBLIC')}/adminlte/plugins/jQueryUI/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>-->
+
+	<script type="text/javascript">
+
+        var checkList = document.getElementsByName('checkboxall[]');
+        var flagCheck = document.querySelector("#chkAll");
+
+        function checkAll() {
+            for(var j = 0; j < checkList.length; j++) {
+                if(!checkList[j].checked) {
+                    break;
+                }
+            }
+            if(j == checkList.length) {
+                flagCheck.checked = true;
+            }else{
+                flagCheck.checked = false;
+            }
+
+        }
+        function chkAll(obj){
+            for (var i = checkList.length - 1; i >= 0; i--) {
+                checkList[i].checked = obj.checked;
+            };
+        }
+        for(var k = 0; k < checkList.length; k++) {
+            checkList[k].onclick = checkAll;
+        }
+
+
+        $('#startTime').datepicker({
+            language: 'zh-CN',
+            autoclose: true
+        });
+        $('#overTime').datepicker({
+            language: 'zh-CN',
+            autoclose: true
+        });
+
+
+
+        $('.foot ul li').click(function(){
+            if($(this).attr('data-src')){
+                window.location.href="/test/index.php/Admin/Active/coupon.html?Page="+$(this).attr('data-src')+"&name="+$.trim($("#name").val())+"&starttime="+$("#startTime").val()+"&overtime="+$("#overTime").val()+"";
+            }
+        });
+        $('.btn-default').click(function(){
+            window.location.href="/test/index.php/Admin/Active/coupon.html?name="+$.trim($("#name").val())+"&starttime="+$("#startTime").val()+"&overtime="+$("#overTime").val()+"";
+        });
+
+        //排序函数
+        var defalutWeight;
+        $(".content li .weight").focus(function(){
+            defalutWeight=parseInt($(this).val());
+            $(this).addClass('cur');
+        }).blur(function(){
+            $('.over-suc').hide(0);
+            $(this).removeClass('cur');
+            if(parseInt($(this).val())===defalutWeight||/^[0-9]+[0-9]*]*$/.test($(this).val())===false){
+                $(this).val(defalutWeight);
+            }else{
+                $.ajax({
+                    url:"/test/index.php/Admin/Active/adver_cert_sort.html",
+                    type:"POST",
+                    data:{
+                        'cert_id':$(this).attr('data-id'),
+                        'weight':$(this).val(),
+                    },
+                    dataType:'json',
+                    success: function(data){
+                        if(data.status===1){
+                            $('.over-suc').show(0);
+                        }else{
+                            alert(data.tip);
+                        }
+                    },
+                    error:function(){
+
+                    }
+                });
+            }
+        }).keyup(function(event){
+            if(event.keyCode ===13){
+                $('.over-suc').hide(0);
+                $(this).removeClass('cur').blur();
+                if(parseInt($(this).val())===defalutWeight||/^[0-9]+[0-9]*]*$/.test($(this).val())===false){
+                    $(this).val(defalutWeight);
+                }else{
+                    $.ajax({
+                        url:"/test/index.php/Admin/Active/adver_cert_sort.html",
+                        type:"POST",
+                        data:{
+                            'cert_id':$(this).attr('data-id'),
+                            'weight':$(this).val(),
+                        },
+                        dataType:'json',
+                        success: function(data){
+                            if(data.status===1){
+                                $('.over-suc').show(0);
+                            }else{
+                                alert(data.tip);
+                            }
+                        },
+                        error:function(){
+
+                        }
+                    });
+                }
+            }
+        });
+
+
+        //批量删除
+        $(".btn-danger").on("click",function(){
+
+            var array=[];
+            for(var j = 0; j < checkList.length; j++) {
+                console.log(checkList[j].checked)
+                if(checkList[j].checked==true) {
+                    var id=checkList[j].value;
+                    array.push(id);
+                }
+            }
+
+            console.log(array);
+            $.ajax({
+                url:"{:U('Note/notepldelete')}",
+                dataType:"json",
+                data:{id:array},
+                type:"post",
+                success:function(data){
+                    if(data=="1"){
+                        alert("批量删除成功");
+                        window.location.reload();
+                    }
+                }
+            })
+        })
+
+        //状态函数
+        var statusProtect=0;
+        $(".content li .status-btn").click(function(){
+            if(statusProtect===1){
+                return;
+            }
+            statusProtect=1;
+            $('.over-suc').hide(0);
+            $.ajax({
+                url:"/test/index.php/Admin/Active/adver_cert_status.html",
+                type:"POST",
+                data:{
+                    'cert_id':$(this).attr('data-id'),
+                },
+                dataType:'json',
+                success: function(data){
+                    $('.over-suc').show(0);
+                    if(data.status===1){
+                        $("#"+data.id+" .status-btn").removeClass('end').addClass('load').html('上架');
+                    }else{
+                        $("#"+data.id+" .status-btn").removeClass('load').addClass('end').html('下架');
+                    }
+                    statusProtect=0;
+                },
+                error:function(){
+
+                }
+            });
+        });
+
+
+
+        function trashdialog(id){
+            var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+            if (!ifdel) {
+                return;
+            }
+            $.get("{:U('Active/index_destroy')}?id="+id,function(data,status){
+                if(data=="ok"){
+                    alert("删除成功");
+                    location.reload();
+                }else{
+                    alert(data);
+                }
+            });
+        }
+        function openModal(noteid){
+            $.ajax({
+                url: "{:U('api/getCommentsByNoteid')}?noteid="+noteid,
+                dataType: "json",
+                contentType: "application/json",
+                success: function (data) {
+
+//              	alert(data['1']);
+                    var optionstring = "";
+                    for (var i=0;i<data.length;i++) {
+                        optionstring += "<li class='list-group-item'>" + data[i]['content'] +"</br>(作者："+ data[i]['author']+")<span style='padding:0px 10px;'>"+ data[i]['createtime']  + "</span><button  onclick=\"comment_destroy('"+data[i]['id']+"','"+noteid+"')\">删除</button></li>";
+                    }
+                    $("#comments").html(optionstring);
+                    centerModals();
+                },
+                error: function (msg) {
+//                  alert("出错了！");
+                }
+            });
+//			alert(json[0]);
+            $('#myModal').modal('show');
+//			$('#myModal'),show();
+
+
+        }
+        function comment_destroy(cid,noteid){
+            var ifdel = window.confirm("确认删除？\n(删除后无法恢复)");
+            if (!ifdel) {
+                return;
+            }
+            $.ajax({
+                url: "{:U('api/comment_destroy')}?cid="+cid+"&noteid="+noteid,
+                success: function (data) {
+//              alert('s');
+
+//              	alert(data);
+                    if(data=="ok"){
+                        alert("删除成功");
+                        location.reload();
+// 	 	$('#myModal').modal('hide');
+                    }else{
+                        alert(data);
+                    }
+                },
+                error: function (msg) {
+                    alert("出错了！"+JSON.stringify(msg));
+                }
+            });
+
+
+        }
+	</script>
+
+</block>
